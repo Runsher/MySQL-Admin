@@ -1,7 +1,7 @@
 #!/usr/bin/python
 #-*- encoding:utf-8 -*-
 import sys
-sys.path.append('/root/yeq/soft/SQL_Review/controllers')
+sys.path.append('/root/yeq/soft/SQL_Review0416/controllers')
 import tornado.ioloop
 import tornado.web
 import shutil
@@ -12,7 +12,7 @@ import Review
 import Rule
 
 from tornado.options import define, options
-define("port", default = 3000, help = "run on the given port", type = int)
+define("port", default = 5000, help = "run on the given port", type = int)
 
 settings = {
 #       "cookie_secret" : "61oETzKXQAGaYdkL5gEmGeJJFuYh7EQnp2XdTP1o/Vo=",
@@ -20,6 +20,7 @@ settings = {
         "static_path"   : os.path.join(os.path.dirname(__file__), "static"),
         "template_path" : os.path.join(os.path.dirname(__file__), "templates"),
         #"xsrf_cookies"  : True,
+	"debug" : True,
         }
 
 
@@ -28,7 +29,7 @@ if __name__ == '__main__':
 	app=tornado.web.Application(
         	handlers=[
                 	(r'/',Home.IndexHandler),
-                	(r'/review',Review.Review),
+                	(r'/',Review.Review),
                 	(r'/rule',Rule.Rule),
                 	],**settings
         	)

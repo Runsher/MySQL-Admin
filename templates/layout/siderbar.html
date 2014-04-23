@@ -1,12 +1,62 @@
-<div class="btn-group btn-group-justified message">
+<!--div class="btn-group btn-group-justified message">
   	<button type="button" class="btn btn-danger"><small>E</small><span class="badge pull-right">0</span></button>
    	<button type="button" class="btn btn-warning"><small>W</small><span class="badge pull-right">2</span></button>
 	<button type="button" class="btn btn-info"><small>M</small><span class="badge pull-right">4</span></button>
-</div>
-<ul class="nav  nav-pills nav-stacked">
-  	<li class="active"><a href="/">首页</a></li>
-  	<li><a href="/review">SQL在线审核</a></li>
-  	<li><a href="/rule">规则与规范</a></li>
-  	<li><a href="#">SQL_MAP在线提交</a></li>
-  	<li><a href="#">Demo</a></li>
+</div-->
+<script>
+//$(document).ready(function(){
+//$('#myTab a[href="#tb_rule"]').tab('show')
+//})
+$('#myTab a').click(function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+})
+</script>
+<div class="panel-group" id="accordion">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+          在线业务支持
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse in">
+      <div class="panel-body">
+<ul id="myTab" class="nav  nav-pills nav-stacked">
+        <!--li class="active"><a href="#home" data-toggle="tab">首页</a></li-->
+        <li><a href="#review" data-toggle="tab">SQL在线审核</a></li>
+        <li><a href="#rule" data-toggle="tab">规则与规范</a></li>
+        <li><a href="#" data-toggle="tab">SQL_MAP在线提交</a></li>
+        <li><a href="#" data-toggle="tab">Demo</a></li>
 </ul>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+          数据库统计分析
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse">
+      <div class="panel-body">
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+	文档化
+        </a>
+      </h4>
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse">
+      <div class="panel-body">
+      </div>
+    </div>
+  </div>
+</div>

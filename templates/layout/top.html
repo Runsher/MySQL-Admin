@@ -11,4 +11,16 @@
 <script type="text/javascript" src="{{ static_url("js/jquery.min.js") }}"></script>
 <script type="text/javascript" src="{{ static_url("js/bootstrap.min.js") }}"></script>
 <script type="text/javascript" src="{{ static_url("js/bootstrap.file-input.js") }}"></script>
+<script>
+$('#myTab a').click(function (e) {
+  e.preventDefault()
+  $(this).tab('show');
+})
+</script>
+<script type="text/javascript">
+function formSubmit()
+{
+document.getElementById("myForm").submit()
+}
+</script>
 </head>

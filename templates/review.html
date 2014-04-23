@@ -1,22 +1,10 @@
-{% extends 'layout/layout.html' %}
-</script>
-{% block siderbar %}
-<ul class="nav nav-pills nav-stacked">
-	<li><a href="/">首页</a></li>
-  	<li class="active"><a href="/review">SQL在线审核</a></li>
-  	<li><a href="/rule">规则与规范</a></li>
-  	<li><a href="#">SQL_MAP在线提交</a></li>
-  	<li><a href="#">Demo</a></li>
-</ul>
-{% end %}
-{% block main %}
-	<form action='review' enctype="multipart/form-data" method='post'>
+	<form id="myForm" enctype="multipart/form-data" method='post'>
 			<div class='col-sm-4 col-md-6 review-info botn'>
     				<input type='file' class="btn btn-primary" name='file' title="上传SQL文件" data-filename-placement="inside"/>
-    				<button type='submit'   class="btn btn-primary">审核</button></br>
+    				<button type="button" onclick="formSubmit()"   class="btn btn-primary">审核</button></br>
 			</div>
 			<div class='col-sm-8 col-md-6 review-info'>
-				{% if status%}
+				{% if status %}
                	 			{% if status == 1 %}
                 				<div class="alert alert-success"><strong>Info:</strong>
                         				<a href="#" class="alert-link">审核成功，SQL无错</a>
@@ -68,6 +56,3 @@
 				</table>
 			</div>
 <script>$(document).ready(function(){$('input[type=file]').bootstrapFileInput();});</script>
-{% end %}
-{% block siderbar_right %}
-{% end %}

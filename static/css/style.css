@@ -59,7 +59,7 @@ margin-top:6px;
 font-size: 13px;
 }
 .siderbar .nav {
-border: 1px solid;
+/*border: 1px solid; */
 /* border-radius: 4px; */
 border-color: #C9C9C9;
 }
@@ -70,6 +70,24 @@ border-radius: 1px;
 padding: 7px 15px;
 }
 
+.siderbar .panel-body {
+padding: 0px;
+}
+
+.siderbar .panel-heading {
+padding: 8px 12px;
+}
+.siderbar .panel-title {
+font-size: 14px;
+}
+.siderbar .panel-title>a {
+text-decoration: none;
+color: white;
+}
+.siderbar .panel-default>.panel-heading {
+background-color: #357EBD;
+text-decoration:none;
+}
 .review-info {
 padding-right:0px;
 padding-left:0px;
@@ -133,4 +151,14 @@ overflow: auto;
 }
 .rule .panel-default>.panel-heading {
 background-color: #1DAA8E;
+}
+.home {
+margin-top:3px;
+}
+
+.home blockquote {
+border-left: 5px solid #16AA86;
+}
+.link-tool {
+margin-top:20px;
 }

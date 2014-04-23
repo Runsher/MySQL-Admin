@@ -41,6 +41,7 @@ class LoadAndClean():
 class Review(tornado.web.RequestHandler):
 	def get(self):
 		self.render('review.html',title='result_test',items=info,status=review_status)
+	#	self.render(items=info,status=review_status)
 
 
 	def post(self):
@@ -107,5 +108,6 @@ class Review(tornado.web.RequestHandler):
 			except Exception,ex:
                        		print Exception,ex
 		self.render('review.html',title='result_test',items=info,status=review_status)
+	#	self.render(items=info,status=review_status)
 		info = []
 		
