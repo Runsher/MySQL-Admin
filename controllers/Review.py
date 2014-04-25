@@ -45,41 +45,44 @@ class Review(tornado.web.RequestHandler):
 
 
 	def post(self):
-		review_status_info = 0
+		review_status = 0
                 upload_path = os.path.join(os.path.dirname(__file__),'../tmp')  
 		info = []
 		try:
                 	file_metas = self.request.files['file']   
 		except Exception,ex:
 			print Exception,ex
-			if self.get_argument('content'):
-				file_me = self.get_argument('content')
-				f = open(upload_path+'/'+'tmp_file','w')
-				f.write(file_me)
-				f.close()
-                                LoadAndClean().find_Load()
-                                max_id = MySQL.MysqlQuery().query_select('select max(id) from DB_REVIEW_CONTROL.tb_review_result')[0][0]
-                                tb_name = MySQL.MysqlQuery().query_select('show tables from %s' %(MySQL.db))
-                                if tb_name:
-                                        for tb_tup in tb_name:
-                                                tb = "".join(tuple(tb_tup))
-                                                ReviewPart.ReviewPart().review_table(MySQL.db,tb)
-                                                ReviewPart.ReviewPart().review_column(MySQL.db,tb)
-                                        rs_info = MySQL.MysqlQuery().query_select('select result from DB_REVIEW_CONTROL.tb_review_result where id > %s' %(max_id))
-                                        if rs_info:
-                                                for rs in rs_info:
-                                                        info.append(rs[0])
-                                        else:
-						review_status = 1
-                                else:
-					review_status = 3
-			else:
-				review_status = 4
-                      	try:
-                          	for tb_del in tb_name:
-                                   	LoadAndClean().del_tmp_file(tb_del[0])
-                      	except Exception,ex:
+			try:
+				if self.get_argument('content'):
+					file_me = self.get_argument('content')
+					f = open(upload_path+'/'+'tmp_file','w')
+					f.write(file_me)
+					f.close()
+                                	LoadAndClean().find_Load()
+                                	max_id = MySQL.MysqlQuery().query_select('select max(id) from DB_REVIEW_CONTROL.tb_review_result')[0][0]
+                                	tb_name = MySQL.MysqlQuery().query_select('show tables from %s' %(MySQL.db))
+                                	if tb_name:
+                                        	for tb_tup in tb_name:
+                                                	tb = "".join(tuple(tb_tup))
+                                                	ReviewPart.ReviewPart().review_table(MySQL.db,tb)
+                                                	ReviewPart.ReviewPart().review_column(MySQL.db,tb)
+                                        		rs_info = MySQL.MysqlQuery().query_select('select result from DB_REVIEW_CONTROL.tb_review_result where id > %s' %(max_id))
+                                        	if rs_info:
+                                                	for rs in rs_info:
+                                                        	info.append(rs[0])
+                                        	else:
+							review_status = 1
+                                	else:
+						review_status = 3
+				else:
+					review_status = 4
+			except Exception,ex:
 				print Exception,ex
+                      		try:
+                          		for tb_del in tb_name:
+                                   		LoadAndClean().del_tmp_file(tb_del[0])
+                      		except Exception,ex:
+					print Exception,ex
 		else:
                 	for meta in file_metas:
                         	filename = meta['filename']
