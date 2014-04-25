@@ -29,7 +29,8 @@ if __name__ == '__main__':
 	app=tornado.web.Application(
         	handlers=[
                 	(r'/',Home.IndexHandler),
-                	(r'/',Review.Review),
+                	(r'/review',Review.Review),
+                	(r'/test',Review.test),
                 	(r'/rule',Rule.Rule),
                 	],**settings
         	)

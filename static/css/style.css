@@ -88,6 +88,12 @@ color: white;
 background-color: #357EBD;
 text-decoration:none;
 }
+.siderbar .nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+background-color: #DFDFDF;
+}
+.siderbar .nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+color: #000000;
+}
 .review-info {
 padding-right:0px;
 padding-left:0px;

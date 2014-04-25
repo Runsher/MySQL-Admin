@@ -111,3 +111,6 @@ class Review(tornado.web.RequestHandler):
 	#	self.render(items=info,status=review_status)
 		info = []
 		
+class test(tornado.web.RequestHandler):
+	def post(self):
+		self.render("test.html")
