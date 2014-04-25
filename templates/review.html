@@ -1,11 +1,11 @@
 	<div>
 			<div class='col-sm-4 col-md-6 review-info botn'>
-    				<input type='file' class="btn btn-primary" name='file' title="上传SQL文件" data-filename-placement="inside"/>
+    				<input  id='file' type='file' class="btn btn-primary" name='file' title="上传SQL文件" data-filename-placement="inside"/>
     				<button id="reviewSubmit" onclick="formSubmit()"   class="btn btn-primary">审核</button></br>
 			</div>
 			<div id="test" class='col-sm-8 col-md-6 review-info'>
 			</div>
-			<!--div class='col-sm-8 col-md-6 review-info'>
+			<div class='col-sm-8 col-md-6 review-info'>
 				{% if status %}
                	 			{% if status == 1 %}
                 				<div class="alert alert-success"><strong>Info:</strong>
@@ -28,43 +28,49 @@
                 				</div>
 					{% end %}
         			{% end %}
-			</div-->
-    			<textarea name='content' data-provide="markdown" rows="8"></textarea></br>
+			</div>
+    			<textarea id='content' name='content' data-provide="markdown" rows="8"></textarea></br>
     			<!--button type='submit' name='content' class="btn btn-primary">审核</button></br-->
   	</div> 
-			<div class="table-responsive review-result">
-				<table id="simple-table-1" class="table table-striped table-bordered table-hover">
-					<thead>
-						<a href="#" class="btn btn-info btn-sm active" role="button">Result</a>
-						<tr>
-							<th class="center">Table</th>
-							<th class="center">Column</th>
-							<th class="center hidden-480">Info</th>
-							<th class="center hidden-480">Level</th>
-						</tr>
-					</thead>
-					{%for i,j in items%}
-					<tbody>
-						<td>
-							<a>{{escape(i)}}</a>
-						</td>
-						<td>column name</td>
-						<td class="hidden-480">{{escape(j)}}</td>
-						<td class="hidden-480">
-							<span class="label label-sm label-warning">Warning</span>
-						</td>
-					</tbody>
-					{%end%}
-				</table>
-			</div>
+                        <div class="table-responsive review-result">
+                                <table id="simple-table-1" class="table table-striped table-bordered table-hover">
+                                        <thead>
+                                                <a href="#" class="btn btn-info btn-sm active" role="button">Result</a>
+                                                <tr>
+                                                        <th class="center">Table</th>
+                                                        <th class="center">Column</th>
+                                                        <th class="center hidden-480">Info</th>
+                                                        <th class="center hidden-480">Level</th>
+                                                </tr>
+                                        </thead>
+                                        {%for i,j,k in items%}
+                                        <tbody>
+                                                <td>
+                                                        <a>{{escape(i)}}</a>
+                                                </td>
+                                                <td>{{escape(j)}}</td>
+                                                <td class="hidden-480">{{escape(k)}}</td>
+                                                <td class="hidden-480">
+                                                        <span class="label label-sm label-danger">Error</span>
+                                                </td>
+                                        </tbody>
+                                        {%end%}
+                                </table>
+                        </div>
 <script>$(document).ready(function(){$('input[type=file]').bootstrapFileInput();});</script>
 <script>
 $(document).ready(function(){
 $("#reviewSubmit").click(function(){
+var fileData=$("#file").val();
+var contentData=$("#content").val();
 //$("#test").load("/test");
 //$("#test").load("/review");
-$.post("/review",function(res){
+$.post("/review",{file:fileData,content:contentData},function(res){
+//alert($("#file").val())
 $("#review").html(res);
+//});
+//$.post("/test",function(res){
+//$("#review").html(res);
 });
 });
 });

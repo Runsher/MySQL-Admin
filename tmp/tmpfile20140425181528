@@ -1,0 +1,12 @@
+CREATE TABLE `tb_activity_video` (
+   `ID` int(10) unsigned NOT NULL AUTO_INCREMENT,
+   `ACTIVITY_ID` int(10) unsigned NOT NULL COMMENT '宣讲会ID',
+   `NAME` varchar(30) DEFAULT NULL COMMENT '视频名称',
+   `VIDEO_SITE` varchar(200) DEFAULT NULL COMMENT '视频地址',
+   `THUMBNAIL` varchar(200) DEFAULT NULL COMMENT '视频缩略图地址',
+   `CREATE_DATE` datetime DEFAULT NULL COMMENT '传入时间',
+   `BEGIN_TIME` varchar(30) DEFAULT NULL COMMENT '宣讲会视频环节开始时间',
+   `END_TIME` varchar(30) DEFAULT NULL COMMENT '宣讲会视频环节结束时间',
+   `UPDATE_TIME` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '更新时间',
+   PRIMARY KEY (`ID`)
+)comment '视频表by weisonglin';

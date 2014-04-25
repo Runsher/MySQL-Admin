@@ -30,8 +30,8 @@ if __name__ == '__main__':
         	handlers=[
                 	(r'/',Home.IndexHandler),
                 	(r'/review',Review.Review),
-                	(r'/test',Review.test),
                 	(r'/rule',Rule.Rule),
+                	(r'/test',Review.Test),
                 	],**settings
         	)
 
