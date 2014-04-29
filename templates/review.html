@@ -1,9 +1,7 @@
 	<div>
 			<div class='col-sm-4 col-md-6 review-info botn'>
-				<form id='myForm'  enctype="multipart/form-data" method='post'>
     				<input  id='file' type='file' class="btn btn-primary" name='file' title="上传SQL文件" data-filename-placement="inside"/>
-    				<button id="reviewSubmit" onclick="formSubmit()"   class="btn btn-primary">审核</button></br>
-				</form>
+    				<button id="reviewSubmit"    class="btn btn-primary">审核</button></br>
 			</div>
 			<!--div id="test" class='col-sm-8 col-md-6 review-info'>
 			</div-->
@@ -67,22 +65,20 @@ $('input[type=file]').bootstrapFileInput();
 <script>
 $(document).ready(function(){
 $("#reviewSubmit").click(function(){
-//var fileData=$("#file").val();
+    	if ($("#file").val().length > 0) {
+            	ajaxFileUpload();
+       	}
+	else {
 var contentData=$("#content").val();
-//$("#test").load("/test");
-//$("#test").load("/review");
 $.post("/review",{content:contentData},function(res){
-//alert($("#file").val())
 $("#review").html(res);
-//});
-//$.post("/test",function(res){
-//$("#review").html(res);
 });
+};
 });
 });
 </script>
   <script type="text/javascript">
-        $(function () {
+  /*      $(function () {
             $(":button").click(function () {
                 if ($("#file1").val().length > 0) {
                     ajaxFileUpload();
@@ -91,16 +87,16 @@ $("#review").html(res);
                     alert("请选择图片");
                 }
             })
-        })
+        })*/
         function ajaxFileUpload() {
             $.ajaxFileUpload
             (
                 {
-                    url: '/test', //用于文件上传的服务器端请求地址
+                    url: '/review', //用于文件上传的服务器端请求地址
                     type: 'post',
                     data: { Id: '123', name: 'lunis' }, //此参数非常严谨，写错一个引号都不行
                     secureuri: false, //一般设置为false
-                    fileElementId: 'file1', //文件上传空间的id属性  <input type="file" id="file" name="file" />
+                    fileElementId: 'file', //文件上传空间的id属性  <input type="file" id="file" name="file" />
                     dataType: 'json', //返回值类型 一般设置为json
                     success: function (data, status)  //服务器成功响应处理函数
                     {

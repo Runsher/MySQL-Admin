@@ -4026,3 +4026,103 @@ SyntaxError: invalid syntax
 [I 140429 11:31:36 web:1635] 200 POST / (192.168.11.207) 24.15ms
 [I 140429 11:31:41 web:1635] 200 POST /review (192.168.11.207) 4.22ms
 [I 140429 11:31:43 web:1635] 200 POST / (192.168.11.207) 24.04ms
+[I 140429 11:40:04 web:1635] 200 POST / (192.168.11.207) 23.58ms
+[I 140429 11:40:04 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.32ms
+[I 140429 11:40:04 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.82ms
+[I 140429 11:40:04 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.94ms
+[I 140429 11:40:04 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 1.51ms
+[I 140429 11:40:04 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.98ms
+[I 140429 11:40:04 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.88ms
+[I 140429 11:40:06 web:1635] 200 POST /review (192.168.11.207) 4.21ms
+[I 140429 11:40:07 web:1635] 200 POST / (192.168.11.207) 23.09ms
+ COMMENT '\xb4\xb4\xbd\xa8\xca\xb1\xbc\xe4',\r\n  `update_date` datetime DEFAULT NULL COMMENT '\xd0\xde\xb8\xc4\xca\xb1\xbc\xe4',\r\n`dw_modify`  timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '\xb8\xfc\xd0\xc2\xca\xb1\xbc\xe4',\r\n  PRIMARY KEY (`id`)\r\n) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='\xd3\xc3\xbb\xa7\xcf\xfb\xcf\xa2';\r\n\r\n-- ----------------------------\r\n--  Table structure for `tb_user_message_info`\r\n-- ----------------------------\r\nDROP TABLE IF EXISTS `tb_user_message_info`;\r\nCREATE TABLE `tb_user_message_info` (\r\n  `id` int(20) NOT NULL AUTO_INCREMENT COMMENT '\xd7\xd4\xd4\xf6\xb3\xa4ID',\r\n  `message_id` bigint(20) DEFAULT NULL COMMENT '\xcf\xfb\xcf\xa2ID',\r\n  `sns_type` tinyint(4) DEFAULT NULL COMMENT '\xbd\xbb\xbb\xa5\xc0\xe0\xd0\xcd\xa3\xba\\n1\xa3\xba\xc6\xc0\xc2\xdb\xce\xd2\xb5\xc4\\n2\xa3\xba\xbb\xd8\xb8\xb4\xce\xd2\xb5\xc4\\n3\xa3\xba\xce\xd2\xb2\xce\xd3\xeb\xd3\xd0\xd0\xc2\xc6\xc0\xc2\xdb\\n4\xa3\xba\xce\xd2\xb2\xce\xd3\xeb\xd3\xd0\xd0\xc2\xbb\xd8\xb8\xb4\\n5\xa3\xba\xce\xd2\xb7\xa2\xb5\xc4\xb1\xf0\xc8\xcb\xcf\xe0\xbb\xa5\xbb\xd8\xb8\xb4',\r\n  `sns_id` int(11) DEFAULT NULL COMMENT '\xbd\xbb\xbb\xa5ID\xa3\xba\\n\xb8\xf9\xbe\xddsns_type\xc0\xe0\xd0\xcd\xb4\xe6\xb4\xa2\xcf\xe0\xd3\xa6\xb5\xc4ID',\r\n  `status` int(11) DEFAULT NULL COMMENT '\xd7\xb4\xcc\xac\xa3\xba\\n1\xa3\xba\xce\xb4\xcc\xe1\xca\xbe\\n2\xa3\xba\xd2\xd1\xcc\xe1\xca\xbe',\r\n  `create_date` datetime DEFAULT NULL COMMENT '\xb4\xb4\xbd\xa8\xca\xb1\xbc\xe4',\r\n  `update_date` datetime DEFAULT NULL,\r\n`dw_modify`  timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '\xb8\xfc\xd0\xc2\xca\xb1\xbc\xe4',\r\n  PRIMARY KEY (`id`)\r\n) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='\xcf\xfb\xcf\xa2\xcf\xea\xcf\xb8';\r\n\r\n-- ----------------------------\r\n--  Table structure for `tb_user_setting`\r\n-- ----------------------------\r\nDROP TABLE IF EXISTS `tb_user_setting`;\r\nCREATE TABLE `tb_user_setting` (\r\n  `id` int(11) NOT NULL COMMENT '\xd3\xc3\xbb\xa7id \xb3\xcc\xd0\xf2\xbf\xd8\xd6\xc6\xd7\xd4\xd4\xf6\xd7\xee\xb4\xf3\xd6\xb5',\r\n  `type` tinyint(4) NOT NULL DEFAULT '1' COMMENT '\xcf\xd4\xca\xbe\xbd\xd3\xca\xd5\xd0\xc2\xcf\xfb\xcf\xa2\xcd\xa8\xd6\xaa\\n0 : \xce\xb4\xbf\xaa\xc6\xf4 1: \xd2\xd1\xbf\xaa\xc6\xf4',\r\n  `comment_reply` tinyint(4) NOT NULL COMMENT '\xbd\xd3\xca\xd5\xc6\xc0\xc2\xdb\xba\xcd\xbb\xd8\xb8\xb4\xb5\xc4\xcf\xfb\xcf\xa2 0: \xb2\xbb\xbd\xd3\xca\xd51:\xbd\xd3\xca\xd5',\r\n  `company_unread` tinyint(4) NOT NULL COMMENT '\xbd\xd3\xca\xd5\xce\xd2\xb5\xc4\xb9\xab\xcb\xbe\xb5\xc4\xce\xb4\xb6\xc1\xcf\xfb\xcf\xa2 0: \xb2\xbb\xbd\xd3\xca\xd51:\xbd\xd3\xca\xd5',\r\n  `follow_company` tinyint(4) NOT NULL COMMENT '\xbd\xd3\xca\xd5\xce\xd2\xb9\xd8\xd7\xa2\xb5\xc4\xb9\xab\xcb\xbe\xb5\xc4\xce\xb4\xb6\xc1\xcf\xfb\xcf\xa2 0: \xb2\xbb\xbd\xd3\xca\xd51:\xbd\xd3\xca\xd5',\r\n  `system` tinyint(4) NOT NULL COMMENT '\xbd\xd3\xca\xd5\xcf\xb5\xcd\xb3\xcf\xfb\xcf\xa2 0: \xb2\xbb\xbd\xd3\xca\xd51:\xbd\xd3\xca\xd5',\r\n  `night_mode` tinyint(4) NOT NULL COMMENT '\xd2\xb9\xbc\xe4\xc4\xa3\xca\xbd 0: \xce\xaa\xbf\xaa\xc6\xf41:\xd2\xd1\xbf\xaa\xc6\xf4',\r\n  `create_date` datetime NOT NULL COMMENT '\xb4\xb4\xbd\xa8\xca\xb1\xbc\xe4',\r\n  `update_date` datetime NOT NULL COMMENT '\xd0\xde\xb8\xc4\xca\xb1\xbc\xe4',\r\n`dw_modify`  timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '\xb8\xfc\xd0\xc2\xca\xb1\xbc\xe4',\r\n  PRIMARY KEY (`id`)\r\n) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='\xd3\xc3\xbb\xa7\xc8\xab\xbe\xd6\xc9\xe8\xd6\xc3';\r\n\r\nSET FOREIGN_KEY_CHECKS = 1;\r\n\r\n", 'content_type': u'application/octet-stream', 'filename': u'tusimodify.sql'}]
+<type 'exceptions.Exception'> 'file'
+<type 'exceptions.Exception'> local variable 'filepath' referenced before assignment
+<type 'exceptions.Exception'> 'file'
+<type 'exceptions.Exception'> local variable 'filepath' referenced before assignment
+<type 'exceptions.Exception'> 'file'
+<type 'exceptions.Exception'> local variable 'filepath' referenced before assignment
+<type 'exceptions.Exce[I 140429 11:40:11 web:1635] 200 POST /review (192.168.11.207) 6.99ms
+[W 140429 11:40:13 web:1225] 400 POST /review (192.168.11.207): Missing argument content
+[W 140429 11:40:13 web:1635] 400 POST /review (192.168.11.207) 2.54ms
+[I 140429 11:40:13 web:1635] 200 POST / (192.168.11.207) 55.16ms
+[I 140429 11:41:33 web:1635] 200 POST / (192.168.11.207) 31.85ms
+[I 140429 11:41:33 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.19ms
+[I 140429 11:41:33 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.07ms
+[I 140429 11:41:33 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.79ms
+[I 140429 11:41:33 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.98ms
+[I 140429 11:41:33 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.80ms
+[I 140429 11:41:33 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.80ms
+[I 140429 11:41:36 web:1635] 200 POST /review (192.168.11.207) 4.16ms
+[I 140429 11:41:37 web:1635] 200 POST / (192.168.11.207) 23.45ms
+[I 140429 11:42:07 web:1635] 200 POST / (192.168.11.207) 23.04ms
+[I 140429 11:42:07 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.23ms
+[I 140429 11:42:07 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.83ms
+[I 140429 11:42:07 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.95ms
+[I 140429 11:42:07 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.18ms
+[I 140429 11:42:07 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.88ms
+[I 140429 11:42:07 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.88ms
+[I 140429 11:42:09 web:1635] 200 POST /review (192.168.11.207) 4.62ms
+[I 140429 11:42:09 web:1635] 200 POST / (192.168.11.207) 22.45ms
+[I 140429 11:42:12 web:1635] 200 POST /review (192.168.11.207) 4.19ms
+[W 140429 11:42:12 web:1225] 400 POST /review (192.168.11.207): Missing argument content
+[W 140429 11:42:12 web:1635] 400 POST /review (192.168.11.207) 5.61ms
+[I 140429 11:42:12 web:1635] 200 POST / (192.168.11.207) 23.87ms
+[I 140429 11:42:42 web:1635] 200 POST / (192.168.11.207) 23.40ms
+[I 140429 11:42:42 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.27ms
+[I 140429 11:42:42 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.06ms
+[I 140429 11:42:42 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.88ms
+[I 140429 11:42:42 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.80ms
+[I 140429 11:42:42 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.86ms
+[I 140429 11:42:42 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.95ms
+[I 140429 11:42:45 web:1635] 200 POST /review (192.168.11.207) 4.10ms
+[W 140429 11:42:45 web:1225] 400 POST /review (192.168.11.207): Missing argument content
+[W 140429 11:42:45 web:1635] 400 POST /review (192.168.11.207) 5.01ms
+ERROR 1064 (42000) at line 1 in file: '/root/yeq/soft/SQL_Review0416/tmp/tmpfile20140429113114': You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'asdf' at line 1
+[I 140429 11:43:01 web:1635] 200 POST /review (192.168.11.207) 85.09ms
+[W 140429 11:43:01 web:1225] 400 POST /review (192.168.11.207): Missing argument content
+[W 140429 11:43:01 web:1635] 400 POST /review (192.168.11.207) 2.99ms
+[I 140429 11:44:25 web:1635] 200 POST /review (192.168.11.207) 5.63ms
+[W 140429 11:44:25 web:1225] 400 POST /review (192.168.11.207): Missing argument content
+[W 140429 11:44:25 web:1635] 400 POST /review (192.168.11.207) 5.06ms
+[I 140429 11:45:01 web:1635] 200 POST / (192.168.11.207) 26.69ms
+[I 140429 11:45:01 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.68ms
+[I 140429 11:45:01 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.83ms
+[I 140429 11:45:01 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.89ms
+[I 140429 11:45:01 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.06ms
+[I 140429 11:45:01 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 1.25ms
+[I 140429 11:45:01 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.99ms
+[I 140429 11:46:26 web:1635] 200 POST / (192.168.11.207) 23.61ms
+[I 140429 11:46:26 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.29ms
+[I 140429 11:46:26 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.93ms
+[I 140429 11:46:26 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.05ms
+[I 140429 11:46:26 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.84ms
+[I 140429 11:46:26 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.94ms
+[I 140429 11:46:26 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.87ms
+[I 140429 11:48:14 web:1635] 200 POST / (192.168.11.207) 23.83ms
+[I 140429 11:48:14 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.30ms
+[I 140429 11:48:14 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.94ms
+[I 140429 11:48:14 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.13ms
+[I 140429 11:48:14 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.98ms
+[I 140429 11:48:14 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.78ms
+[I 140429 11:48:14 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.88ms
+[W 140429 11:48:18 web:1225] 400 POST /review (192.168.11.207): Missing argument content
+[W 140429 11:48:18 web:1635] 400 POST /review (192.168.11.207) 5.34ms
+[I 140429 11:49:48 web:1635] 200 POST / (192.168.11.207) 28.28ms
+[I 140429 11:49:48 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.20ms
+[I 140429 11:49:48 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.82ms
+[I 140429 11:49:48 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.06ms
+[I 140429 11:49:48 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.87ms
+[I 140429 11:49:48 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.80ms
+[I 140429 11:49:48 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.83ms
+[W 140429 11:49:51 web:1225] 400 POST /review (192.168.11.207): Missing argument content
+[W 140429 11:49:51 web:1635] 400 POST /review (192.168.11.207) 5.05ms
+[I 140429 11:51:11 web:1635] 200 POST / (192.168.11.207) 23.76ms
+[I 140429 11:51:11 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.27ms
+[I 140429 11:51:11 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.99ms
+[I 140429 11:51:11 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.06ms
+[I 140429 11:51:11 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.91ms
+[I 140429 11:51:11 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.96ms
+[I 140429 11:51:11 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.89ms
+[W 140429 11:51:15 web:1225] 400 POST /review (192.168.11.207): Missing argument content
+[W 140429 11:51:15 web:1635] 400 POST /review (192.168.11.207) 5.22ms
