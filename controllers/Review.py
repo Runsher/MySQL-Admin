@@ -140,8 +140,16 @@ class Test(tornado.web.RequestHandler):
 		#items = ["Item 1", "Item 2", "Item 3"]
 #		self.render("test.html", title="My title", items=items)
 		#info = [('tb_avatar', '', '\xe4\xb8\x8d\xe5\xad\x98\xe5\x9c\xa8update\xe7\xb1\xbb\xe8\xae\xb0\xe5\xbd\x95\xe8\xa1\xa8\xe6\x95\xb0\xe6\x8d\xae\xe4\xbf\xae\xe6\x94\xb9\xe6\x97\xb6\xe9\x97\xb4\xe7\x9a\x84\xe5\xad\x97\xe6\xae\xb5'), ('tb_avatar', '', '\xe4\xb8\x8d\xe5\xad\x98\xe5\x9c\xa8create\xe7\xb1\xbb\xe8\xae\xb0\xe5\xbd\x95\xe8\xa1\xa8\xe5\x88\x9b\xe5\xbb\xba\xe6\x97\xb6\xe9\x97\xb4\xe7\x9a\x84\xe5\xad\x97\xe6\xae\xb5\xef\xbc\x8c')]
-		info = [('test','中国')]
-		print info
-                review_status = 2
-                self.render('review.html',title='result_test',items=info,status=review_status)
+#		info = [('test','中国')]
+#		print info
+#                review_status = 2
+#                self.render('review.html',title='result_test',items=info,status=review_status)
+		upload_path = os.path.join(os.path.dirname(__file__),'../tmp')
+		file_metas = self.request.files['file']
+		for meta in file_metas:
+              		filename = meta['filename']
+             		filepath = os.path.join(upload_path,filename+str_now)
+           		with open(filepath,'wb') as up:
+                  		up.write(meta['body'])
 
+		print  file_metas 

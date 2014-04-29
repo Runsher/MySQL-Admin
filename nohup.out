@@ -2719,3 +2719,1310 @@ ERROR 1064 (42000) at line 1 in file: '/root/yeq/soft/SQL_Review0416/tmp/tmpfile
 [I 140425 18:24:36 web:1635] 200 POST /review (192.168.11.207) 97.62ms
 [I 140425 18:27:45 web:1635] 200 POST /review (192.168.11.207) 97.83ms
 [I 140425 18:27:48 web:1635] 200 POST /review (192.168.11.207) 5.15ms
+[I 140425 18:39:54 web:1635] 304 GET / (192.168.11.207) 22.75ms
+[I 140425 18:39:54 web:1635] 304 GET /static/css/style.css?v=4dc0419b06f4c9c404888faae0a299af (192.168.11.207) 1.66ms
+[I 140425 18:39:54 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.19ms
+[I 140425 18:39:54 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.07ms
+[I 140425 18:39:54 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.89ms
+[I 140425 18:39:54 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.80ms
+[I 140425 18:39:57 web:1635] 304 GET / (192.168.11.207) 23.81ms
+[I 140425 18:39:57 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.25ms
+[I 140425 18:39:57 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.93ms
+[I 140425 18:39:57 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.89ms
+[I 140425 18:39:57 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.92ms
+[I 140425 18:39:57 web:1635] 304 GET /static/css/style.css?v=4dc0419b06f4c9c404888faae0a299af (192.168.11.207) 0.88ms
+[I 140425 18:40:06 web:1635] 304 GET / (192.168.11.207) 22.14ms
+[I 140425 18:40:06 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.19ms
+[I 140425 18:40:06 web:1635] 304 GET /static/css/style.css?v=4dc0419b06f4c9c404888faae0a299af (192.168.11.207) 0.90ms
+[I 140425 18:40:06 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.95ms
+[I 140425 18:40:06 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.05ms
+[I 140425 18:40:06 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 1.49ms
+[I 140428 11:38:24 web:1635] 304 GET / (192.168.11.207) 161.65ms
+[I 140428 11:38:24 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 8.85ms
+[I 140428 11:38:24 web:1635] 304 GET /static/css/style.css?v=4dc0419b06f4c9c404888faae0a299af (192.168.11.207) 0.86ms
+[I 140428 11:38:24 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.19ms
+[I 140428 11:38:24 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.88ms
+[I 140428 11:38:24 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.78ms
+[I 140428 11:38:26 web:1635] 200 POST /review (192.168.11.207) 3.92ms
+[I 140428 11:38:30 web:1635] 200 POST /review (192.168.11.207) 3.79ms
+[I 140428 11:38:33 web:1635] 200 POST /review (192.168.11.207) 3.90ms
+ERROR 1064 (42000) at line 1 in file: '/root/yeq/soft/SQL_Review0416/tmp/tmpfile20140428113821': You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'update_date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIME' at line 1
+[I 140428 11:38:36 web:1635] 200 POST /review (192.168.11.207) 96.22ms
+[I 140428 11:38:45 web:1635] 200 POST /review (192.168.11.207) 146.16ms
+[I 140428 11:44:23 web:1635] 200 POST /review (192.168.11.207) 90.38ms
+[I 140428 11:44:25 web:1635] 304 GET / (192.168.11.207) 25.77ms
+[I 140428 11:44:26 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.75ms
+[I 140428 11:44:26 web:1635] 304 GET /static/css/style.css?v=4dc0419b06f4c9c404888faae0a299af (192.168.11.207) 0.79ms
+[I 140428 11:44:26 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.03ms
+[I 140428 11:44:26 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.83ms
+[I 140428 11:44:26 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.78ms
+[I 140428 11:44:29 web:1635] 200 POST /review (192.168.11.207) 90.63ms
+[I 140428 12:20:18 web:1635] 200 POST /review (192.168.11.207) 4.50ms
+[I 140428 12:20:20 web:1635] 200 GET / (192.168.11.207) 23.43ms
+[I 140428 12:20:20 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.41ms
+[I 140428 12:20:20 web:1635] 304 GET /static/css/style.css?v=4dc0419b06f4c9c404888faae0a299af (192.168.11.207) 0.81ms
+[I 140428 12:20:20 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.08ms
+[I 140428 12:20:20 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.87ms
+[I 140428 12:20:20 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 1.14ms
+[I 140428 12:21:41 web:1635] 200 GET / (192.168.11.207) 22.36ms
+[I 140428 12:21:41 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.17ms
+[I 140428 12:21:41 web:1635] 304 GET /static/css/style.css?v=4dc0419b06f4c9c404888faae0a299af (192.168.11.207) 0.80ms
+[I 140428 12:21:41 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.09ms
+[I 140428 12:21:41 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.90ms
+[I 140428 12:21:41 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.78ms
+[I 140428 12:21:43 web:1635] 200 POST /review (192.168.11.207) 4.07ms
+[I 140428 12:21:47 web:1635] 200 POST /review (192.168.11.207) 3.78ms
+[I 140428 12:21:48 web:1635] 200 POST /review (192.168.11.207) 3.67ms
+[I 140428 12:23:32 web:1635] 304 GET / (192.168.11.207) 22.33ms
+[I 140428 12:23:33 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.33ms
+[I 140428 12:23:33 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.79ms
+[I 140428 12:23:33 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 1.06ms
+[I 140428 12:23:33 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.12ms
+[I 140428 12:23:33 web:1635] 304 GET /static/css/style.css?v=4dc0419b06f4c9c404888faae0a299af (192.168.11.207) 0.85ms
+[I 140428 12:23:36 web:1635] 200 POST /review (192.168.11.207) 3.80ms
+[I 140428 14:15:22 web:1635] 304 GET / (192.168.11.207) 22.60ms
+[I 140428 14:15:22 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.19ms
+[I 140428 14:15:22 web:1635] 304 GET /static/css/style.css?v=4dc0419b06f4c9c404888faae0a299af (192.168.11.207) 0.85ms
+[I 140428 14:15:22 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.10ms
+[I 140428 14:15:22 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.98ms
+[I 140428 14:15:22 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.79ms
+[I 140428 14:17:45 web:1635] 200 GET / (192.168.11.207) 22.19ms
+[I 140428 14:17:45 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.26ms
+[I 140428 14:17:45 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.10ms
+[I 140428 14:17:45 web:1635] 304 GET /static/css/style.css?v=4dc0419b06f4c9c404888faae0a299af (192.168.11.207) 0.78ms
+[I 140428 14:17:45 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.91ms
+[I 140428 14:17:45 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.96ms
+[I 140428 14:20:00 web:1635] 200 GET / (192.168.11.207) 22.02ms
+[I 140428 14:20:00 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.31ms
+[I 140428 14:20:00 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.15ms
+[I 140428 14:20:00 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.87ms
+[I 140428 14:20:00 web:1635] 304 GET /static/css/style.css?v=4dc0419b06f4c9c404888faae0a299af (192.168.11.207) 0.89ms
+[I 140428 14:20:00 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.89ms
+[I 140428 14:20:36 web:1635] 200 GET / (192.168.11.207) 22.24ms
+[I 140428 14:20:36 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.75ms
+[I 140428 14:20:36 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.94ms
+[I 140428 14:20:36 web:1635] 304 GET /static/css/style.css?v=4dc0419b06f4c9c404888faae0a299af (192.168.11.207) 0.91ms
+[I 140428 14:20:36 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.20ms
+[I 140428 14:20:36 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.91ms
+[I 140428 14:20:48 web:1635] 200 GET / (192.168.11.207) 22.15ms
+[I 140428 14:20:48 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.31ms
+[I 140428 14:20:48 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.83ms
+[I 140428 14:20:48 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.96ms
+[I 140428 14:20:48 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.13ms
+[I 140428 14:20:48 web:1635] 304 GET /static/css/style.css?v=4dc0419b06f4c9c404888faae0a299af (192.168.11.207) 0.87ms
+[I 140428 14:20:49 web:1635] 304 GET / (192.168.11.207) 21.85ms
+[I 140428 14:20:49 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.19ms
+[I 140428 14:20:49 web:1635] 304 GET /static/css/style.css?v=4dc0419b06f4c9c404888faae0a299af (192.168.11.207) 0.91ms
+[I 140428 14:20:49 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.96ms
+[I 140428 14:20:49 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.08ms
+[I 140428 14:20:49 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.87ms
+[I 140428 14:20:49 web:1635] 304 GET / (192.168.11.207) 21.18ms
+[I 140428 14:20:49 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.20ms
+[I 140428 14:20:49 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.20ms
+[I 140428 14:20:49 web:1635] 304 GET /static/css/style.css?v=4dc0419b06f4c9c404888faae0a299af (192.168.11.207) 0.85ms
+[I 140428 14:20:49 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.98ms
+[I 140428 14:20:49 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.80ms
+[I 140428 14:20:49 web:1635] 304 GET / (192.168.11.207) 21.41ms
+[I 140428 14:20:49 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.18ms
+[I 140428 14:20:49 web:1635] 304 GET /static/css/style.css?v=4dc0419b06f4c9c404888faae0a299af (192.168.11.207) 0.89ms
+[I 140428 14:20:49 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.06ms
+[I 140428 14:20:49 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.91ms
+[I 140428 14:20:49 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.87ms
+[I 140428 14:22:11 web:1635] 200 GET / (192.168.11.207) 22.09ms
+[I 140428 14:22:11 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.30ms
+[I 140428 14:22:11 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.06ms
+[I 140428 14:22:11 web:1635] 304 GET /static/css/style.css?v=4dc0419b06f4c9c404888faae0a299af (192.168.11.207) 0.89ms
+[I 140428 14:22:11 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.82ms
+[I 140428 14:22:11 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.96ms
+[I 140428 14:22:51 web:1635] 200 GET / (192.168.11.207) 22.98ms
+[I 140428 14:22:51 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.17ms
+[I 140428 14:22:51 web:1635] 304 GET /static/css/style.css?v=4dc0419b06f4c9c404888faae0a299af (192.168.11.207) 0.92ms
+[I 140428 14:22:51 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.05ms
+[I 140428 14:22:51 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.90ms
+[I 140428 14:22:51 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.90ms
+[I 140428 14:24:03 web:1635] 200 GET / (192.168.11.207) 21.46ms
+[I 140428 14:24:03 web:1635] 200 GET /static/css/style.css?v=58e3fd4f3052dbd689fa66e0e1d3a944 (192.168.11.207) 1.01ms
+[I 140428 14:24:03 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.22ms
+[I 140428 14:24:03 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.12ms
+[I 140428 14:24:03 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.89ms
+[I 140428 14:24:03 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.81ms
+[I 140428 14:24:19 web:1635] 200 POST /review (192.168.11.207) 4.38ms
+[I 140428 14:24:20 web:1635] 200 POST /review (192.168.11.207) 3.75ms
+[I 140428 14:25:18 web:1635] 200 GET / (192.168.11.207) 21.59ms
+[I 140428 14:25:18 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.21ms
+[I 140428 14:25:18 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.22ms
+[I 140428 14:25:18 web:1635] 304 GET /static/css/style.css?v=58e3fd4f3052dbd689fa66e0e1d3a944 (192.168.11.207) 1.29ms
+[I 140428 14:25:18 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.96ms
+[I 140428 14:25:18 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.80ms
+[I 140428 14:26:00 web:1635] 200 GET / (192.168.11.207) 21.52ms
+[I 140428 14:26:00 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.17ms
+[I 140428 14:26:00 web:1635] 304 GET /static/css/style.css?v=58e3fd4f3052dbd689fa66e0e1d3a944 (192.168.11.207) 0.83ms
+[I 140428 14:26:00 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.13ms
+[I 140428 14:26:00 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.87ms
+[I 140428 14:26:00 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.87ms
+[I 140428 14:26:06 web:1635] 304 GET / (192.168.11.207) 21.91ms
+[I 140428 14:26:06 web:1635] 304 GET / (192.168.11.207) 21.93ms
+[I 140428 14:26:07 web:1635] 304 GET / (192.168.11.207) 21.55ms
+[I 140428 14:26:23 web:1635] 200 GET / (192.168.11.207) 21.95ms
+[I 140428 14:26:23 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.33ms
+[I 140428 14:26:23 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.92ms
+[I 140428 14:26:23 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.89ms
+[I 140428 14:26:23 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.16ms
+[I 140428 14:26:23 web:1635] 304 GET /static/css/style.css?v=58e3fd4f3052dbd689fa66e0e1d3a944 (192.168.11.207) 0.79ms
+[I 140428 14:27:06 web:1635] 304 GET / (192.168.11.207) 21.54ms
+[I 140428 14:27:07 web:1635] 304 GET / (192.168.11.207) 21.60ms
+[I 140428 14:27:49 web:1635] 304 GET / (192.168.11.207) 21.83ms
+[I 140428 14:27:51 web:1635] 304 GET / (192.168.11.207) 22.03ms
+[I 140428 14:27:54 web:1635] 304 GET / (192.168.11.207) 22.00ms
+[I 140428 14:28:06 web:1635] 304 GET / (192.168.11.207) 21.48ms
+[I 140428 14:29:00 web:1635] 200 GET / (192.168.11.207) 21.77ms
+[I 140428 14:29:00 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.28ms
+[I 140428 14:29:00 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.20ms
+[I 140428 14:29:00 web:1635] 304 GET /static/css/style.css?v=58e3fd4f3052dbd689fa66e0e1d3a944 (192.168.11.207) 0.87ms
+[I 140428 14:29:00 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.87ms
+[I 140428 14:29:00 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.87ms
+[I 140428 14:29:17 web:1635] 200 GET / (192.168.11.207) 21.89ms
+[I 140428 14:29:17 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.26ms
+[I 140428 14:29:17 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.17ms
+[I 140428 14:29:17 web:1635] 304 GET /static/css/style.css?v=58e3fd4f3052dbd689fa66e0e1d3a944 (192.168.11.207) 0.80ms
+[I 140428 14:29:17 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 1.00ms
+[I 140428 14:29:17 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.79ms
+[I 140428 14:29:19 web:1635] 304 GET / (192.168.11.207) 21.50ms
+[I 140428 14:29:21 web:1635] 304 GET / (192.168.11.207) 22.15ms
+[I 140428 14:30:05 web:1635] 304 GET / (192.168.11.207) 23.03ms
+[I 140428 14:30:05 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.27ms
+[I 140428 14:30:05 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.08ms
+[I 140428 14:30:05 web:1635] 304 GET /static/css/style.css?v=58e3fd4f3052dbd689fa66e0e1d3a944 (192.168.11.207) 0.89ms
+[I 140428 14:30:05 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.96ms
+[I 140428 14:30:05 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.82ms
+[I 140428 14:32:15 web:1635] 200 GET / (192.168.11.207) 21.57ms
+[I 140428 14:32:15 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.14ms
+[I 140428 14:32:15 web:1635] 304 GET /static/css/style.css?v=58e3fd4f3052dbd689fa66e0e1d3a944 (192.168.11.207) 0.94ms
+[I 140428 14:32:15 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.12ms
+[I 140428 14:32:15 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.81ms
+[I 140428 14:32:15 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.95ms
+[I 140428 14:32:43 web:1635] 200 GET / (192.168.11.207) 21.91ms
+[I 140428 14:32:43 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.27ms
+[I 140428 14:32:43 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.08ms
+[I 140428 14:32:43 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.90ms
+[I 140428 14:32:43 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.92ms
+[I 140428 14:32:43 web:1635] 304 GET /static/css/style.css?v=58e3fd4f3052dbd689fa66e0e1d3a944 (192.168.11.207) 0.89ms
+[I 140428 14:32:45 web:1635] 304 GET / (192.168.11.207) 21.46ms
+[I 140428 14:33:06 web:1635] 304 GET / (192.168.11.207) 21.89ms
+[I 140428 14:34:30 web:1635] 200 GET / (192.168.11.207) 21.95ms
+[I 140428 14:34:30 web:1635] 200 GET /static/css/style.css?v=c6ee32f5d072c609fb27e543f1ec05e1 (192.168.11.207) 0.98ms
+[I 140428 14:34:30 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.24ms
+[I 140428 14:34:30 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 1.01ms
+[I 140428 14:34:30 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.18ms
+[I 140428 14:34:30 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.88ms
+[I 140428 14:34:48 web:1635] 304 GET / (192.168.11.207) 23.03ms
+[I 140428 14:35:08 web:1635] 200 GET / (192.168.11.207) 22.02ms
+[I 140428 14:35:08 web:1635] 200 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.95ms
+[I 140428 14:35:08 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.23ms
+[I 140428 14:35:08 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.14ms
+[I 140428 14:35:08 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.89ms
+[I 140428 14:35:08 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.78ms
+[I 140428 14:36:38 web:1635] 200 GET / (192.168.11.207) 21.56ms
+[I 140428 14:36:38 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.18ms
+[I 140428 14:36:38 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.90ms
+[I 140428 14:36:38 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.17ms
+[I 140428 14:36:38 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.90ms
+[I 140428 14:36:38 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.96ms
+[I 140428 14:36:59 web:1635] 200 GET / (192.168.11.207) 21.59ms
+[I 140428 14:36:59 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.25ms
+[I 140428 14:36:59 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.92ms
+[I 140428 14:36:59 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.15ms
+[I 140428 14:36:59 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.87ms
+[I 140428 14:36:59 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.88ms
+[I 140428 14:37:07 web:1635] 304 GET / (192.168.11.207) 21.90ms
+[I 140428 14:37:09 web:1635] 304 GET / (192.168.11.207) 21.33ms
+[I 140428 14:37:46 web:1635] 200 GET / (192.168.11.207) 22.13ms
+[I 140428 14:37:46 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.76ms
+[I 140428 14:37:46 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.94ms
+[I 140428 14:37:46 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.93ms
+[I 140428 14:37:46 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.12ms
+[I 140428 14:37:46 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.91ms
+[I 140428 14:37:49 web:1635] 200 POST /review (192.168.11.207) 3.87ms
+[I 140428 14:39:07 web:1635] 200 GET / (192.168.11.207) 21.94ms
+[I 140428 14:39:07 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.29ms
+[I 140428 14:39:07 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.17ms
+[I 140428 14:39:07 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.88ms
+[I 140428 14:39:07 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.90ms
+[I 140428 14:39:07 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.88ms
+[I 140428 14:39:09 web:1635] 200 POST /review (192.168.11.207) 3.96ms
+[I 140428 14:39:34 web:1635] 200 POST /review (192.168.11.207) 3.90ms
+[I 140428 14:39:54 web:1635] 200 POST /review (192.168.11.207) 3.88ms
+[I 140428 14:40:01 web:1635] 200 POST /review (192.168.11.207) 4.60ms
+[I 140428 14:40:09 web:1635] 200 POST /review (192.168.11.207) 3.90ms
+[I 140428 14:41:25 web:1635] 304 GET / (192.168.11.207) 21.51ms
+[I 140428 14:41:28 web:1635] 304 GET / (192.168.11.207) 21.66ms
+[I 140428 14:41:34 web:1635] 304 GET / (192.168.11.207) 21.81ms
+[I 140428 14:43:04 web:1635] 304 GET / (192.168.11.207) 21.47ms
+[I 140428 14:43:09 web:1635] 304 GET / (192.168.11.207) 22.79ms
+[I 140428 14:51:38 web:1635] 200 GET / (192.168.11.207) 21.51ms
+[I 140428 14:51:38 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.17ms
+[I 140428 14:51:38 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.90ms
+[I 140428 14:51:38 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.13ms
+[I 140428 14:51:38 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.97ms
+[I 140428 14:51:38 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.87ms
+[I 140428 14:51:43 web:1635] 200 POST /review (192.168.11.207) 3.93ms
+[I 140428 14:51:43 web:1635] 200 POST / (192.168.11.207) 25.44ms
+[I 140428 14:52:09 web:1635] 200 POST /review (192.168.11.207) 4.58ms
+[I 140428 14:52:09 web:1635] 200 POST / (192.168.11.207) 23.76ms
+[I 140428 14:55:44 web:1635] 200 GET / (192.168.11.207) 24.52ms
+[I 140428 14:55:48 web:1635] 200 POST / (192.168.11.207) 25.54ms
+[I 140428 15:01:37 web:1635] 200 POST / (192.168.11.207) 26.02ms
+[I 140428 15:01:37 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.33ms
+[I 140428 15:01:37 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.96ms
+[I 140428 15:01:37 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.14ms
+[I 140428 15:01:37 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.95ms
+[I 140428 15:01:37 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.85ms
+[I 140428 15:01:41 web:1635] 200 POST /review (192.168.11.207) 3.99ms
+[I 140428 15:01:41 web:1635] 200 POST / (192.168.11.207) 25.64ms
+[I 140428 15:02:15 web:1635] 200 POST / (192.168.11.207) 23.99ms
+[I 140428 15:02:15 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.20ms
+[I 140428 15:02:15 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.25ms
+[I 140428 15:02:15 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.90ms
+[I 140428 15:02:15 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.83ms
+[I 140428 15:02:15 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.97ms
+[I 140428 15:02:17 web:1635] 200 POST /review (192.168.11.207) 3.84ms
+[I 140428 15:02:17 web:1635] 200 GET /? (192.168.11.207) 21.26ms
+[I 140428 15:02:19 web:1635] 200 POST /review (192.168.11.207) 4.41ms
+[I 140428 15:02:19 web:1635] 304 GET /? (192.168.11.207) 22.03ms
+ERROR 1064 (42000) at line 1 in file: '/root/yeq/soft/SQL_Review0416/tmp/tmpfile20140428113821': You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'sadf' at line 1
+[I 140428 15:02:22 web:1635] 200 POST /review (192.168.11.207) 53.23ms
+[I 140428 15:02:22 web:1635] 304 GET /? (192.168.11.207) 24.74ms
+[I 140428 15:02:45 web:1635] 200 POST /review (192.168.11.207) 4.10ms
+[I 140428 15:02:45 web:1635] 200 GET /?file=04-23.sql (192.168.11.207) 21.75ms
+[I 140428 15:02:50 web:1635] 200 POST /review (192.168.11.207) 4.05ms
+[I 140428 15:02:50 web:1635] 304 GET /? (192.168.11.207) 22.49ms
+[I 140428 15:05:40 web:1635] 200 GET /? (192.168.11.207) 22.13ms
+[I 140428 15:05:40 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.49ms
+[I 140428 15:05:40 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.15ms
+[I 140428 15:05:40 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.81ms
+[I 140428 15:05:40 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 1.00ms
+[I 140428 15:05:40 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.87ms
+[I 140428 15:05:43 web:1635] 200 POST /review (192.168.11.207) 4.06ms
+[I 140428 15:05:43 web:1635] 200 GET /?file=DB_TUSI.sql (192.168.11.207) 21.43ms
+[I 140428 15:07:01 web:1635] 200 POST /review (192.168.11.207) 3.96ms
+[I 140428 15:07:01 web:1635] 200 GET /?file=tusimodify.sql (192.168.11.207) 25.02ms
+[I 140428 15:15:20 web:1635] 200 GET /?file=tusimodify.sql (192.168.11.207) 22.81ms
+[I 140428 15:15:20 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.32ms
+[I 140428 15:15:20 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.92ms
+[I 140428 15:15:20 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.09ms
+[I 140428 15:15:20 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.99ms
+[I 140428 15:15:20 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.80ms
+[I 140428 15:15:22 web:1635] 200 POST /review (192.168.11.207) 3.86ms
+[I 140428 15:15:22 web:1635] 200 GET /? (192.168.11.207) 21.21ms
+ERROR 1064 (42000) at line 1 in file: '/root/yeq/soft/SQL_Review0416/tmp/tmpfile20140428113821': You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'dsghsd' at line 1
+[I 140428 15:15:27 web:1635] 200 POST /review (192.168.11.207) 52.48ms
+[I 140428 15:15:27 web:1635] 304 GET /? (192.168.11.207) 23.13ms
+[I 140428 15:15:44 web:1635] 200 POST /review (192.168.11.207) 4.22ms
+[I 140428 15:15:44 web:1635] 200 GET /? (192.168.11.207) 21.49ms
+[I 140428 15:15:48 web:1635] 200 POST /review (192.168.11.207) 3.90ms
+[I 140428 15:15:50 web:1635] 200 POST /review (192.168.11.207) 3.93ms
+[I 140428 15:15:51 web:1635] 200 POST /review (192.168.11.207) 4.11ms
+<type 'exceptions.Exception'> 'file'
+<type 'exceptions.Exception'> local variable 'filepath' referenced before assignment
+<type 'exceptions.Exception'> 'file'
+<type 'exceptions.Exception'> local variable 'filepath' referenced before assignment
+<type 'exceptions.Exception'> 'file'
+<type 'exceptions.Exception'> local variable 'filepath' referenced before assignment
+<type 'exceptions.Exception'> 'file'
+<type 'exceptions.Exception'> 'file'
+<type 'exceptions.Exception'> 'file'
+<type 'exceptions.Exception'> 'file'
+<type 'exceptions.Exception'> 'file'
+<type 'exceptions.Exception'> local variable 'filepath' referenced before assignment
+<type 'exceptions.Exception'> 'file'
+<type 'exceptions.Exception'> local variable 'filepath' referenced before assignment
+<type 'exceptions.Exception'> 'file'
+<type 'exceptions.Exception'> local variable 'filepath' referenced before assignment
+<type 'exceptions.Exception'> 'file'
+<type 'exceptions.Exception'> local variable 'filepath' referenced before assignment
+<type 'exceptions.Exception'> 'file'
+<type 'exceptions.Exception'> local variable 'filepath' referenced before assignment
+<type 'exceptions.Exception'> 'file'
+<type 'exceptions.Exception'> local variable 'filepath' referenced before assignment
+<type 'exceptions.Exception'> 'file'
+<type 'exceptions.Exception'> local variable 'filepath' referenced before assignment
+<type 'exceptions.Exception'> 'file'
+<type 'exceptions.Exception'> local variable 'filepath' referenced before assignment
+<type 'exceptions.Exception'> 'file'
+<type 'exceptions.Exception'> local variable 'filepath' referenced before assignment
+<type 'exceptions.Exception'> 'file'
+<type 'exceptions.Exception'> local variable 'filepath' referenced before assignment
+<type 'exceptions.Exception'> 'file'
+<type 'exceptions.Exception'> local variable 'filepath' referenced before assignment
+<type 'exceptions.Exception'> 'file'
+<type 'exceptions.Exception'> local variable 'filepath' referenced before assignment
+<type 'exceptions.Exception'> 'file'
+<type 'exceptions.Exception'> local variable 'filepath' referenced before assignment
+<type 'exceptions.Exception'> 'file'
+<type 'exceptions.Exception'> local variable 'filepath' referenced before assignment
+<type 'exceptions.Exception'> 'file'
+<type 'exceptions.Exception'> local variable 'filepath' referenced before assignment
+<type 'exceptions.Exception'> 'file'
+<type 'exceptions.Exception'> local variable 'filepath' referenced before assignment
+<type 'exceptions.Exception'> 'file'
+<type 'exceptions.Exception'> local variable 'filepath' referenced before assignment
+<type 'exceptions.Exception'> 'file'
+<type 'exceptions.Exception'> local variable 'filepath' referenced before assignment
+<type 'exceptions.Exception'> 'file'
+<type 'exceptions.Exception'> 'file'
+<type 'exceptions.Exception'> local variable 'filepath' referenced before assignment
+<type 'exceptions.Exception'> 'file'
+<type 'exceptions.Exception'> local variable 'filepath' referenced before assignment
+<type 'exceptions.Exception'> 'file'
+<type 'exceptions.Exception'> local variable 'filepath' referenced before assignment
+<type 'exceptions.Exception'> 'file'
+<type 'exceptions.Exception'> local variable 'filepath' referenced before assignment
+<type 'exceptions.Exception'> 'file'
+<type 'exceptions.Exception'> local variable 'filepath' referenced before assignment
+<type 'exceptions.Exception'> 'file'
+<type 'exceptions.Exception'> Destination path '/root/yeq/soft/SQL_Review0416/controllers/../sqlfile/tmpfile20140428113821' already exists
+<type 'exceptions.Exception'> 'file'
+<type 'exceptions.Exception'> local variable 'filepath' referenced before assignment
+<type 'exceptions.Exception'> 'file'
+<type 'exceptions.Exception'> local variable 'filepath' referenced before assignment
+<type 'exceptions.Exception'> 'file'
+<type 'exceptions.Exception'> local variable 'filepath' referenced before assignment
+<type 'exceptions.Exception'> 'file'
+<type 'exceptions.Exception'> local variable 'filepath' referenced before assignment
+<type 'exceptions.Exception'> 'file'
+<type 'exceptions.Exception'> local va[I 140428 15:15:51 web:1635] 200 POST /review (192.168.11.207) 3.97ms
+[I 140428 15:15:52 web:1635] 304 GET /? (192.168.11.207) 21.79ms
+[I 140428 15:15:52 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.52ms
+[I 140428 15:15:52 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 1.28ms
+[I 140428 15:15:52 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.86ms
+[I 140428 15:15:52 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.16ms
+[I 140428 15:15:52 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.77ms
+[I 140428 15:15:54 web:1635] 200 POST /review (192.168.11.207) 3.86ms
+[I 140428 15:37:13 web:1635] 200 POST /review (192.168.11.207) 4.47ms
+[I 140428 15:39:15 web:1635] 200 GET /? (192.168.11.207) 23.26ms
+[I 140428 15:39:15 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.28ms
+[I 140428 15:39:15 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.80ms
+[I 140428 15:39:15 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.17ms
+[I 140428 15:39:15 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.90ms
+[I 140428 15:39:15 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.99ms
+[I 140428 15:39:15 web:1635] 200 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 1.32ms
+[W 140428 15:39:16 web:1635] 404 GET /uploadify.swf?preventswfcaching=1398670743426 (192.168.11.207) 15.36ms
+[I 140428 15:39:36 web:1635] 200 POST /review (192.168.11.207) 4.24ms
+[W 140428 15:39:36 web:1635] 404 GET /uploadify.swf?preventswfcaching=1398670764624 (192.168.11.207) 1.42ms
+[W 140428 15:39:36 web:1635] 404 GET /uploadify.swf?preventswfcaching=1398670764624 (192.168.11.207) 0.50ms
+[I 140428 15:40:41 web:1635] 200 GET / (192.168.11.207) 24.22ms
+[W 140428 15:40:42 web:1635] 404 GET /uploadify.swf?preventswfcaching=1398670829232 (192.168.11.207) 1.66ms
+[I 140428 15:42:37 web:1635] 200 GET / (192.168.11.207) 22.78ms
+[I 140428 15:42:37 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.26ms
+[I 140428 15:42:37 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.18ms
+[I 140428 15:42:37 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.93ms
+[I 140428 15:42:37 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.78ms
+[I 140428 15:42:37 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.95ms
+[I 140428 15:42:37 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 0.93ms
+[W 140428 15:42:39 web:1635] 404 GET /uploadify.swf?preventswfcaching=1398670945740 (192.168.11.207) 1.64ms
+ERROR 1064 (42000) at line 1 in file: '/root/yeq/soft/SQL_Review0416/tmp/tmpfile20140428113821': You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ddf' at line 1
+[I 140428 15:42:56 web:1635] 200 POST /review (192.168.11.207) 53.26ms
+[W 140428 15:42:56 web:1635] 404 GET /uploadify.swf?preventswfcaching=1398670963946 (192.168.11.207) 2.48ms
+[W 140428 15:42:56 web:1635] 404 GET /uploadify.swf?preventswfcaching=1398670963946 (192.168.11.207) 0.55ms
+[W 140428 15:42:56 web:1635] 404 GET /uploadify.swf?preventswfcaching=1398670963946 (192.168.11.207) 0.53ms
+[I 140428 15:43:59 web:1635] 200 GET / (192.168.11.207) 25.17ms
+[I 140428 15:43:59 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.45ms
+[I 140428 15:43:59 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.14ms
+[I 140428 15:43:59 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.89ms
+[I 140428 15:43:59 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 1.63ms
+[I 140428 15:43:59 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 1.07ms
+[I 140428 15:43:59 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 1.12ms
+[W 140428 15:44:00 web:1635] 404 GET /uploadify.swf?preventswfcaching=1398671027257 (192.168.11.207) 1.80ms
+[I 140428 15:44:16 web:1635] 304 GET / (192.168.11.207) 23.43ms
+[I 140428 15:44:16 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.24ms
+[I 140428 15:44:16 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.07ms
+[I 140428 15:44:16 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.93ms
+[I 140428 15:44:16 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 0.94ms
+[I 140428 15:44:16 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.89ms
+[I 140428 15:44:16 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.88ms
+[W 140428 15:44:21 web:1635] 404 GET /uploadify.swf?preventswfcaching=1398671044622 (192.168.11.207) 1.65ms
+[I 140428 15:47:20 web:1635] 200 GET / (192.168.11.207) 23.55ms
+[I 140428 15:47:20 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.19ms
+[I 140428 15:47:20 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.82ms
+[I 140428 15:47:20 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.15ms
+[I 140428 15:47:20 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.81ms
+[I 140428 15:47:20 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.95ms
+[I 140428 15:47:20 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 1.03ms
+[I 140428 15:48:02 web:1635] 200 GET / (192.168.11.207) 23.17ms
+[I 140428 15:48:02 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.31ms
+[I 140428 15:48:02 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 1.03ms
+[I 140428 15:48:02 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.88ms
+[I 140428 15:48:02 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.89ms
+[I 140428 15:48:02 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.17ms
+[I 140428 15:48:02 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 1.04ms
+[I 140428 15:59:03 web:1635] 200 GET / (192.168.11.207) 23.37ms
+[I 140428 15:59:03 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.27ms
+[I 140428 15:59:03 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.95ms
+[I 140428 15:59:03 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.04ms
+[I 140428 15:59:03 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.89ms
+[I 140428 15:59:03 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.89ms
+[I 140428 15:59:03 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 1.02ms
+[I 140428 16:00:33 web:1635] 200 GET / (192.168.11.207) 25.18ms
+[I 140428 16:00:33 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.39ms
+[I 140428 16:00:33 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 0.97ms
+[I 140428 16:00:33 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.90ms
+[I 140428 16:00:33 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.91ms
+[I 140428 16:00:33 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.13ms
+[I 140428 16:00:33 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 3.19ms
+[I 140428 16:00:54 web:1635] 304 GET / (192.168.11.207) 22.86ms
+[I 140428 16:00:54 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.55ms
+[I 140428 16:00:54 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 1.30ms
+[I 140428 16:00:54 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 1.02ms
+[I 140428 16:00:54 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.15ms
+[I 140428 16:00:54 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.92ms
+[I 140428 16:00:54 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 1.09ms
+[I 140428 16:13:05 web:1635] 200 GET / (192.168.11.207) 23.03ms
+[I 140428 16:13:06 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.32ms
+[I 140428 16:13:06 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.82ms
+[I 140428 16:13:06 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.20ms
+[I 140428 16:13:06 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.97ms
+[I 140428 16:13:06 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.80ms
+[I 140428 16:13:06 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 1.04ms
+[I 140428 16:14:43 web:1635] 200 GET / (192.168.11.207) 22.88ms
+[I 140428 16:14:43 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.84ms
+[I 140428 16:14:43 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.91ms
+[I 140428 16:14:43 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.13ms
+[I 140428 16:14:43 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.86ms
+[I 140428 16:14:43 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 1.02ms
+[I 140428 16:14:43 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.78ms
+[I 140428 16:16:27 web:1635] 200 GET / (192.168.11.207) 22.89ms
+[I 140428 16:16:27 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.38ms
+[I 140428 16:16:27 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.92ms
+[I 140428 16:16:27 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.88ms
+[I 140428 16:16:27 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.14ms
+[I 140428 16:16:27 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.81ms
+[I 140428 16:16:27 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 1.04ms
+[W 140428 16:16:29 web:1635] 404 GET /uploadify.swf?preventswfcaching=1398672975777 (192.168.11.207) 1.68ms
+[I 140428 16:17:01 web:1635] 304 GET / (192.168.11.207) 24.75ms
+[I 140428 16:17:01 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.28ms
+[I 140428 16:17:01 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.92ms
+[I 140428 16:17:01 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.11ms
+[I 140428 16:17:01 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 0.98ms
+[I 140428 16:17:01 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.90ms
+[I 140428 16:17:01 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 1.00ms
+[W 140428 16:17:02 web:1635] 404 GET /uploadify.swf?preventswfcaching=1398673009461 (192.168.11.207) 1.69ms
+[I 140428 16:18:47 web:1635] 304 GET / (192.168.11.207) 22.66ms
+[I 140428 16:18:47 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.29ms
+[I 140428 16:18:47 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 1.00ms
+[I 140428 16:18:47 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.95ms
+[I 140428 16:18:47 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 2.42ms
+[I 140428 16:18:47 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 1.22ms
+[I 140428 16:18:47 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.90ms
+[W 140428 16:18:48 web:1635] 404 GET /uploadify.swf?preventswfcaching=1398673115595 (192.168.11.207) 1.70ms
+[I 140428 16:19:12 web:1635] 200 GET / (192.168.11.207) 22.79ms
+[I 140428 16:19:12 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.20ms
+[I 140428 16:19:12 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.80ms
+[I 140428 16:19:12 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.14ms
+[I 140428 16:19:12 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.94ms
+[I 140428 16:19:12 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.79ms
+[I 140428 16:19:12 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 1.02ms
+[W 140428 16:19:13 web:1635] 404 GET /uploadify.swf?preventswfcaching=1398673140063 (192.168.11.207) 1.71ms
+[I 140428 16:19:24 web:1635] 304 GET / (192.168.11.207) 23.04ms
+[I 140428 16:19:24 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.33ms
+[I 140428 16:19:24 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 0.97ms
+[I 140428 16:19:24 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.88ms
+[I 140428 16:19:24 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.97ms
+[I 140428 16:19:24 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.06ms
+[I 140428 16:19:24 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.90ms
+[W 140428 16:19:25 web:1635] 404 GET /uploadify.swf?preventswfcaching=1398673152133 (192.168.11.207) 1.49ms
+[I 140428 16:19:45 web:1635] 304 GET / (192.168.11.207) 22.87ms
+[I 140428 16:19:45 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.25ms
+[I 140428 16:19:45 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.17ms
+[I 140428 16:19:45 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.81ms
+[I 140428 16:19:45 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.97ms
+[I 140428 16:19:45 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.81ms
+[I 140428 16:19:45 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 0.96ms
+[W 140428 16:19:46 web:1635] 404 GET /uploadify.swf?preventswfcaching=1398673173556 (192.168.11.207) 1.79ms
+[I 140428 16:20:12 web:1635] 200 GET / (192.168.11.207) 23.32ms
+[I 140428 16:20:12 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.27ms
+[I 140428 16:20:12 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.91ms
+[I 140428 16:20:12 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.08ms
+[I 140428 16:20:12 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.90ms
+[I 140428 16:20:12 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.89ms
+[I 140428 16:20:12 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 1.03ms
+[W 140428 16:20:14 web:1635] 404 GET /uploadify.swf?preventswfcaching=1398673200723 (192.168.11.207) 1.64ms
+[I 140428 16:20:33 web:1635] 304 GET / (192.168.11.207) 23.07ms
+[W 140428 16:20:34 web:1635] 404 GET /uploadify.swf?preventswfcaching=1398673221335 (192.168.11.207) 1.60ms
+[I 140428 16:20:35 web:1635] 304 GET / (192.168.11.207) 22.53ms
+[W 140428 16:20:37 web:1635] 404 GET /uploadify.swf?preventswfcaching=1398673223949 (192.168.11.207) 1.61ms
+[I 140428 16:20:37 web:1635] 304 GET / (192.168.11.207) 23.32ms
+[W 140428 16:20:38 web:1635] 404 GET /uploadify.swf?preventswfcaching=1398673225887 (192.168.11.207) 1.88ms
+[I 140428 16:20:39 web:1635] 304 GET / (192.168.11.207) 23.07ms
+[W 140428 16:20:40 web:1635] 404 GET /uploadify.swf?preventswfcaching=1398673227251 (192.168.11.207) 1.57ms
+[I 140428 16:21:31 web:1635] 200 POST /review (192.168.11.207) 4.12ms
+[W 140428 16:21:31 web:1635] 404 GET /uploadify.swf?preventswfcaching=1398673279227 (192.168.11.207) 1.37ms
+[W 140428 16:21:31 web:1635] 404 GET /uploadify.swf?preventswfcaching=1398673279227 (192.168.11.207) 0.51ms
+[W 140428 16:21:31 web:1635] 404 GET /uploadify.swf?preventswfcaching=1398673279227 (192.168.11.207) 0.46ms
+[I 140428 16:21:34 web:1635] 200 POST /review (192.168.11.207) 4.06ms
+[W 140428 16:21:34 web:1635] 404 GET /uploadify.swf?preventswfcaching=1398673281970 (192.168.11.207) 1.33ms
+[W 140428 16:21:34 web:1635] 404 GET /uploadify.swf?preventswfcaching=1398673281970 (192.168.11.207) 0.51ms
+[W 140428 16:21:34 web:1635] 404 GET /uploadify.swf?preventswfcaching=1398673281970 (192.168.11.207) 0.47ms
+[I 140428 16:21:35 web:1635] 304 GET / (192.168.11.207) 25.51ms
+[I 140428 16:21:35 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.21ms
+[I 140428 16:21:35 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.90ms
+[I 140428 16:21:35 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.82ms
+[I 140428 16:21:35 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.95ms
+[I 140428 16:21:35 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.12ms
+[I 140428 16:21:35 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 1.05ms
+[W 140428 16:21:37 web:1635] 404 GET /uploadify.swf?preventswfcaching=1398673283440 (192.168.11.207) 1.63ms
+[I 140428 16:22:34 web:1635] 200 GET / (192.168.11.207) 22.87ms
+[I 140428 16:22:34 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.26ms
+[I 140428 16:22:34 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.08ms
+[I 140428 16:22:34 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.87ms
+[I 140428 16:22:34 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.93ms
+[I 140428 16:22:34 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 0.93ms
+[I 140428 16:22:34 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.89ms
+[I 140428 16:22:34 web:1635] 304 GET / (192.168.11.207) 22.49ms
+[I 140428 16:22:34 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.20ms
+[I 140428 16:22:34 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.12ms
+[I 140428 16:22:34 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.88ms
+[I 140428 16:22:34 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 0.94ms
+[I 140428 16:22:34 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.87ms
+[I 140428 16:22:34 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.95ms
+[I 140428 16:22:34 web:1635] 304 GET / (192.168.11.207) 22.42ms
+[I 140428 16:22:34 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 2.62ms
+[I 140428 16:22:34 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.90ms
+[I 140428 16:22:34 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.15ms
+[I 140428 16:22:34 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 1.03ms
+[I 140428 16:22:34 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.87ms
+[I 140428 16:22:34 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.87ms
+[I 140428 16:22:34 web:1635] 304 GET / (192.168.11.207) 22.09ms
+[I 140428 16:22:34 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.19ms
+[I 140428 16:22:34 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.77ms
+[I 140428 16:22:34 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.96ms
+[I 140428 16:22:34 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.14ms
+[I 140428 16:22:34 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.86ms
+[I 140428 16:22:34 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 1.01ms
+[I 140428 16:22:35 web:1635] 304 GET / (192.168.11.207) 22.56ms
+[I 140428 16:22:35 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.17ms
+[I 140428 16:22:35 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.81ms
+[I 140428 16:22:35 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.04ms
+[I 140428 16:22:35 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.86ms
+[I 140428 16:22:35 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.81ms
+[I 140428 16:22:35 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 0.94ms
+[I 140428 16:22:35 web:1635] 304 GET / (192.168.11.207) 22.22ms
+[I 140428 16:22:35 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.19ms
+[I 140428 16:22:35 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.95ms
+[I 140428 16:22:35 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.12ms
+[I 140428 16:22:35 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 1.23ms
+[I 140428 16:22:35 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 1.03ms
+[I 140428 16:22:35 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.86ms
+[W 140428 16:22:35 web:1635] 404 GET /uploadify.swf?preventswfcaching=1398673343592 (192.168.11.207) 1.52ms
+[I 140428 16:22:36 web:1635] 304 GET / (192.168.11.207) 22.78ms
+[I 140428 16:22:36 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.21ms
+[I 140428 16:22:36 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.93ms
+[I 140428 16:22:36 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.96ms
+[I 140428 16:22:36 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.14ms
+[I 140428 16:22:36 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 1.00ms
+[I 140428 16:22:36 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.88ms
+[I 140428 16:22:36 web:1635] 304 GET / (192.168.11.207) 22.58ms
+[I 140428 16:22:36 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.23ms
+[I 140428 16:22:36 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 0.95ms
+[I 140428 16:22:36 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.95ms
+[I 140428 16:22:36 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.06ms
+[I 140428 16:22:36 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.87ms
+[I 140428 16:22:36 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.89ms
+[W 140428 16:22:37 web:1635] 404 GET /uploadify.swf?preventswfcaching=1398673344782 (192.168.11.207) 1.73ms
+[I 140428 16:23:25 web:1635] 200 GET / (192.168.11.207) 28.45ms
+[I 140428 16:23:25 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 8.90ms
+[I 140428 16:23:25 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.82ms
+[I 140428 16:23:25 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.12ms
+[I 140428 16:23:25 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.88ms
+[I 140428 16:23:25 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.78ms
+[I 140428 16:23:25 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 0.93ms
+[W 140428 16:23:26 web:1635] 404 GET /uploadify.swf?preventswfcaching=1398673393311 (192.168.11.207) 1.70ms
+[I 140428 16:25:26 web:1635] 200 GET / (192.168.11.207) 23.89ms
+[I 140428 16:25:26 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.19ms
+[I 140428 16:25:26 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.81ms
+[I 140428 16:25:26 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.10ms
+[I 140428 16:25:26 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 0.93ms
+[I 140428 16:25:26 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.78ms
+[I 140428 16:25:26 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 1.11ms
+[I 140428 16:25:28 web:1635] 304 GET / (192.168.11.207) 22.06ms
+[I 140428 16:25:28 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.26ms
+[I 140428 16:25:28 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.04ms
+[I 140428 16:25:28 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.75ms
+[I 140428 16:25:28 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.89ms
+[I 140428 16:25:28 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.78ms
+[I 140428 16:25:28 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 0.89ms
+[I 140428 16:25:28 web:1635] 304 GET / (192.168.11.207) 22.18ms
+[I 140428 16:25:28 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.18ms
+[I 140428 16:25:28 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.82ms
+[I 140428 16:25:28 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.05ms
+[I 140428 16:25:28 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 0.93ms
+[I 140428 16:25:28 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.75ms
+[I 140428 16:25:28 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.86ms
+[I 140428 16:27:56 web:1635] 200 GET / (192.168.11.207) 22.60ms
+[I 140428 16:27:56 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.38ms
+[I 140428 16:27:56 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 0.92ms
+[I 140428 16:27:56 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.85ms
+[I 140428 16:27:56 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.78ms
+[I 140428 16:27:56 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.02ms
+[I 140428 16:27:56 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.78ms
+[W 140428 16:27:57 web:1635] 404 GET /uploadify.swf?preventswfcaching=1398673664316 (192.168.11.207) 1.51ms
+[E 140428 17:15:50 web:1228] Uncaught exception GET / (192.168.11.207)
+    HTTPRequest(protocol='http', host='192.168.22.225:5000', method='GET', uri='/', version='HTTP/1.1', remote_ip='192.168.11.207', headers={'Accept-Language': 'zh-CN,zh;q=0.8,en;q=0.6', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '192.168.22.225:5000', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.116 Safari/537.36', 'Connection': 'keep-alive', 'Referer': 'http://192.168.22.225:5000/', 'Cache-Control': 'max-age=0', 'If-None-Match': '"3ad954983856f74754fc6f2e0b97658d53dc4aac"', 'Cookie': '__utma=115224007.1620756413.1398155325.1398155325.1398155325.1; __utmc=115224007; __utmz=115224007.1398155325.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1141, in _when_complete
+        callback()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1162, in _execute_method
+        self._when_complete(method(*self.path_args, **self.path_kwargs),
+      File "/root/yeq/soft/SQL_Review0416/controllers/Home.py", line 57, in get
+        self.render('index.html',title='result_test',items=info,status=review_status)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 538, in render
+        html = self.render_string(template_name, **kwargs)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 645, in render_string
+        return t.generate(**namespace)
+      File "/usr/lib/python2.6/site-packages/tornado/template.py", line 273, in generate
+        return execute()
+      File "index_html.generated.py", line 95, in _tt_execute
+        _tt_tmp = static_url(js/uploadify.swf)  # review.html:88 (via main.html:42)
+    NameError: global name 'js' is not defined
+[E 140428 17:15:50 web:1635] 500 GET / (192.168.11.207) 44.77ms
+[I 140428 17:15:50 web:1635] 304 GET /favicon.ico (192.168.11.207) 0.75ms
+[I 140428 17:16:30 web:1635] 200 GET / (192.168.11.207) 25.40ms
+[I 140428 17:16:30 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.27ms
+[I 140428 17:16:30 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.86ms
+[I 140428 17:16:30 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.06ms
+[I 140428 17:16:30 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.86ms
+[I 140428 17:16:30 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 0.94ms
+[I 140428 17:16:30 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.80ms
+[I 140428 17:17:28 web:1635] 200 GET / (192.168.11.207) 23.17ms
+[I 140428 17:17:28 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.30ms
+[I 140428 17:17:28 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.85ms
+[I 140428 17:17:28 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.99ms
+[I 140428 17:17:28 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.17ms
+[I 140428 17:17:28 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 1.00ms
+[I 140428 17:17:28 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.86ms
+[I 140428 17:19:35 web:1635] 200 GET / (192.168.11.207) 22.96ms
+[I 140428 17:19:35 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.28ms
+[I 140428 17:19:35 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.96ms
+[I 140428 17:19:35 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.17ms
+[I 140428 17:19:35 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.87ms
+[I 140428 17:19:35 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.88ms
+[I 140428 17:19:35 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 0.96ms
+[I 140428 17:21:08 web:1635] 304 GET / (192.168.11.207) 24.36ms
+[I 140428 17:21:08 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.25ms
+[I 140428 17:21:08 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 1.02ms
+[I 140428 17:21:08 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 1.03ms
+[I 140428 17:21:08 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.91ms
+[I 140428 17:21:08 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.95ms
+[I 140428 17:21:08 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.11ms
+[I 140428 17:21:10 web:1635] 304 GET / (192.168.11.207) 24.55ms
+[I 140428 17:21:10 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.27ms
+[I 140428 17:21:10 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 1.00ms
+[I 140428 17:21:10 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.16ms
+[I 140428 17:21:10 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.89ms
+[I 140428 17:21:10 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 1.01ms
+[I 140428 17:21:10 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.81ms
+[I 140428 17:21:11 web:1635] 304 GET / (192.168.11.207) 24.23ms
+[I 140428 17:21:11 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.59ms
+[I 140428 17:21:11 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.85ms
+[I 140428 17:21:11 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.89ms
+[I 140428 17:21:11 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.07ms
+[I 140428 17:21:11 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.83ms
+[I 140428 17:21:11 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 0.98ms
+[I 140428 17:21:11 web:1635] 304 GET / (192.168.11.207) 23.24ms
+[I 140428 17:21:11 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.18ms
+[I 140428 17:21:11 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.79ms
+[I 140428 17:21:11 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.87ms
+[I 140428 17:21:11 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.06ms
+[I 140428 17:21:11 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.78ms
+[I 140428 17:21:11 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 0.96ms
+[I 140428 17:21:11 web:1635] 304 GET / (192.168.11.207) 23.60ms
+[I 140428 17:21:11 web:1635] 304 GET / (192.168.11.207) 22.44ms
+[I 140428 17:21:11 web:1635] 304 GET / (192.168.11.207) 22.89ms
+[I 140428 17:21:11 web:1635] 200 GET / (192.168.11.207) 23.05ms
+[I 140428 17:21:11 web:1635] 200 GET / (192.168.11.207) 22.60ms
+[I 140428 17:21:12 web:1635] 200 GET / (192.168.11.207) 22.68ms
+[I 140428 17:21:12 web:1635] 200 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 1.05ms
+[I 140428 17:21:12 web:1635] 304 GET / (192.168.11.207) 23.31ms
+[I 140428 17:21:12 web:1635] 200 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.81ms
+[I 140428 17:21:12 web:1635] 200 GET / (192.168.11.207) 22.46ms
+[I 140428 17:21:12 web:1635] 304 GET / (192.168.11.207) 22.40ms
+[I 140428 17:21:12 web:1635] 200 GET / (192.168.11.207) 22.82ms
+[I 140428 17:21:12 web:1635] 304 GET / (192.168.11.207) 22.67ms
+[I 140428 17:21:12 web:1635] 200 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.83ms
+[I 140428 17:21:12 web:1635] 200 GET / (192.168.11.207) 23.63ms
+[I 140428 17:21:12 web:1635] 304 GET / (192.168.11.207) 22.67ms
+[I 140428 17:21:12 web:1635] 200 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.98ms
+[I 140428 17:21:12 web:1635] 200 GET / (192.168.11.207) 22.19ms
+[I 140428 17:21:12 web:1635] 200 GET / (192.168.11.207) 22.47ms
+[I 140428 17:21:12 web:1635] 304 GET / (192.168.11.207) 22.27ms
+[I 140428 17:21:12 web:1635] 200 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.88ms
+[I 140428 17:21:12 web:1635] 200 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 1.33ms
+[I 140428 17:21:12 web:1635] 304 GET / (192.168.11.207) 22.61ms
+[I 140428 17:21:12 web:1635] 200 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.81ms
+[I 140428 17:21:12 web:1635] 200 GET / (192.168.11.207) 22.55ms
+[I 140428 17:21:12 web:1635] 200 GET / (192.168.11.207) 22.20ms
+[I 140428 17:21:12 web:1635] 304 GET / (192.168.11.207) 22.61ms
+[I 140428 17:21:12 web:1635] 200 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 1.04ms
+[I 140428 17:21:12 web:1635] 304 GET / (192.168.11.207) 23.02ms
+[I 140428 17:21:12 web:1635] 200 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.80ms
+[I 140428 17:21:12 web:1635] 200 GET / (192.168.11.207) 22.26ms
+[I 140428 17:21:12 web:1635] 200 GET / (192.168.11.207) 22.48ms
+[I 140428 17:21:12 web:1635] 304 GET / (192.168.11.207) 22.51ms
+[I 140428 17:21:12 web:1635] 200 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.87ms
+[I 140428 17:21:12 web:1635] 200 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.56ms
+[I 140428 17:21:12 web:1635] 200 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.91ms
+[I 140428 17:21:12 web:1635] 200 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.96ms
+[I 140428 17:21:12 web:1635] 200 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.26ms
+[I 140428 17:21:12 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.93ms
+[I 140428 17:21:12 web:1635] 200 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 1.09ms
+[I 140428 17:23:30 web:1635] 200 GET / (192.168.11.207) 22.76ms
+[I 140428 17:23:31 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.33ms
+[I 140428 17:23:31 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.90ms
+[I 140428 17:23:31 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.14ms
+[I 140428 17:23:31 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.97ms
+[I 140428 17:23:31 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 1.00ms
+[I 140428 17:23:31 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.83ms
+[W 140428 17:23:35 web:1635] 404 GET /uploadify.swf?preventswfcaching=1398676998849 (192.168.11.207) 1.64ms
+[I 140428 17:24:36 web:1635] 200 GET / (192.168.11.207) 25.56ms
+[I 140428 17:24:36 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.45ms
+[I 140428 17:24:36 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.89ms
+[I 140428 17:24:36 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.14ms
+[I 140428 17:24:36 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 1.00ms
+[I 140428 17:24:36 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.89ms
+[I 140428 17:24:36 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.91ms
+[W 140428 17:24:39 web:1635] 404 GET /uploadify.swf?preventswfcaching=1398677064402 (192.168.11.207) 1.65ms
+[I 140428 17:25:37 web:1635] 200 GET / (192.168.11.207) 24.12ms
+[I 140428 17:25:37 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.82ms
+[I 140428 17:25:37 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 0.99ms
+[I 140428 17:25:37 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.90ms
+[I 140428 17:25:37 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.96ms
+[I 140428 17:25:37 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.90ms
+[I 140428 17:25:37 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.22ms
+[I 140428 17:25:38 web:1635] 304 GET / (192.168.11.207) 23.94ms
+[I 140428 17:25:38 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.16ms
+[I 140428 17:25:38 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.23ms
+[I 140428 17:25:38 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.86ms
+[I 140428 17:25:38 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 1.03ms
+[I 140428 17:25:38 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.86ms
+[I 140428 17:25:38 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.97ms
+[I 140428 17:25:38 web:1635] 304 GET / (192.168.11.207) 23.34ms
+[I 140428 17:25:38 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.30ms
+[I 140428 17:25:38 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.92ms
+[I 140428 17:25:38 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.89ms
+[I 140428 17:25:38 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.06ms
+[I 140428 17:25:38 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.84ms
+[I 140428 17:25:38 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 0.92ms
+[I 140428 17:26:35 web:1635] 200 GET / (192.168.11.207) 23.77ms
+[I 140428 17:26:35 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.33ms
+[I 140428 17:26:35 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.07ms
+[I 140428 17:26:35 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.78ms
+[I 140428 17:26:35 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.88ms
+[I 140428 17:26:35 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.99ms
+[I 140428 17:26:35 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 0.95ms
+[I 140428 17:26:36 web:1635] 304 GET / (192.168.11.207) 23.30ms
+[I 140428 17:26:36 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.19ms
+[I 140428 17:26:36 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.86ms
+[I 140428 17:26:36 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.10ms
+[I 140428 17:26:36 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.80ms
+[I 140428 17:26:36 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.91ms
+[I 140428 17:26:36 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 0.97ms
+[I 140428 17:26:36 web:1635] 304 GET / (192.168.11.207) 23.51ms
+[I 140428 17:26:36 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.21ms
+[I 140428 17:26:36 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.09ms
+[I 140428 17:26:36 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.76ms
+[I 140428 17:26:36 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.79ms
+[I 140428 17:26:36 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.92ms
+[I 140428 17:26:36 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 0.93ms
+[I 140428 17:26:37 web:1635] 304 GET / (192.168.11.207) 23.35ms
+[I 140428 17:26:37 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.15ms
+[I 140428 17:26:37 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.85ms
+[I 140428 17:26:37 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.90ms
+[I 140428 17:26:37 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.09ms
+[I 140428 17:26:37 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 0.95ms
+[I 140428 17:26:37 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 1.17ms
+[I 140428 17:26:37 web:1635] 304 GET / (192.168.11.207) 23.51ms
+[I 140428 17:26:37 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.23ms
+[I 140428 17:26:37 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.90ms
+[I 140428 17:26:37 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.05ms
+[I 140428 17:26:37 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.80ms
+[I 140428 17:26:37 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 0.94ms
+[I 140428 17:26:37 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 1.58ms
+[I 140428 17:27:35 web:1635] 200 GET / (192.168.11.207) 23.77ms
+[I 140428 17:27:35 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.17ms
+[I 140428 17:27:35 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.85ms
+[I 140428 17:27:35 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.06ms
+[I 140428 17:27:35 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.86ms
+[I 140428 17:27:35 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.80ms
+[I 140428 17:27:35 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 0.92ms
+[I 140428 17:27:36 web:1635] 304 GET / (192.168.11.207) 23.10ms
+[I 140428 17:27:36 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.23ms
+[I 140428 17:27:36 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.87ms
+[I 140428 17:27:36 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.43ms
+[I 140428 17:27:36 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.80ms
+[I 140428 17:27:36 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.92ms
+[I 140428 17:27:36 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 0.98ms
+[I 140428 17:27:36 web:1635] 304 GET / (192.168.11.207) 22.99ms
+[I 140428 17:27:36 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.27ms
+[I 140428 17:27:36 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.08ms
+[I 140428 17:27:36 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.85ms
+[I 140428 17:27:36 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.85ms
+[I 140428 17:27:36 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 0.95ms
+[I 140428 17:27:36 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.89ms
+[I 140428 17:30:16 web:1635] 200 GET / (192.168.11.207) 23.76ms
+[I 140428 17:30:16 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.37ms
+[I 140428 17:30:16 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.90ms
+[I 140428 17:30:16 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 1.04ms
+[I 140428 17:30:16 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 1.02ms
+[I 140428 17:30:16 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.13ms
+[I 140428 17:30:16 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.87ms
+[I 140428 17:30:17 web:1635] 304 GET / (192.168.11.207) 23.05ms
+[I 140428 17:30:17 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.22ms
+[I 140428 17:30:17 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.82ms
+[I 140428 17:30:17 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 1.32ms
+[I 140428 17:30:17 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.15ms
+[I 140428 17:30:17 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.88ms
+[I 140428 17:30:17 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 1.00ms
+[I 140428 17:30:17 web:1635] 304 GET / (192.168.11.207) 23.63ms
+[I 140428 17:30:17 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.20ms
+[I 140428 17:30:17 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 1.00ms
+[I 140428 17:30:17 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.16ms
+[I 140428 17:30:17 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.86ms
+[I 140428 17:30:17 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 1.01ms
+[I 140428 17:30:17 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.87ms
+[I 140428 17:30:18 web:1635] 304 GET / (192.168.11.207) 23.36ms
+[I 140428 17:30:18 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.18ms
+[I 140428 17:30:18 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.90ms
+[I 140428 17:30:18 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.05ms
+[I 140428 17:30:18 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.79ms
+[I 140428 17:30:18 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 0.95ms
+[I 140428 17:30:18 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.82ms
+[I 140428 17:30:18 web:1635] 304 GET / (192.168.11.207) 22.87ms
+[I 140428 17:30:18 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.21ms
+[I 140428 17:30:18 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 1.28ms
+[I 140428 17:30:18 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.80ms
+[I 140428 17:30:18 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.78ms
+[I 140428 17:30:18 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.87ms
+[I 140428 17:30:18 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.07ms
+[I 140428 17:30:24 web:1635] 304 GET / (192.168.11.207) 23.49ms
+[I 140428 17:30:24 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.25ms
+[I 140428 17:30:24 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.90ms
+[I 140428 17:30:24 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.07ms
+[I 140428 17:30:24 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.79ms
+[I 140428 17:30:24 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 0.94ms
+[I 140428 17:30:24 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.80ms
+[I 140428 17:30:25 web:1635] 304 GET / (192.168.11.207) 23.33ms
+[I 140428 17:30:25 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.15ms
+[I 140428 17:30:25 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.82ms
+[I 140428 17:30:25 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.04ms
+[I 140428 17:30:25 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.89ms
+[I 140428 17:30:25 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 0.90ms
+[I 140428 17:30:25 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.78ms
+[I 140428 17:30:25 web:1635] 304 GET / (192.168.11.207) 25.04ms
+[I 140428 17:30:25 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.15ms
+[I 140428 17:30:25 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.79ms
+[I 140428 17:30:25 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.03ms
+[I 140428 17:30:25 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.90ms
+[I 140428 17:30:25 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.79ms
+[I 140428 17:30:25 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 1.42ms
+[I 140428 17:30:26 web:1635] 304 GET / (192.168.11.207) 22.90ms
+[I 140428 17:30:26 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.15ms
+[I 140428 17:30:26 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.06ms
+[I 140428 17:30:26 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.80ms
+[I 140428 17:30:26 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.80ms
+[I 140428 17:30:26 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 0.92ms
+[I 140428 17:30:26 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.85ms
+[I 140428 17:30:26 web:1635] 304 GET / (192.168.11.207) 22.95ms
+[I 140428 17:30:26 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.13ms
+[I 140428 17:30:26 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.87ms
+[I 140428 17:30:26 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.87ms
+[I 140428 17:30:26 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.06ms
+[I 140428 17:30:26 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.77ms
+[I 140428 17:30:26 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 0.92ms
+[I 140428 17:30:26 web:1635] 304 GET / (192.168.11.207) 23.26ms
+[I 140428 17:30:26 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.18ms
+[I 140428 17:30:26 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.09ms
+[I 140428 17:30:26 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.80ms
+[I 140428 17:30:26 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.86ms
+[I 140428 17:30:26 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 0.93ms
+[I 140428 17:30:26 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 1.86ms
+[I 140428 17:30:26 web:1635] 304 GET / (192.168.11.207) 22.96ms
+[I 140428 17:30:26 web:1635] 200 GET / (192.168.11.207) 22.97ms
+[I 140428 17:30:27 web:1635] 304 GET / (192.168.11.207) 22.64ms
+[I 140428 17:30:27 web:1635] 200 GET / (192.168.11.207) 22.99ms
+[I 140428 17:30:27 web:1635] 200 GET / (192.168.11.207) 23.34ms
+[I 140428 17:30:27 web:1635] 304 GET / (192.168.11.207) 22.86ms
+[I 140428 17:30:27 web:1635] 200 GET / (192.168.11.207) 22.92ms
+[I 140428 17:30:27 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.17ms
+[I 140428 17:30:27 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.86ms
+[I 140428 17:30:27 web:1635] 304 GET / (192.168.11.207) 23.30ms
+[I 140428 17:30:27 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 0.90ms
+[I 140428 17:30:27 web:1635] 200 GET / (192.168.11.207) 22.80ms
+[I 140428 17:30:27 web:1635] 200 GET / (192.168.11.207) 22.94ms
+[I 140428 17:30:27 web:1635] 200 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.39ms
+[I 140428 17:30:27 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.17ms
+[I 140428 17:30:27 web:1635] 200 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.88ms
+[I 140428 17:30:27 web:1635] 304 GET / (192.168.11.207) 23.34ms
+[I 140428 17:30:27 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.78ms
+[I 140428 17:30:27 web:1635] 200 GET / (192.168.11.207) 22.66ms
+[I 140428 17:30:27 web:1635] 200 GET / (192.168.11.207) 22.99ms
+[I 140428 17:30:27 web:1635] 304 GET / (192.168.11.207) 23.26ms
+[I 140428 17:30:27 web:1635] 200 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.90ms
+[I 140428 17:30:27 web:1635] 304 GET / (192.168.11.207) 22.63ms
+[I 140428 17:30:27 web:1635] 200 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.90ms
+[I 140428 17:30:27 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.98ms
+[I 140428 17:30:27 web:1635] 200 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 1.12ms
+[I 140428 17:30:27 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.83ms
+[I 140428 17:30:27 web:1635] 200 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.34ms
+[I 140428 17:30:27 web:1635] 200 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 1.31ms
+[I 140428 17:34:07 web:1635] 200 GET / (192.168.11.207) 23.45ms
+[I 140428 17:34:07 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.18ms
+[I 140428 17:34:07 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.87ms
+[I 140428 17:34:07 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.13ms
+[I 140428 17:34:07 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 1.01ms
+[I 140428 17:34:07 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 1.00ms
+[I 140428 17:34:07 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.90ms
+[W 140428 17:34:11 web:1635] 404 GET /uploadify.swf?preventswfcaching=1398677635139 (192.168.11.207) 1.63ms
+[I 140428 17:36:15 web:1635] 200 GET / (192.168.11.207) 23.24ms
+[I 140428 17:36:15 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.74ms
+[I 140428 17:36:15 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 0.97ms
+[I 140428 17:36:15 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.18ms
+[I 140428 17:36:15 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.88ms
+[I 140428 17:36:15 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.89ms
+[I 140428 17:36:15 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.91ms
+[W 140428 17:36:18 web:1635] 404 GET /uploadify.swf?preventswfcaching=1398677763398 (192.168.11.207) 1.66ms
+[I 140428 17:37:06 web:1635] 200 GET / (192.168.11.207) 23.37ms
+[I 140428 17:37:06 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.19ms
+[I 140428 17:37:06 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.92ms
+[I 140428 17:37:06 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 2.43ms
+[I 140428 17:37:06 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 0.99ms
+[I 140428 17:37:06 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.05ms
+[I 140428 17:37:06 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.81ms
+[W 140428 17:37:08 web:1635] 404 GET /uploadify.swf?preventswfcaching=1398677814098 (192.168.11.207) 1.65ms
+[I 140428 18:01:55 web:1635] 304 GET / (192.168.11.207) 22.94ms
+[I 140428 18:01:55 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.28ms
+[I 140428 18:01:55 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.90ms
+[I 140428 18:01:55 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.14ms
+[I 140428 18:01:55 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.95ms
+[I 140428 18:01:55 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.89ms
+[I 140428 18:01:55 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 1.03ms
+[I 140428 18:02:03 web:1635] 304 GET / (192.168.11.207) 23.12ms
+[I 140428 18:02:07 web:1635] 304 GET / (192.168.11.207) 23.00ms
+[W 140428 18:03:10 web:1635] 404 GET /uploadify.swf?preventswfcaching=1398679315676 (192.168.11.207) 1.70ms
+[I 140428 18:04:51 web:1635] 200 GET / (192.168.11.207) 22.84ms
+[I 140428 18:04:51 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.34ms
+[I 140428 18:04:51 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.90ms
+[I 140428 18:04:51 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.95ms
+[I 140428 18:04:51 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.14ms
+[I 140428 18:04:51 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.78ms
+[I 140428 18:04:51 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 0.97ms
+[W 140428 18:07:13 web:1635] 404 GET /uploadify.swf?preventswfcaching=1398679478976 (192.168.11.207) 1.72ms
+ERROR 1064 (42000) at line 1 in file: '/root/yeq/soft/SQL_Review0416/tmp/tmpfile20140428162321': You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '胜多负少' at line 1
+[I 140428 18:07:17 web:1635] 200 POST /review (192.168.11.207) 80.54ms
+[W 140428 18:07:17 web:1635] 404 GET /uploadify.swf?preventswfcaching=1398679624689 (192.168.11.207) 2.27ms
+[W 140428 18:07:17 web:1635] 404 GET /uploadify.swf?preventswfcaching=1398679624689 (192.168.11.207) 0.47ms
+[W 140428 18:07:18 web:1635] 404 GET /uploadify.swf?preventswfcaching=1398679624689 (192.168.11.207) 0.70ms
+[I 140428 18:07:22 web:1635] 304 GET / (192.168.11.207) 27.54ms
+[I 140428 18:07:22 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.51ms
+[I 140428 18:07:22 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.86ms
+[I 140428 18:07:22 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.15ms
+[I 140428 18:07:22 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.94ms
+[I 140428 18:07:22 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 1.00ms
+[I 140428 18:07:22 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 1.00ms
+[W 140428 18:07:25 web:1635] 404 GET /uploadify.swf?preventswfcaching=1398679630528 (192.168.11.207) 1.59ms
+[I 140429 10:08:51 web:1635] 304 GET / (192.168.11.207) 23.88ms
+[I 140429 10:08:51 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.38ms
+[I 140429 10:08:51 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.80ms
+[I 140429 10:08:51 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.04ms
+[I 140429 10:08:51 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.86ms
+[I 140429 10:08:51 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.80ms
+[I 140429 10:08:51 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 0.93ms
+[W 140429 10:08:53 web:1635] 404 GET /uploadify.swf?preventswfcaching=1398737317388 (192.168.11.207) 1.55ms
+[I 140429 10:09:00 web:1635] 304 GET / (192.168.11.207) 24.23ms
+[W 140429 10:09:04 web:1635] 404 GET /uploadify.swf?preventswfcaching=1398737326659 (192.168.11.207) 1.61ms
+[I 140429 10:19:57 web:1635] 200 GET / (192.168.11.207) 23.24ms
+[I 140429 10:19:57 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.44ms
+[I 140429 10:19:57 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.87ms
+[I 140429 10:19:57 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.55ms
+[I 140429 10:19:57 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.97ms
+[I 140429 10:19:57 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.93ms
+[I 140429 10:19:57 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 1.07ms
+[I 140429 10:19:58 web:1635] 304 GET / (192.168.11.207) 22.59ms
+[I 140429 10:19:58 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.26ms
+[I 140429 10:19:58 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.19ms
+[I 140429 10:19:58 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.96ms
+[I 140429 10:19:58 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.88ms
+[I 140429 10:19:58 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 1.03ms
+[I 140429 10:19:58 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.86ms
+[I 140429 10:20:23 web:1635] 200 GET / (192.168.11.207) 23.07ms
+[I 140429 10:20:23 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.18ms
+[I 140429 10:20:23 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.86ms
+[I 140429 10:20:23 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.82ms
+[I 140429 10:20:23 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.09ms
+[I 140429 10:20:23 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.91ms
+[I 140429 10:20:23 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 0.99ms
+[I 140429 10:26:17 web:1635] 200 GET / (192.168.11.207) 23.24ms
+[I 140429 10:26:17 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.25ms
+[I 140429 10:26:17 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.93ms
+[I 140429 10:26:17 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.06ms
+[I 140429 10:26:17 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.93ms
+[I 140429 10:26:17 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.81ms
+[I 140429 10:26:17 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 0.94ms
+[I 140429 10:35:43 web:1635] 200 GET / (192.168.11.207) 22.83ms
+[I 140429 10:35:43 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.23ms
+[I 140429 10:35:43 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.87ms
+[I 140429 10:35:43 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.19ms
+[I 140429 10:35:43 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.94ms
+[I 140429 10:35:43 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.84ms
+[I 140429 10:35:43 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 0.96ms
+[I 140429 10:35:47 web:1635] 200 POST /review (192.168.11.207) 7.78ms
+[I 140429 10:35:47 web:1635] 200 POST / (192.168.11.207) 27.90ms
+[I 140429 10:42:37 web:1635] 200 POST / (192.168.11.207) 27.22ms
+[I 140429 10:42:37 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.22ms
+[I 140429 10:42:37 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.84ms
+[I 140429 10:42:38 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.16ms
+[I 140429 10:42:38 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.87ms
+[I 140429 10:42:38 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.82ms
+[I 140429 10:42:38 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 0.93ms
+[I 140429 10:43:21 web:1635] 200 POST / (192.168.11.207) 27.98ms
+[I 140429 10:43:21 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.29ms
+[I 140429 10:43:21 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.93ms
+[I 140429 10:43:21 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.19ms
+[I 140429 10:43:21 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 1.38ms
+[I 140429 10:43:21 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.91ms
+[I 140429 10:43:21 web:1635] 304 GET /static/js/jquery.uploadify.min.js?v=64fe901d1e6d0e4a796c8633725d2460 (192.168.11.207) 1.00ms
+[I 140429 10:45:42 web:1635] 200 POST / (192.168.11.207) 27.50ms
+[I 140429 10:45:42 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.28ms
+[I 140429 10:45:42 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.93ms
+[I 140429 10:45:42 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.24ms
+[I 140429 10:45:42 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.99ms
+[I 140429 10:45:42 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.80ms
+[I 140429 10:45:42 web:1635] 200 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.98ms
+[I 140429 10:47:34 web:1635] 200 POST / (192.168.11.207) 25.53ms
+[I 140429 10:47:34 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.23ms
+[I 140429 10:47:34 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.92ms
+[I 140429 10:47:34 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.05ms
+[I 140429 10:47:34 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.93ms
+[I 140429 10:47:34 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.91ms
+[I 140429 10:47:34 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.90ms
+[I 140429 10:48:14 web:1635] 200 POST / (192.168.11.207) 24.76ms
+[I 140429 10:48:14 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.18ms
+[I 140429 10:48:14 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.80ms
+[I 140429 10:48:14 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.19ms
+[I 140429 10:48:14 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.88ms
+[I 140429 10:48:14 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.79ms
+[I 140429 10:48:14 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.82ms
+[I 140429 10:50:49 web:1635] 200 POST / (192.168.11.207) 25.93ms
+[I 140429 10:50:49 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.38ms
+[I 140429 10:50:49 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.99ms
+[I 140429 10:50:49 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.82ms
+[I 140429 10:50:49 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.86ms
+[I 140429 10:50:49 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.06ms
+[I 140429 10:50:49 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.80ms
+[I 140429 10:50:51 web:1635] 200 POST /review (192.168.11.207) 4.15ms
+[W 140429 10:50:51 web:1225] 400 POST /review (192.168.11.207): Missing argument content
+[W 140429 10:50:51 web:1635] 400 POST /review (192.168.11.207) 2.09ms
+[I 140429 10:51:01 web:1635] 200 POST /review (192.168.11.207) 4.27ms
+[W 140429 10:51:01 web:1225] 400 POST /review (192.168.11.207): Missing argument content
+[W 140429 10:51:01 web:1635] 400 POST /review (192.168.11.207) 8.17ms
+[W 140429 10:51:36 web:1225] 400 POST /review (192.168.11.207): Missing argument content
+[W 140429 10:51:36 web:1635] 400 POST /review (192.168.11.207) 3.69ms
+[I 140429 10:51:39 web:1635] 200 POST / (192.168.11.207) 23.52ms
+[I 140429 10:51:39 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.33ms
+[I 140429 10:51:39 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 1.17ms
+[I 140429 10:51:39 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.23ms
+[I 140429 10:51:39 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.92ms
+[I 140429 10:51:39 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.98ms
+[I 140429 10:51:39 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.83ms
+[I 140429 10:51:42 web:1635] 200 POST /review (192.168.11.207) 3.97ms
+[I 140429 10:51:42 web:1635] 200 POST / (192.168.11.207) 25.52ms
+[I 140429 10:57:10 web:1635] 200 POST / (192.168.11.207) 25.13ms
+[I 140429 10:57:10 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.19ms
+[I 140429 10:57:10 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.79ms
+[I 140429 10:57:10 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.14ms
+[I 140429 10:57:10 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.88ms
+[I 140429 10:57:10 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.85ms
+[I 140429 10:57:10 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 1.40ms
+[W 140429 10:57:26 web:1225] 400 POST /review (192.168.11.207): Missing argument content
+[W 140429 10:57:26 web:1635] 400 POST /review (192.168.11.207) 3.26ms
+[W 140429 11:03:25 web:1225] 400 POST /review (192.168.11.207): Missing argument content
+[W 140429 11:03:25 web:1635] 400 POST /review (192.168.11.207) 4.24ms
+[I 140429 11:07:10 autoreload:186] /root/yeq/soft/SQL_Review0416/controllers/Review.py modified; restarting server
+Traceback (most recent call last):
+  File "application.py", line 11, in <module>
+    import Review
+  File "/root/yeq/soft/SQL_Review0416/controllers/Review.py", line 151
+    up.write(meta['body'])
+     ^
+IndentationError: expected an indented block
+[I 140429 11:08:29 web:1635] 200 GET / (192.168.11.207) 28.18ms
+[I 140429 11:08:30 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 9.97ms
+[I 140429 11:08:30 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 1.15ms
+[I 140429 11:08:30 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.38ms
+[I 140429 11:08:30 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.99ms
+[I 140429 11:08:30 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.89ms
+[I 140429 11:08:30 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.82ms
+[W 140429 11:08:38 web:1225] 400 POST /review (192.168.11.207): Missing argument content
+[W 140429 11:08:38 web:1635] 400 POST /review (192.168.11.207) 3.74ms
+[W 140429 11:08:39 web:1225] 400 POST /review (192.168.11.207): Missing argument content
+[W 140429 11:08:39 web:1635] 400 POST /review (192.168.11.207) 1.56ms
+[W 140429 11:08:39 web:1225] 400 POST /review (192.168.11.207): Missing argument content
+[W 140429 11:08:39 web:1635] 400 POST /review (192.168.11.207) 1.50ms
+[I 140429 11:09:08 web:1635] 200 GET / (192.168.11.207) 24.15ms
+[I 140429 11:09:08 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.56ms
+[I 140429 11:09:08 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.20ms
+[I 140429 11:09:08 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.91ms
+[I 140429 11:09:08 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 1.00ms
+[I 140429 11:09:08 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.82ms
+[I 140429 11:09:08 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.90ms
+[E 140429 11:09:23 web:1228] Uncaught exception POST /test (192.168.11.207)
+    HTTPRequest(protocol='http', host='192.168.22.225:5000', method='POST', uri='/test', version='HTTP/1.1', remote_ip='192.168.11.207', headers={'Origin': 'http://192.168.22.225:5000', 'Content-Length': '8050', 'Accept-Language': 'zh-CN,zh;q=0.8,en;q=0.6', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '192.168.22.225:5000', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.116 Safari/537.36', 'Connection': 'keep-alive', 'Referer': 'http://192.168.22.225:5000/', 'Cache-Control': 'max-age=0', 'Cookie': '__utma=115224007.1620756413.1398155325.1398155325.1398155325.1; __utmc=115224007; __utmz=115224007.1398155325.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)', 'Content-Type': 'multipart/form-data; boundary=----WebKitFormBoundaryJAdIdqiA6tTQiEpV'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1141, in _when_complete
+        callback()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1162, in _execute_method
+        self._when_complete(method(*self.path_args, **self.path_kwargs),
+      File "/root/yeq/soft/SQL_Review0416/controllers/Review.py", line 147, in post
+        for meta in file_metas:
+    NameError: global name 'file_metas' is not defined
+[E 140429 11:09:23 web:1635] 500 POST /test (192.168.11.207) 3.60ms
+[I 140429 11:10:24 autoreload:186] /root/yeq/soft/SQL_Review0416/controllers/Review.py modified; restarting server
+[I 140429 11:10:26 web:1635] 304 GET / (192.168.11.207) 28.01ms
+[I 140429 11:10:26 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 9.45ms
+[I 140429 11:10:26 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.97ms
+[I 140429 11:10:26 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.32ms
+[I 140429 11:10:26 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.95ms
+[I 140429 11:10:26 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.78ms
+[I 140429 11:10:26 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.89ms
+[E 140429 11:10:31 web:1228] Uncaught exception POST /test (192.168.11.207)
+    HTTPRequest(protocol='http', host='192.168.22.225:5000', method='POST', uri='/test', version='HTTP/1.1', remote_ip='192.168.11.207', headers={'Origin': 'http://192.168.22.225:5000', 'Content-Length': '7795', 'Accept-Language': 'zh-CN,zh;q=0.8,en;q=0.6', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '192.168.22.225:5000', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.116 Safari/537.36', 'Connection': 'keep-alive', 'Referer': 'http://192.168.22.225:5000/', 'Cache-Control': 'max-age=0', 'Cookie': '__utma=115224007.1620756413.1398155325.1398155325.1398155325.1; __utmc=115224007; __utmz=115224007.1398155325.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)', 'Content-Type': 'multipart/form-data; boundary=----WebKitFormBoundaryRTDUfmjWVJlNBjlT'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1141, in _when_complete
+        callback()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1162, in _execute_method
+        self._when_complete(method(*self.path_args, **self.path_kwargs),
+      File "/root/yeq/soft/SQL_Review0416/controllers/Review.py", line 147, in post
+        file_metas = self.request.files['file']
+    KeyError: 'file'
+[E 140429 11:10:31 web:1635] 500 POST /test (192.168.11.207) 19.11ms
+[I 140429 11:12:44 web:1635] 200 GET / (192.168.11.207) 24.22ms
+[I 140429 11:12:44 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.21ms
+[I 140429 11:12:44 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.98ms
+[I 140429 11:12:44 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.88ms
+[I 140429 11:12:44 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.99ms
+[I 140429 11:12:44 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.11ms
+[I 140429 11:12:44 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.77ms
+[E 140429 11:12:49 web:1228] Uncaught exception POST /test (192.168.11.207)
+    HTTPRequest(protocol='http', host='192.168.22.225:5000', method='POST', uri='/test', version='HTTP/1.1', remote_ip='192.168.11.207', headers={'Origin': 'http://192.168.22.225:5000', 'Content-Length': '8045', 'Accept-Language': 'zh-CN,zh;q=0.8,en;q=0.6', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '192.168.22.225:5000', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.116 Safari/537.36', 'Connection': 'keep-alive', 'Referer': 'http://192.168.22.225:5000/', 'Cache-Control': 'max-age=0', 'Cookie': '__utma=115224007.1620756413.1398155325.1398155325.1398155325.1; __utmc=115224007; __utmz=115224007.1398155325.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)', 'Content-Type': 'multipart/form-data; boundary=----WebKitFormBoundarydMwOYFTFJhDseXPr'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1141, in _when_complete
+        callback()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1162, in _execute_method
+        self._when_complete(method(*self.path_args, **self.path_kwargs),
+      File "/root/yeq/soft/SQL_Review0416/controllers/Review.py", line 147, in post
+        file_metas = self.request.files['file']
+    KeyError: 'file'
+[E 140429 11:12:49 web:1635] 500 POST /test (192.168.11.207) 3.11ms
+[I 140429 11:13:53 autoreload:186] /root/yeq/soft/SQL_Review0416/controllers/Review.py modified; restarting server
+Traceback (most recent call last):
+  File "application.py", line 11, in <module>
+    import Review
+  File "/root/yeq/soft/SQL_Review0416/controllers/Review.py", line 148
+    print self.get_argument('data'):
+                                   ^
+SyntaxError: invalid syntax
+[I 140429 11:14:16 web:1635] 304 GET / (192.168.11.207) 28.19ms
+[I 140429 11:14:16 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 8.95ms
+[I 140429 11:14:16 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.86ms
+[I 140429 11:14:16 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.29ms
+[I 140429 11:14:16 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.98ms
+[I 140429 11:14:16 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.88ms
+[I 140429 11:14:16 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.90ms
+[W 140429 11:14:21 web:1225] 400 POST /test (192.168.11.207): Missing argument data
+[W 140429 11:14:21 web:1635] 400 POST /test (192.168.11.207) 3.81ms
+[I 140429 11:14:45 autoreload:186] /root/yeq/soft/SQL_Review0416/controllers/Review.py modified; restarting server
+[I 140429 11:15:11 web:1635] 200 GET / (192.168.11.207) 28.41ms
+[I 140429 11:15:11 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 9.23ms
+[I 140429 11:15:11 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.96ms
+[I 140429 11:15:11 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.20ms
+[I 140429 11:15:11 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 1.00ms
+[I 140429 11:15:11 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.80ms
+[I 140429 11:15:11 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.92ms
+[W 140429 11:15:15 web:1225] 400 POST /test (192.168.11.207): Missing argument file
+[W 140429 11:15:15 web:1635] 400 POST /test (192.168.11.207) 4.72ms
+[I 140429 11:15:38 autoreload:186] /root/yeq/soft/SQL_Review0416/controllers/Review.py modified; restarting server
+[I 140429 11:15:39 web:1635] 304 GET / (192.168.11.207) 28.98ms
+[I 140429 11:15:39 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 9.41ms
+[I 140429 11:15:39 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.85ms
+[I 140429 11:15:39 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.29ms
+[I 140429 11:15:39 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.98ms
+[I 140429 11:15:39 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.86ms
+[I 140429 11:15:39 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.90ms
+[W 140429 11:15:43 web:1225] 400 POST /test (192.168.11.207): Missing argument data
+[W 140429 11:15:43 web:1635] 400 POST /test (192.168.11.207) 4.00ms
+[I 140429 11:21:52 autoreload:186] /root/yeq/soft/SQL_Review0416/controllers/Review.py modified; restarting server
+[I 140429 11:21:56 web:1635] 304 GET / (192.168.11.207) 28.55ms
+[I 140429 11:21:56 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 9.36ms
+[I 140429 11:21:56 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.85ms
+[I 140429 11:21:56 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.22ms
+[I 140429 11:21:56 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.99ms
+[I 140429 11:21:56 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.86ms
+[I 140429 11:21:56 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.90ms
+[W 140429 11:22:01 web:1225] 400 POST /test (192.168.11.207): Missing argument img
+[W 140429 11:22:01 web:1635] 400 POST /test (192.168.11.207) 3.96ms
+[I 140429 11:24:44 web:1635] 200 GET / (192.168.11.207) 25.02ms
+[I 140429 11:24:44 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.23ms
+[I 140429 11:24:44 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.92ms
+[I 140429 11:24:44 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.15ms
+[I 140429 11:24:44 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.85ms
+[I 140429 11:24:44 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.86ms
+[I 140429 11:24:44 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.91ms
+[I 140429 11:25:47 web:1635] 200 GET / (192.168.11.207) 23.40ms
+[I 140429 11:25:47 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.28ms
+[I 140429 11:25:47 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.14ms
+[I 140429 11:25:47 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.87ms
+[I 140429 11:25:47 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.83ms
+[I 140429 11:25:47 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.87ms
+[I 140429 11:25:47 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.92ms
+[W 140429 11:25:53 web:1635] 404 POST /Home/Upload (192.168.11.207) 2.78ms
+[I 140429 11:26:28 web:1635] 200 GET / (192.168.11.207) 23.93ms
+[I 140429 11:26:28 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.22ms
+[I 140429 11:26:28 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.18ms
+[I 140429 11:26:28 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.78ms
+[I 140429 11:26:28 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.87ms
+[I 140429 11:26:28 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.95ms
+[I 140429 11:26:28 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.82ms
+[W 140429 11:26:32 web:1225] 400 POST /test (192.168.11.207): Missing argument img
+[W 140429 11:26:32 web:1635] 400 POST /test (192.168.11.207) 2.69ms
+[I 140429 11:27:43 autoreload:186] /root/yeq/soft/SQL_Review0416/controllers/Review.py modified; restarting server
+[I 140429 11:27:45 web:1635] 304 GET / (192.168.11.207) 28.87ms
+[I 140429 11:27:45 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 9.37ms
+[I 140429 11:27:45 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.96ms
+[I 140429 11:27:45 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.32ms
+[I 140429 11:27:45 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.94ms
+[I 140429 11:27:45 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.88ms
+[I 140429 11:27:45 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.94ms
+[I 140429 11:27:49 web:1635] 200 POST /test (192.168.11.207) 1.44ms
+[I 140429 11:30:05 autoreload:186] /root/yeq/soft/SQL_Review0416/controllers/Review.py modified; restarting server
+[E 140429 11:30:24 web:1228] Uncaught exception POST /test (192.168.11.207)
+    HTTPRequest(protocol='http', host='192.168.22.225:5000', method='POST', uri='/test', version='HTTP/1.1', remote_ip='192.168.11.207', headers={'Origin': 'http://192.168.22.225:5000', 'Content-Length': '3326', 'Accept-Language': 'zh-CN,zh;q=0.8,en;q=0.6', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '192.168.22.225:5000', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.116 Safari/537.36', 'Connection': 'keep-alive', 'Referer': 'http://192.168.22.225:5000/', 'Cache-Control': 'max-age=0', 'Cookie': '__utma=115224007.1620756413.1398155325.1398155325.1398155325.1; __utmc=115224007; __utmz=115224007.1398155325.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)', 'Content-Type': 'multipart/form-data; boundary=----WebKitFormBoundary1I5TzX62aooFoGez'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1141, in _when_complete
+        callback()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1162, in _execute_method
+        self._when_complete(method(*self.path_args, **self.path_kwargs),
+      File "/root/yeq/soft/SQL_Review0416/controllers/Review.py", line 149, in post
+        filename = meta['filename']
+    NameError: global name 'meta' is not defined
+[E 140429 11:30:24 web:1635] 500 POST /test (192.168.11.207) 3.58ms
+[I 140429 11:31:14 autoreload:186] /root/yeq/soft/SQL_Review0416/controllers/Review.py modified; restarting server
+[I 140429 11:31:15 web:1635] 304 GET / (192.168.11.207) 29.21ms
+[I 140429 11:31:15 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 9.05ms
+[I 140429 11:31:15 web:1635] 304 GET /static/css/style.css?v=33df0139ce585ded870f20d5df59e9f6 (192.168.11.207) 0.86ms
+[I 140429 11:31:15 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.34ms
+[I 140429 11:31:15 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.99ms
+[I 140429 11:31:15 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.87ms
+[I 140429 11:31:15 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.89ms
+[{'body': "\r\n/*\r\n Navicat MySQL Data Transfer\r\n\r\n Source Server         : 27.44-3338 dj_wika\r\n Source Server Version : 50158\r\n Source Host           : 192.168.27.44\r\n Source Database       : DB_TUSI\r\n\r\n Target Server Version : 50158\r\n File Encoding         : utf-8\r\n\r\n Date: 04/23/2014 16:32:59 PM\r\n*/\r\n\r\nSET NAMES utf8;\r\nSET FOREIGN_KEY_CHECKS = 0;\r\n\r\n-- ----------------------------\r\n--  Table structure for `tb_avatar`\r\n-- ----------------------------\r\nDROP TABLE IF EXISTS `tb_avatar`;\r\nCREATE TABLE `tb_avatar` (\r\n  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '\xd7\xd4\xd4\xf6\xd6\xf7\xbc\xfc',\r\n  `color` int(11) NOT NULL COMMENT '\xcd\xbc\xc6\xac\xd1\xd5\xc9\xab',\r\n  `picture` int(11) NOT NULL COMMENT '\xcd\xbc\xc6\xac',\r\n  `background` int(11) NOT NULL COMMENT '\xcd\xbc\xc6\xac\xb1\xb3\xbe\xb0',\r\n  `pic_url` varchar(255) NOT NULL COMMENT '\xcd\xb7\xcf\xf1\xb5\xd8\xd6\xb7',\r\n  `create_date` datetime NOT NULL COMMENT '\xb4\xb4\xbd\xa8\xca\xb1\xbc\xe4',\r\n  `dw_modify`  timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '\xb8\xfc\xd0\xc2\xca\xb1\xbc\xe4',\r\n  PRIMARY KEY (`id`)\r\n) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COMMENT='\xc6\xc0\xc2\xdb\xcd\xb7\xcf\xf1';\r\n\r\n-- ----------------------------\r\n--  Table structure for `tb_comment_praise`\r\n-- ----------------------------\r\nDROP TABLE IF EXISTS `tb_comment_praise`;\r\nCREATE TABLE `tb_comment_praise` (\r\n  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '\xd7\xd4\xd4\xf6\xd6\xf7\xbc\xfc',\r\n  `uid` int(11) NOT NULL COMMENT '\xb5\xe3\xd4\xde\xb5\xc4\xc8\xcb',\r\n  `post_id` int(11) NOT NULL COMMENT '\xcc\xfb\xd7\xd3id',\r\n  `comment_id` int(11) NOT NULL COMMENT '\xc6\xc0\xc2\xdbid',\r\n  `status` tinyint(4) NOT NULL DEFAULT '1' COMMENT '\xd7\xb4\xcc\xac',\r\n  `create_date` datetime NOT NULL COMMENT '\xb4\xb4\xbd\xa8\xca\xb1\xbc\xe4',\r\n  `update_date` datetime NOT NULL COMMENT '\xb8\xfc\xd0\xc2\xca\xb1\xbc\xe4',\r\n`dw_modify`  timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '\xb8\xfc\xd0\xc2\xca\xb1\xbc\xe4',\r\n  PRIMARY KEY (`id`)\r\n) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COMMENT='\xc6\xc0\xc2\xdb\xb5\xe3\xd4\xde\xb5\xc4\xbc\xc7\xc2\xbc';\r\n\r\n-- ----------------------------\r\n--  Table structure for `tb_comment_praise_log`\r\n-- ----------------------------\r\nDROP TABLE IF EXISTS `tb_comment_praise_log`;\r\nCREATE TABLE `tb_comment_praise_log` (\r\n  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '\xd7\xd4\xd4\xf6\xd6\xf7\xbc\xfc',\r\n  `uid` int(11) NOT NULL COMMENT '\xb5\xe3\xd4\xde\xb5\xc4\xc8\xcb',\r\n  `post_id` int(11) NOT NULL COMMENT '\xcc\xfb\xd7\xd3id',\r\n  `comment_id` int(11) NOT NULL COMMENT '\xc6\xc0\xc2\xdbid',\r\n  `status` tinyint(4) NOT NULL DEFAULT '1' COMMENT '\xd7\xb4\xcc\xac',\r\n  `create_date` datetime NOT NULL COMMENT '\xb4\xb4\xbd\xa8\xca\xb1\xbc\xe4',\r\n  `update_date` datetime NOT NULL COMMENT '\xb8\xfc\xd0\xc2\xca\xb1\xbc\xe4',\r\n`dw_modify`  timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '\xb8\xfc\xd0\xc2\xca\xb1\xbc\xe4',\r\n  PRIMARY KEY (`id`)\r\n) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COMMENT='\xc6\xc0\xc2\xdb\xb5\xe3\xd4\xde\xb5\xc4\xbc\xc7\xc2\xbc';\r\n\r\n-- ----------------------------\r\n--  Table structure for `tb_company`\r\n-- ----------------------------\r\nDROP TABLE IF EXISTS `tb_company`;\r\nCREATE TABLE `tb_company` (\r\n  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '\xd7\xd4\xd4\xf6\xd6\xf7\xbc\xfc',\r\n  `corp_id` int(11) NOT NULL DEFAULT '0' COMMENT '\xb6\xd4\xd3\xa6\xb4\xf3\xbd\xd6\xcd\xf8\xb9\xab\xcb\xbeid',\r\n  `short_name` varchar(255) NOT NULL COMMENT '\xbc\xf2\xb3\xc6',\r\n  `full_name` varchar(255) NOT NULL COMMENT '\xc8\xab\xb3\xc6',\r\n  `logo` varchar(255) NOT NULL COMMENT 'logo',\r\n  `description` varchar(255) DEFAULT NULL COMMENT '\xb9\xab\xcb\xbe\xc3\xe8\xca\xf6',\r\n  `industry_id` int(11) DEFAULT '0' COMMENT '\xd0\xd0\xd2\xb5id',\r\n  `background` varchar(255) NOT NULL DEFAULT '' COMMENT '\xb1\xb3\xbe\xb0',\r\n  `type` tinyint(4) NOT NULL DEFAULT '1' COMMENT '\xb9\xab\xcb\xbe\xc0\xe0\xd0\xcd\xa3\xba1 \xd4\xcb\xd3\xaa\xb5\xbc\xc8\xeb\xa3\xac2 \xd3\xc3\xbb\xa7\xb4\xb4\xbd\xa8',\r\n  `status` tinyint(4) NOT NULL DEFAULT '0' COMMENT '\xb9\xab\xcb\xbe\xd7\xb4\xcc\xac',\r\n  `create_date` datetime NOT NULL COMMENT '\xb4\xb4\xbd\xa8\xca\xb1\xbc\xe4',\r\n  `update_date` datetime NOT NULL COMMENT '\xb8\xfc\xd0\xc2\xca\xb1\xbc\xe4',\r\n`dw_modify`  timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '\xb8\xfc\xd0\xc2\xca\xb1\xbc\xe4',\r\n  PRIMARY KEY (`id`)\r\n) ENGINE=InnoDB AUTO_INCREMENT=51 DEFAULT CHARSET=utf8 COMMENT='\xb9\xab\xcb\xbe\xd0\xc5\xcf\xa2';\r\n\r\n-- ----------------------------\r\n--  Table structure for `tb_company_alias`\r\n-- ----------------------------\r\nDROP TABLE IF EXISTS `tb_company_alias`;\r\nCREATE TABLE `tb_company_alias` (\r\n  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '\xd7\xd4\xd4\xf6\xd6\xf7\xbc\xfc',\r\n  `company_id` int(11) NOT NULL COMMENT '\xd5\xbe\xc4\xda\xb9\xab\xcb\xbeid',\r\n  `alias` varchar(255) NOT NULL COMMENT '\xb9\xab\xcb\xbe\xb1\xf0\xc3\xfb',\r\n  `status` tinyint(4) NOT NULL COMMENT '\xd7\xb4\xcc\xac',\r\n  `create_date` datetime NOT NULL COMMENT '\xb4\xb4\xbd\xa8\xca\xb1\xbc\xe4',\r\n  `update_date` datetime NOT NULL COMMENT '\xb8\xfc\xd0\xc2\xca\xb1\xbc\xe4',\r\n`dw_modify`  timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '\xb8\xfc\xd0\xc2\xca\xb1\xbc\xe4',\r\n  PRIMARY KEY (`id`)\r\n) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='\xb9\xab\xcb\xbe\xb1\xf0\xc3\xfb\xd0\xc5\xcf\xa2';\r\n\r\n-- ----------------------------\r\n--  Table structure for `tb_company_count`\r\n-- ----------------------------\r\nDROP TABLE IF EXISTS `tb_company_count`;\r\nCREATE TABLE `tb_company_count` (\r\n  `id` int(11) NOT NULL COMMENT '\xb9\xab\xcb\xbeid\xb3\xcc\xd0\xf2\xbf\xd8\xd6\xc6\xd7\xd4\xd4\xf6\xd7\xee\xb4\xf3\xd6\xb5',\r\n  `employee_cnt` int(11) NOT NULL DEFAULT '0' COMMENT '\xd5\xe6\xca\xb5\xb9\xcd\xd4\xb1\xca\xfd',\r\n  `employee_cnt_op` int(11) NOT NULL DEFAULT '0' COMMENT '\xd4\xcb\xd3\xaa\xb9\xcd\xd4\xb1\xca\xfd',\r\n  `employee_cnt_total` int(11) NOT NULL DEFAULT '0' COMMENT '\xd7\xdc\xb9\xcd\xd4\xb1\xca\xfd',\r\n  `follow_cnt` int(11) NOT NULL DEFAULT '0' COMMENT '\xd5\xe6\xca\xb5\xb9\xd8\xd7\xa2\xca\xfd',\r\n  `follow_cnt_op` int(11) NOT NULL DEFAULT '0' COMMENT '\xd4\xcb\xd3\xaa\xb9\xd8\xd7\xa2\xca\xfd',\r\n  `follow_cnt_total` int(11) NOT NULL DEFAULT '0' COMMENT '\xd7\xdc\xb9\xd8\xd7\xa2\xca\xfd',\r\n  `unfollow_cnt` int(11) NOT NULL DEFAULT '0' COMMENT '\xc8\xa1\xcf\xfb\xb9\xd8\xd7\xa2\xca\xfd',\r\n  `post_cnt` int(11) NOT NULL DEFAULT '0' COMMENT '\xd5\xe6\xca\xb5\xb9\xe9\xca\xf4\xcc\xfb\xd7\xd3\xca\xfd',\r\n  `post_cnt_op` int(11) NOT NULL DEFAULT '0' COMMENT '\xd4\xcb\xd3\xaa\xb9\xe9\xca\xf4\xcc\xfb\xd7\xd3\xca\xfd',\r\n  `post_cnt_total` int(11) NOT NULL DEFAULT '0' COMMENT '\xd7\xdc\xb9\xe9\xca\xf4\xcc\xfb\xd7\xd3\xca\xfd',\r\n  `post_at_cnt` int(11) NOT NULL DEFAULT '0' COMMENT '\xd5\xe6\xca\xb5\xcc\xe1\xbc\xb0\xb5\xc4\xcc\xfb\xd7\xd3\xca\xfd',\r\n  `post_at_cnt_op` int(11) NOT NULL DEFAULT '0' COMMENT '\xd4\xcb\xd3\xaa\xcc\xe1\xbc\xb0\xb5\xc4\xcc\xfb\xd7\xd3\xca\xfd',\r\n  `post_at_cnt_total` int(11) NOT NULL DEFAULT '0' COMMENT '\xd7\xdc\xcc\xe1\xbc\xb0\xb5\xc4\xcc\xfb\xd7\xd3\xca\xfd',\r\n  `praise_cnt` int(11) NOT NULL DEFAULT '0' COMMENT '\xb9\xab\xcb\xbe\xcf\xc2\xcb\xf9\xd3\xd0\xcc\xfb\xd7\xd3\xd5\xe6\xca\xb5\xb5\xc4\xd4\xde\xca\xfd',\r\n  `praise_cnt_op` int(11) NOT NULL DEFAULT '0' COMMENT '\xb9\xab\xcb\xbe\xcf\xc2\xcb\xf9\xd3\xd0\xcc\xfb\xd7\xd3\xd4\xcb\xd3\xaa\xb5\xc4\xd4\xde\xca\xfd',\r\n  `praise_cnt_total` int(11) NOT NULL DEFAULT '0' COMMENT '\xb9\xab\xcb\xbe\xcf\xc2\xcb\xf9\xd3\xd0\xcc\xfb\xd7\xd3\xb5\xc4\xd4\xde\xca\xfd',\r\n  `comment_cnt` int(11) NOT NULL DEFAULT '0' COMMENT '\xb9\xab\xcb\xbe\xcf\xc2\xcc\xfb\xd7\xd3\xb5\xc4\xd5\xe6\xca\xb5\xc6\xc0\xc2\xdb\xca\xfd',\r\n  `comment_cnt_op` int(11) NOT NULL DEFAULT '0' COMMENT '\xb9\xab\xcb\xbe\xcf\xc2\xcc\xfb\xd7\xd3\xb5\xc4\xd4\xcb\xd3\xaa\xc6\xc0\xc2\xdb\xca\xfd',\r\n  `comment_cnt_total` int(11) NOT NULL DEFAULT '0' COMMENT '\xb9\xab\xcb\xbe\xcf\xc2\xcc\xfb\xd7\xd3\xd7\xdc\xb5\xc4\xc6\xc0\xc2\xdb\xca\xfd',\r\n  `comment_praise_cnt` int(11) NOT NULL DEFAULT '0' COMMENT '\xb9\xab\xcb\xbe\xcf\xc2\xcc\xfb\xd7\xd3\xb5\xc4\xd4\xde\xca\xfd',\r\n  `search_cnt` int(11) NOT NULL DEFAULT '0' COMMENT '\xb9\xab\xcb\xbe\xb1\xbb\xcb\xd1\xcb\xf7\xb5\xc4\xb4\xce\xca\xfd',\r\n  `status` tinyint(4) NOT NULL COMMENT '\xb9\xab\xcb\xbe\xd7\xb4\xcc\xac',\r\n  `last_post_deliver_date` datetime NOT NULL COMMENT '\xd7\xee\xba\xf3\xcc\xfb\xd7\xd3\xcd\xb6\xb5\xdd\xca\xb1\xbc\xe4',\r\n  `create_date` datetime NOT NULL COMMENT '\xb4\xb4\xbd\xa8\xca\xb1\xbc\xe4',\r\n  `update_date` datetime NOT NULL COMMENT '\xb8\xfc\xd0\xc2\xca\xb1\xbc\xe4',\r\n`dw_modify`  timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '\xb8\xfc\xd0\xc2\xca\xb1\xbc\xe4',\r\n  PRIMARY KEY (`id`)\r\n) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='\xb9\xab\xcb\xbe\xcd\xb3\xbc\xc6\xd0\xc5\xcf\xa2';\r\n\r\n-- ----------------------------\r\n--  Table structure for `tb_company_follow`\r\n-- ----------------------------\r\nDROP TABLE IF EXISTS `tb_company_follow`;\r\nCREATE TABLE `tb_company_follow` (\r\n  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '\xd7\xd4\xd4\xf6\xd6\xf7\xbc\xfc',\r\n  `uid` int(11) NOT NULL COMMENT '\xb9\xd8\xd7\xa2\xc8\xcbid',\r\n  `company_id` int(11) NOT NULL COMMENT '\xb9\xd8\xd7\xa2\xb5\xc4\xb9\xab\xcb\xbeid',\r\n  `status` tinyint(4) NOT NULL DEFAULT '1' COMMENT '\xd7\xb4\xcc\xac\xa3\xba1\xa3\xac\xb9\xd8\xd7\xa2 2\xa3\xac\xc8\xa1\xcf\xfb\xb9\xd8\xd7\xa2',\r\n  `create_date` datetime NOT NULL COMMENT '\xb4\xb4\xbd\xa8\xca\xb1\xbc\xe4',\r\n  `update_date` datetime NOT NULL COMMENT '\xb8\xfc\xd0\xc2\xca\xb1\xbc\xe4',\r\n`dw_modify`  timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '\xb8\xfc\xd0\xc2\xca\xb1\xbc\xe4',\r\n  PRIMARY KEY (`id`)\r\n) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8 COMMENT='\xd3\xc3\xbb\xa7\xb9\xd8\xd7\xa2\xb5\xc4\xb9\xab\xcb\xbe';\r\n\r\n-- ----------------------------\r\n--  Table structure for `tb_company_follow_log`\r\n-- ----------------------------\r\nDROP TABLE IF EXISTS `tb_company_follow_log`;\r\nCREATE TABLE `tb_company_follow_log` (\r\n  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '\xd7\xd4\xd4\xf6\xd6\xf7\xbc\xfc',\r\n  `uid` int(11) NOT NULL COMMENT '\xb9\xd8\xd7\xa2\xc8\xcbid',\r\n  `company_id` int(11) NOT NULL COMMENT '\xb9\xd8\xd7\xa2\xb5\xc4\xb9\xab\xcb\xbeid',\r\n  `status` tinyint(4) NOT NULL DEFAULT '1' COMMENT '\xd7\xb4\xcc\xac\xa3\xba1\xa3\xac\xb9\xd8\xd7\xa2 2\xa3\xac\xc8\xa1\xcf\xfb\xb9\xd8\xd7\xa2',\r\n  `create_date` datetime NOT NULL COMMENT '\xb4\xb4\xbd\xa8\xca\xb1\xbc\xe4',\r\n  `update_date` datetime NOT NULL COMMENT '\xb8\xfc\xd0\xc2\xca\xb1\xbc\xe4',\r\n`dw_modify`  timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '\xb8\xfc\xd0\xc2\xca\xb1\xbc\xe4',\r\n  PRIMARY KEY (`id`)\r\n) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='\xd3\xc3\xbb\xa7\xb9\xd8\xd7\xa2\xb5\xc4\xb9\xab\xcb\xbe\xbc\xc7\xc2\xbc';\r\n\r\n-- ----------------------------\r\n--  Table structure for `tb_company_hot`\r\n-- ----------------------------\r\nDROP TABLE IF EXISTS `tb_company_hot`;\r\nCREATE TABLE `tb_company_hot` (\r\n  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '\xd7\xd4\xd4\xf6id',\r\n  `company_id` int(11) NOT NULL COMMENT '\xb9\xab\xcb\xbeid',\r\n  `sequence` tinyint(4) NOT NULL DEFAULT '1' COMMENT '\xb9\xab\xcb\xbe\xd0\xf2\xc1\xd0',\r\n  `status` tinyint(4) NOT NULL DEFAULT '1' COMMENT '\xb9\xab\xcb\xbe\xd7\xb4\xcc\xac\xa3\xba1\xa3\xac\xd3\xd0\xd0\xa7 2\xa3\xac\xce\xde\xd0\xa7',\r\n  `create_date` datetime NOT NULL COMMENT '\xb4\xb4\xbd\xa8\xca\xb1\xbc\xe4',\r\n  `update_date` datetime NOT NULL COMMENT '\xb8\xfc\xd0\xc2\xca\xb1\xbc\xe4',\r\n`dw_modify`  timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '\xb8\xfc\xd0\xc2\xca\xb1\xbc\xe4',\r\n  PRIMARY KEY (`id`)\r\n) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8 COMMENT='\xba\xf3\xcc\xa8\xc5\xe4\xd6\xc3\xa3\xba\xc8\xc8\xc3\xc5\xb9\xab\xcb\xbe';\r\n\r\n-- ----------------------------\r\n--  Table structure for `tb_company_search_log`\r\n-- ----------------------------\r\nDROP TABLE IF EXISTS `tb_company_search_log`;\r\nCREATE TABLE `tb_company_search_log` (\r\n  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '\xd7\xd4\xd4\xf6\xd6\xf7\xbc\xfc',\r\n  `uid` int(11) NOT NULL COMMENT '\xcb\xd1\xcb\xf7\xc8\xcb',\r\n  `company_id` int(11) NOT NULL COMMENT '\xcb\xd1\xcb\xf7\xb5\xc4\xb9\xab\xcb\xbeid',\r\n  `company_name` varchar(255) NOT NULL DEFAULT '' COMMENT '\xcb\xd1\xcb\xf7\xb5\xc4\xb9\xab\xcb\xbe\xc3\xfb\xb3\xc6',\r\n  `create_date` datetime NOT NULL COMMENT '\xb4\xb4\xbd\xa8\xca\xb1\xbc\xe4',\r\n  `update_date` datetime NOT NULL COMMENT '\xb8\xfc\xd0\xc2\xca\xb1\xbc\xe4',\r\n`dw_modify`  timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '\xb8\xfc\xd0\xc2\xca\xb1\xbc\xe4',\r\n  PRIMARY KEY (`id`)\r\n) ENGINE=InnoDB AUTO_INCREMENT=52 DEFAULT CHARSET=utf8 COMMENT='\xb9\xab\xcb\xbe\xcb\xd1\xcb\xf7\xbc\xc7\xc2\xbc';\r\n\r\n-- ----------------------------\r\n--  Table structure for `tb_expression`\r\n-- ----------------------------\r\nDROP TABLE IF EXISTS `tb_expression`;\r\nCREATE TABLE `tb_expression` (\r\n  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '\xd7\xd4\xd4\xf6\xd6\xf7\xbc\xfc',\r\n  `name` varchar(255) NOT NULL COMMENT '\xb1\xed\xc7\xe9\xc3\xfb',\r\n  `display` varchar(255) NOT NULL COMMENT '\xb1\xed\xc7\xe9\xcf\xd4\xca\xbe\xce\xc4\xb1\xbe',\r\n  `status` tinyint(4) NOT NULL COMMENT '\xd7\xb4\xcc\xac',\r\n  `create_date` datetime NOT NULL COMMENT '\xb4\xb4\xbd\xa8\xca\xb1\xbc\xe4',\r\n  `update_date` datetime NOT NULL COMMENT '\xb8\xfc\xd0\xc2\xca\xb1\xbc\xe4',\r\n`dw_modify`  timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '\xb8\xfc\xd0\xc2\xca\xb1\xbc\xe4',\r\n  PRIMARY KEY (`id`)\r\n) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='\xb1\xed\xc7\xe9\xd0\xc5\xcf\xa2';\r\n\r\n-- ----------------------------\r\n--  Table structure for `tb_mood`\r\n-- ----------------------------\r\nDROP TABLE IF EXISTS `tb_mood`;\r\nCREATE TABLE `tb_mood` (\r\n  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '\xd7\xd4\xd4\xf6\xd6\xf7\xbc\xfc',\r\n  `category_id` int(11) NOT NULL COMMENT '\xd0\xc4\xc7\xe9\xc0\xe0\xb1\xf0',\r\n  `category_name` varchar(255) NOT NULL COMMENT '\xd0\xc4\xc7\xe9\xc0\xe0\xb1\xf0\xc3\xfb',\r\n  `level` tinyint(4) NOT NULL COMMENT '\xd0\xc4\xc7\xe9\xb3\xcc\xb6\xc8\xb1\xe0\xba\xc5',\r\n  `pic_url` varchar(255) NOT NULL COMMENT '\xcd\xbc\xc6\xac\xb5\xd8\xd6\xb7',\r\n  `sequence` tinyint(4) NOT NULL COMMENT '\xd0\xf2\xba\xc5',\r\n  `status` tinyint(4) NOT NULL COMMENT 'status',\r\n  `create_date` datetime NOT NULL COMMENT '\xb4\xb4\xbd\xa8\xca\xb1\xbc\xe4',\r\n  `update_date` datetime NOT NULL COMMENT '\xb8\xfc\xd0\xc2\xca\xb1\xbc\xe4',\r\n`dw_modify`  timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '\xb8\xfc\xd0\xc2\xca\xb1\xbc\xe4',\r\n  PRIMARY KEY (`id`)\r\n) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COMMENT='\xd0\xc4\xc7\xe9\xcf\xea\xcf\xb8\xd0\xc5\xcf\xa2';\r\n\r\n-- ----------------------------\r\n--  Table structure for `tb_mood_category`\r\n-- ----------------------------\r\nDROP TABLE IF EXISTS `tb_mood_category`;\r\nCREATE TABLE `tb_mood_category` (\r\n  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '\xd7\xd4\xd4\xf6\xd6\xf7\xbc\xfc',\r\n  `name` varchar(255) NOT NULL COMMENT '\xc0\xe0\xb1\xf0\xc3\xfb',\r\n  `sequence` tinyint(4) NOT NULL COMMENT '\xd0\xf2\xba\xc5',\r\n  `mood_cnt` tinyint(4) NOT NULL COMMENT '\xcb\xf9\xca\xf4\xb1\xed\xc7\xe9\xb8\xf6\xca\xfd',\r\n  `status` tinyint(4) NOT NULL COMMENT '\xd7\xb4\xcc\xac',\r\n  `create_date` datetime NOT NULL COMMENT '\xb4\xb4\xbd\xa8\xca\xb1\xbc\xe4',\r\n  `update_date` datetime NOT NULL COMMENT '\xb8\xfc\xd0\xc2\xca\xb1\xbc\xe4',\r\n`dw_modify`  timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '\xb8\xfc\xd0\xc2\xca\xb1\xbc\xe4',\r\n  PRIMARY KEY (`id`)\r\n) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='\xd0\xc4\xc7\xe9\xb7\xd6\xc0\xe0';\r\n\r\n-- ----------------------------\r\n--  Table structure for `tb_position_industry`\r\n-- ----------------------------\r\nDROP TABLE IF EXISTS `tb_position_industry`;\r\nCREATE TABLE `tb_position_industry` (\r\n  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '\xd7\xd4\xd4\xf6\xd6\xf7\xbc\xfc',\r\n  `parent_id` int(11) NOT NULL,\r\n  `name` varchar(255) NOT NULL COMMENT '\xd0\xd0\xd2\xb5\xd6\xb0\xc0\xe0\xc3\xfb\xb3\xc6',\r\n  `alias` varchar(255) NOT NULL COMMENT '\xb1\xf0\xc3\xfb',\r\n  `status` tinyint(4) NOT NULL COMMENT '\xd7\xb4\xcc\xac',\r\n  `create_date` datetime NOT NULL COMMENT '\xb4\xb4\xbd\xa8\xca\xb1\xbc\xe4',\r\n  `update_date` datetime NOT NULL COMMENT '\xb8\xfc\xd0\xc2\xca\xb1\xbc\xe4',\r\n`dw_modify`  timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '\xb8\xfc\xd0\xc2\xca\xb1\xbc\xe4',\r\n  PRIMARY KEY (`id`)\r\n) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='\xd0\xd0\xd2\xb5\xba\xcd\xd6\xb0\xce\xbb\xd0\xc5\xcf\xa2';\r\n\r\n-- ----------------------------\r\n--  Table structure for `tb_post`\r\n-- ----------------------------\r\nDROP TABLE IF EXISTS `tb_post`;\r\nCREATE TABLE `tb_post` (\r\n  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '\xd7\xd4\xd4\xf6\xd6\xf7\xbc\xfc',\r\n  `uid` int(11) NOT NULL COMMENT '\xd3\xc3\xbb\xa7id',\r\n  `company_id` int(11) NOT NULL COMMENT '\xb7\xa2\xcc\xfb\xca\xb1\xd3\xc3\xbb\xa7\xcb\xf9\xd4\xda\xb9\xab\xcb\xbeid',\r\n  `position_id` int(11) DEFAULT '0' COMMENT '\xb7\xa2\xcc\xfb\xca\xb1\xd3\xc3\xbb\xa7\xb5\xc4\xd6\xb0\xce\xbbid',\r\n  `content` varchar(1000) NOT NULL COMMENT '\xcc\xfb\xd7\xd3\xc4\xda\xc8\xdd',\r\n  `mood_id` int(11) NOT NULL COMMENT '\xd0\xc4\xc7\xe9',\r\n  `pic_url` varchar(255) DEFAULT NULL COMMENT '\xc9\xcf\xb4\xab\xcd\xbc\xc6\xac\xb5\xd8\xd6\xb7',\r\n  `theme` int(11) NOT NULL COMMENT '\xcc\xfb\xd7\xd3\xb1\xb3\xbe\xb0\xa1\xa2\xd1\xf9\xca\xbd',\r\n  `avatar_record` char(255) NOT NULL COMMENT '\xcd\xb7\xcf\xf1\xbc\xc7\xc2\xbc',\r\n  `type` tinyint(4) NOT NULL DEFAULT '1' COMMENT '\xcc\xfb\xd7\xd3\xc0\xe0\xd0\xcd',\r\n  `status` tinyint(4) NOT NULL DEFAULT '0' COMMENT '\xcc\xfb\xd7\xd3\xd7\xb4\xcc\xac',\r\n  `create_date` datetime NOT NULL COMMENT '\xb4\xb4\xbd\xa8\xca\xb1\xbc\xe4',\r\n  `update_date` datetime NOT NULL COMMENT '\xb8\xfc\xd0\xc2\xca\xb1\xbc\xe4',\r\n`dw_modify`  timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '\xb8\xfc\xd0\xc2\xca\xb1\xbc\xe4',\r\n  PRIMARY KEY (`id`)\r\n) ENGINE=InnoDB AUTO_INCREMENT=41 DEFAULT CHARSET=utf8 COMMENT='\xcc\xfb\xd7\xd3\xbb\xf9\xb1\xbe\xd0\xc5\xcf\xa2';\r\n\r\n-- ----------------------------\r\n--  Table structure for `tb_post_comment`\r\n-- ----------------------------\r\nDROP TABLE IF EXISTS `tb_post_comment`;\r\nCREATE TABLE `tb_post_comment` (\r\n  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '\xd7\xd4\xd4\xf6\xd6\xf7\xbc\xfc',\r\n  `post_id` int(11) NOT NULL COMMENT '\xcc\xfb\xd7\xd3id',\r\n  `uid` int(11) NOT NULL COMMENT '\xc6\xc0\xc2\xdb\xc8\xcbid',\r\n  `company_id` int(11) NOT NULL COMMENT '\xb9\xab\xcb\xbeid',\r\n  `position_id` int(11) DEFAULT '0' COMMENT '\xd6\xb0\xce\xbbid',\r\n  `parent_id` int(11) NOT NULL DEFAULT '0' COMMENT '\xb8\xb8\xc6\xc0\xc2\xdbid, \xc3\xbb\xd3\xd0\xca\xb1\xce\xaa0',\r\n  `avatar_id` int(11) NOT NULL COMMENT '\xcd\xb7\xcf\xf1id',\r\n  `content` varchar(255) NOT NULL COMMENT '\xc6\xc0\xc2\xdb\xc4\xda\xc8\xdd',\r\n  `praise_cnt` int(11) NOT NULL DEFAULT '0' COMMENT '\xd5\xe6\xca\xb5\xb5\xe3\xd4\xde\xca\xfd',\r\n  `praise_cnt_op` int(11) NOT NULL DEFAULT '0' COMMENT '\xd4\xcb\xd3\xaa\xb5\xe3\xd4\xde\xca\xfd',\r\n  `praise_cnt_total` int(11) NOT NULL DEFAULT '0' COMMENT '\xd7\xdc\xb5\xe3\xd4\xde\xca\xfd',\r\n  `lo` varchar(255) DEFAULT '' COMMENT '\xbe\xad\xb6\xc8',\r\n  `la` varchar(255) DEFAULT '' COMMENT '\xce\xb3\xb6\xc8',\r\n  `type` tinyint(4) NOT NULL COMMENT '\xc0\xe0\xd0\xcd:\xd5\xe6\xca\xb5\xbb\xf2\xd4\xcb\xd3\xaa',\r\n  `status` tinyint(4) NOT NULL COMMENT '\xd7\xb4\xcc\xac',\r\n  `create_date` datetime NOT NULL COMMENT '\xb4\xb4\xbd\xa8\xca\xb1\xbc\xe4',\r\n  `update_date` datetime NOT NULL COMMENT '\xb8\xfc\xd0\xc2\xca\xb1\xbc\xe4',\r\n`dw_modify`  timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '\xb8\xfc\xd0\xc2\xca\xb1\xbc\xe4',\r\n  PRIMARY KEY (`id`)\r\n) ENGINE=InnoDB AUTO_INCREMENT=35 DEFAULT CHARSET=utf8 COMMENT='\xcc\xfb\xd7\xd3\xc6\xc0\xc2\xdb';\r\n\r\n-- ----------------------------\r\n--  Table structure for `tb_post_company`\r\n-- ----------------------------\r\nDROP TABLE IF EXISTS `tb_post_company`;\r\nCREATE TABLE `tb_post_company` (\r\n  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '\xd7\xd4\xd4\xf6\xd6\xf7\xbc\xfc',\r\n  `post_id` int(11) NOT NULL COMMENT '\xcc\xfb\xd7\xd3id',\r\n  `company_id` int(11) NOT NULL COMMENT '\xb9\xab\xcb\xbeid',\r\n  `start_index` int(11) NOT NULL DEFAULT '-1' COMMENT '\xc6\xf0\xca\xbc\xce\xbb\xd6\xc3',\r\n  `end_index` int(11) NOT NULL DEFAULT '-1' COMMENT '\xbd\xe1\xca\xf8\xce\xbb\xd6\xc3',\r\n  `daily_hot` int(11) NOT NULL DEFAULT '0' COMMENT '\xcc\xec\xc8\xc8\xb6\xc8',\r\n  `weekly_hot` int(11) NOT NULL DEFAULT '0' COMMENT '\xd6\xdc\xc8\xc8\xb6\xc8',\r\n  `monthly_hot` int(11) NOT NULL DEFAULT '0' COMMENT '\xd4\xc2\xc8\xc8\xb6\xc8',\r\n  `total_hot` int(11) NOT NULL DEFAULT '0' COMMENT '\xd7\xdc\xc8\xc8\xb6\xc8',\r\n  `type` tinyint(4) NOT NULL COMMENT '\xcc\xe1\xbc\xb0\xbb\xf2\xcb\xf9\xca\xf4',\r\n  `status` tinyint(4) NOT NULL COMMENT '\xd7\xb4\xcc\xac',\r\n  `create_date` datetime NOT NULL COMMENT '\xb4\xb4\xbd\xa8\xca\xb1\xbc\xe4',\r\n  `update_date` datetime NOT NULL COMMENT '\xb8\xfc\xd0\xc2\xca\xb1\xbc\xe4',\r\n`dw_modify`  timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '\xb8\xfc\xd0\xc2\xca\xb1\xbc\xe4',\r\n  PRIMARY KEY (`id`)\r\n) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8 COMMENT='\xcc\xfb\xd7\xd3\xcc\xe1\xbc\xb0\xb9\xab\xcb\xbe\xbc\xc7\xc2\xbc';\r\n\r\n-- ----------------------------\r\n--  Table structure for `tb_post_count`\r\n-- ----------------------------\r\nDROP TABLE IF EXISTS `tb_post_count`;\r\nCREATE TABLE `tb_post_count` (\r\n  `id` int(11) NOT NULL COMMENT '\xcc\xfb\xd7\xd3id\xb3\xcc\xd0\xf2\xbf\xd8\xd6\xc6\xd7\xd4\xd4\xf6\xd7\xee\xb4\xf3\xd6\xb5',\r\n  `praise_cnt` int(11) NOT NULL DEFAULT '0' COMMENT '\xd5\xe6\xca\xb5\xb5\xe3\xd4\xde\xca\xfd',\r\n  `praise_cnt_op` int(11) NOT NULL DEFAULT '0' COMMENT '\xd4\xcb\xd3\xaa\xb5\xe3\xd4\xde\xca\xfd',\r\n  `praise_cnt_total` int(11) NOT NULL DEFAULT '0' COMMENT '\xd7\xdc\xb5\xe3\xd4\xde\xca\xfd',\r\n  `comment_praise_cnt` int(11) NOT NULL DEFAULT '0' COMMENT '\xd5\xe6\xca\xb5\xc6\xc0\xc2\xdb\xd4\xde\xca\xfd',\r\n  `comment_cnt` int(11) NOT NULL DEFAULT '0' COMMENT '\xd5\xe6\xca\xb5\xc6\xc0\xc2\xdb\xca\xfd',\r\n  `comment_cnt_op` int(11) NOT NULL DEFAULT '0' COMMENT '\xd4\xcb\xd3\xaa\xc6\xc0\xc2\xdb\xca\xfd',\r\n  `comment_cnt_total` int(11) NOT NULL DEFAULT '0' COMMENT '\xd7\xdc\xc6\xc0\xc2\xdb\xca\xfd',\r\n  `reply_cnt` int(11) NOT NULL DEFAULT '0' COMMENT '\xd5\xe6\xca\xb5\xbb\xd8\xb8\xb4\xca\xfd',\r\n  `reply_cnt_op` int(11) NOT NULL DEFAULT '0' COMMENT '\xd4\xcb\xd3\xaa\xbb\xd8\xb8\xb4\xca\xfd',\r\n  `reply_cnt_total` int(11) NOT NULL DEFAULT '0' COMMENT '\xd7\xdc\xbb\xd8\xb8\xb4\xca\xfd',\r\n  `share_cnt` int(11) NOT NULL DEFAULT '0' COMMENT '\xb7\xd6\xcf\xed\xca\xfd',\r\n  `share_back_cnt` int(11) NOT NULL DEFAULT '0' COMMENT '\xb7\xd6\xcf\xed\xb7\xb5\xbb\xd8\xca\xfd',\r\n  `view_cnt` int(11) NOT NULL DEFAULT '0' COMMENT '\xd6\xd5\xb6\xcb\xd2\xb3\xb2\xe9\xbf\xb4\xca\xfd',\r\n  `report_cnt` int(11) NOT NULL DEFAULT '0' COMMENT '\xb1\xbb\xbe\xd9\xb1\xa8\xca\xfd',\r\n  `comment_report_cnt` int(11) NOT NULL DEFAULT '0' COMMENT '\xc6\xc0\xc2\xdb\xb1\xbb\xbe\xd9\xb1\xa8\xca\xfd',\r\n  `operate_score` int(11) DEFAULT NULL COMMENT '\xd4\xcb\xd3\xaa\xc6\xc0\xb7\xd6',\r\n  `daily_hot` int(11) NOT NULL DEFAULT '0' COMMENT '\xcc\xec\xc8\xc8\xb6\xc8',\r\n  `weekly_hot` int(11) NOT NULL DEFAULT '0' COMMENT '\xd6\xdc\xc8\xc8\xb6\xc8',\r\n  `monthly_hot` int(11) NOT NULL DEFAULT '0' COMMENT '\xd4\xc2\xc8\xc8\xb6\xc8',\r\n  `total_hot` int(11) NOT NULL DEFAULT '0' COMMENT '\xd7\xdc\xc8\xc8\xb6\xc8',\r\n  `status` tinyint(4) NOT NULL COMMENT '\xcc\xfb\xd7\xd3\xd7\xb4\xcc\xac',\r\n  `create_date` datetime NOT NULL COMMENT '\xb4\xb4\xbd\xa8\xca\xb1\xbc\xe4',\r\n  `update_date` datetime NOT NULL COMMENT '\xb8\xfc\xd0\xc2\xca\xb1\xbc\xe4',\r\n`dw_modify`  timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '\xb8\xfc\xd0\xc2\xca\xb1\xbc\xe4',\r\n  PRIMARY KEY (`id`)\r\n) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='\xcc\xfb\xd7\xd3\xbc\xc6\xca\xfd\xcd\xb3\xbc\xc6';\r\n\r\n-- ----------------------------\r\n--  Table structure for `tb_post_geo`\r\n-- ----------------------------\r\nDROP TABLE IF EXISTS `tb_post_geo`;\r\nCREATE TABLE `tb_post_geo` (\r\n  `id` int(11) NOT NULL COMMENT '\xcc\xfb\xd7\xd3id\xb3\xcc\xd0\xf2\xbf\xd8\xd6\xc6\xd7\xd4\xd4\xf6\xd7\xee\xb4\xf3\xd6\xb5',\r\n  `uid` int(11) NOT NULL COMMENT '\xd3\xc3\xbb\xa7id',\r\n  `location1` bigint(20) NOT NULL COMMENT '\xce\xbb\xd6\xc31',\r\n  `location2` bigint(20) NOT NULL COMMENT '\xce\xbb\xd6\xc32',\r\n  `location3` bigint(20) NOT NULL COMMENT '\xce\xbb\xd6\xc33',\r\n  `daily_hot` int(11) NOT NULL DEFAULT '0' COMMENT '\xcc\xec\xc8\xc8\xb6\xc8',\r\n  `weekly_hot` int(11) NOT NULL DEFAULT '0' COMMENT '\xd6\xdc\xc8\xc8\xb6\xc8',\r\n  `monthly_hot` int(11) NOT NULL DEFAULT '0' COMMENT '\xd4\xc2\xc8\xc8\xb6\xc8',\r\n  `total_hot` int(11) NOT NULL DEFAULT '0' COMMENT '\xd7\xdc\xc8\xc8\xb6\xc8',\r\n  `status` tinyint(4) NOT NULL COMMENT '\xcc\xfb\xd7\xd3\xd7\xb4\xcc\xac',\r\n  `create_date` datetime NOT NULL COMMENT '\xb4\xb4\xbd\xa8\xca\xb1\xbc\xe4',\r\n  `update_date` datetime NOT NULL COMMENT '\xb8\xfc\xd0\xc2\xca\xb1\xbc\xe4',\r\n`dw_modify`  timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '\xb8\xfc\xd0\xc2\xca\xb1\xbc\xe4',\r\n  PRIMARY KEY (`id`)\r\n) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='\xcc\xfb\xd7\xd3\xb5\xd8\xc0\xed\xd0\xc5\xcf\xa2';\r\n\r\n-- ----------------------------\r\n--  Table structure for `tb_post_praise`\r\n-- ----------------------------\r\nDROP TABLE IF EXISTS `tb_post_praise`;\r\nCREATE TABLE `tb_post_praise` (\r\n  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '\xd7\xd4\xd4\xf6\xd6\xf7\xbc\xfc',\r\n  `uid` int(11) NOT NULL COMMENT '\xb5\xe3\xd4\xde\xb5\xc4\xc8\xcb',\r\n  `post_id` int(11) NOT NULL COMMENT '\xcc\xfb\xd7\xd3id',\r\n  `status` tinyint(4) NOT NULL COMMENT '\xd7\xb4\xcc\xac',\r\n  `create_date` datetime NOT NULL COMMENT '\xb4\xb4\xbd\xa8\xca\xb1\xbc\xe4',\r\n  `update_date` datetime NOT NULL COMMENT '\xb8\xfc\xd0\xc2\xca\xb1\xbc\xe4',\r\n`dw_modify`  timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '\xb8\xfc\xd0\xc2\xca\xb1\xbc\xe4',\r\n  PRIMARY KEY (`id`),\r\n  UNIQUE KEY `uid_postId` (`uid`,`post_id`)\r\n) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8 COMMENT='\xcc\xfb\xd7\xd3\xd4\xde\xb5\xc4\xbc\xc7\xc2\xbc';\r\n\r\n-- ----------------------------\r\n--  Table structure for `tb_post_praise_log`\r\n-- ----------------------------\r\nDROP TABLE IF EXISTS `tb_post_praise_log`;\r\nCREATE TABLE `tb_post_praise_log` (\r\n  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '\xd7\xd4\xd4\xf6\xd6\xf7\xbc\xfc',\r\n  `uid` int(11) NOT NULL COMMENT '\xb5\xe3\xd4\xde\xb5\xc4\xc8\xcb',\r\n  `post_id` int(11) NOT NULL COMMENT '\xcc\xfb\xd7\xd3id',\r\n  `status` tinyint(4) NOT NULL COMMENT '\xd7\xb4\xcc\xac',\r\n  `create_date` datetime NOT NULL COMMENT '\xb4\xb4\xbd\xa8\xca\xb1\xbc\xe4',\r\n  `update_date` datetime NOT NULL COMMENT '\xb8\xfc\xd0\xc2\xca\xb1\xbc\xe4',\r\n`dw_modify`  timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '\xb8\xfc\xd0\xc2\xca\xb1\xbc\xe4',\r\n  PRIMARY KEY (`id`)\r\n) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='\xcc\xfb\xd7\xd3\xd4\xde\xb5\xc4\xbc\xc7\xc2\xbc';\r\n\r\n-- ----------------------------\r\n--  Table structure for `tb_post_topic`\r\n-- ----------------------------\r\nDROP TABLE IF EXISTS `tb_post_topic`;\r\nCREATE TABLE `tb_post_topic` (\r\n  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '\xd7\xd4\xd4\xf6\xd6\xf7\xbc\xfc',\r\n  `post_id` int(11) NOT NULL COMMENT '\xcc\xfb\xd7\xd3id',\r\n  `topic_id` int(11) DEFAULT '0' COMMENT '\xbb\xb0\xcc\xe2id',\r\n  `daily_hot` int(11) NOT NULL DEFAULT '0' COMMENT '\xcc\xec\xc8\xc8\xb6\xc8',\r\n  `weekly_hot` int(11) NOT NULL DEFAULT '0' COMMENT '\xd6\xdc\xc8\xc8\xb6\xc8',\r\n  `monthly_hot` int(11) NOT NULL DEFAULT '0' COMMENT '\xd4\xc2\xc8\xc8\xb6\xc8',\r\n  `total_hot` int(11) NOT NULL DEFAULT '0' COMMENT '\xd7\xdc\xc8\xc8\xb6\xc8',\r\n  `type` tinyint(4) NOT NULL COMMENT '\xd4\xcb\xd3\xaa\xbc\xd3\xc8\xeb\xbb\xf2\xd4\xda\xbb\xb0\xcc\xe2\xd2\xb3\xb7\xa2\xb2\xbc\xd7\xd4\xb6\xaf\xbc\xd3\xc8\xeb',\r\n  `status` tinyint(4) NOT NULL COMMENT '\xd7\xb4\xcc\xac',\r\n  `create_date` datetime NOT NULL COMMENT '\xb4\xb4\xbd\xa8\xca\xb1\xbc\xe4',\r\n  `update_date` datetime NOT NULL,\r\n`dw_modify`  timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '\xb8\xfc\xd0\xc2\xca\xb1\xbc\xe4',\r\n  PRIMARY KEY (`id`)\r\n) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='\xcc\xfb\xd7\xd3\xcb\xf9\xca\xf4\xbb\xb0\xcc\xe2\xbc\xc7\xc2\xbc';\r\n\r\n-- ----------------------------\r\n--  Table structure for `tb_recommend_place`\r\n-- ----------------------------\r\nDROP TABLE IF EXISTS `tb_recommend_place`;\r\nCREATE TABLE `tb_recommend_place` (\r\n  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '\xd7\xd4\xd4\xf6id',\r\n  `place_type` tinyint(4) NOT NULL DEFAULT '0' COMMENT '\xcd\xc6\xbc\xf6\xce\xbb\xc0\xe0\xd0\xcd\xa3\xba1\xa3\xacfeed\xca\xd7\xd2\xb3 2\xa3\xac\xb4\xf2\xcc\xbd\xca\xd7\xd2\xb3',\r\n  `place_index` tinyint(4) NOT NULL DEFAULT '1' COMMENT '\xcd\xc6\xbc\xf6\xce\xbb\xd5\xb9\xca\xbe\xd0\xf2\xc1\xd0',\r\n  `recommend_type` tinyint(4) NOT NULL DEFAULT '0' COMMENT '\xcd\xc6\xbc\xf6\xc4\xda\xc8\xdd\xc0\xe0\xd0\xcd\xa3\xba1\xa3\xac\xbb\xb0\xcc\xe2 2\xa3\xac\xcc\xfb\xd7\xd3 3\xa3\xac\xb9\xab\xcb\xbe 4\xa3\xac\xc6\xe4\xcb\xfb',\r\n  `target_id` int(11) NOT NULL DEFAULT '0' COMMENT '\xcd\xc6\xbc\xf6\xc4\xbf\xb1\xeaid\xa3\xa8\xc8\xe7\xa3\xba\xbb\xb0\xcc\xe2id\xa3\xac\xcc\xfb\xd7\xd3id\xa3\xa9',\r\n  `target_url` varchar(255) NOT NULL DEFAULT '' COMMENT '\xc2\xe4\xb5\xd8\xd2\xb3url',\r\n  `title` varchar(255) NOT NULL DEFAULT '' COMMENT '\xcd\xc6\xbc\xf6\xce\xbb\xb1\xea\xcc\xe2',\r\n  `subject` varchar(255) NOT NULL DEFAULT '' COMMENT '\xcd\xc6\xbc\xf6\xce\xbb\xc3\xe8\xca\xf6',\r\n  `pic_url` varchar(255) NOT NULL DEFAULT '' COMMENT '\xcd\xc6\xbc\xf6\xce\xbb\xcd\xbc\xc6\xac\xb5\xd8\xd6\xb7',\r\n  `start_time` datetime NOT NULL COMMENT '\xd3\xd0\xd0\xa7\xc6\xda\xa3\xba\xbf\xaa\xca\xbc\xca\xb1\xbc\xe4',\r\n  `end_time` datetime NOT NULL COMMENT '\xd3\xd0\xd0\xa7\xc6\xda\xa3\xba\xbd\xe1\xca\xf8\xca\xb1\xbc\xe4',\r\n  `status` tinyint(4) NOT NULL DEFAULT '1' COMMENT '\xd7\xb4\xcc\xac\xa3\xba1\xa3\xac\xd3\xd0\xd0\xa7 2\xa3\xac\xce\xde\xd0\xa7',\r\n  `create_date` datetime NOT NULL COMMENT '\xb4\xb4\xbd\xa8\xca\xb1\xbc\xe4',\r\n  `update_date` datetime NOT NULL COMMENT '\xb8\xfc\xd0\xc2\xca\xb1\xbc\xe4',\r\n`dw_modify`  timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '\xb8\xfc\xd0\xc2\xca\xb1\xbc\xe4',\r\n  PRIMARY KEY (`id`)\r\n) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8 COMMENT='\xba\xf3\xcc\xa8\xc5\xe4\xd6\xc3\xa3\xba\xcd\xc6\xbc\xf6\xce\xbb';\r\n\r\n-- ----------------------------\r\n--  Table structure for `tb_report_log`\r\n-- ----------------------------\r\nDROP TABLE IF EXISTS `tb_report_log`;\r\nCREATE TABLE `tb_report_log` (\r\n  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '\xd7\xd4\xd4\xf6\xd6\xf7\xbc\xfc',\r\n  `uid` int(11) NOT NULL COMMENT '\xbe\xd9\xb1\xa8\xc8\xcb',\r\n  `target_uid` int(11) NOT NULL COMMENT '\xb1\xbb\xbe\xd9\xb1\xa8\xc8\xcb',\r\n  `target_id` int(11) NOT NULL COMMENT '\xb1\xbb\xbe\xd9\xb1\xa8\xb5\xc4\xc4\xda\xc8\xddid',\r\n  `target_content` varchar(500) NOT NULL COMMENT '\xbe\xd9\xb1\xa8\xb5\xc4\xc4\xda\xc8\xdd',\r\n  `type` tinyint(4) NOT NULL COMMENT '\xbe\xd9\xb1\xa8\xb5\xc4\xc0\xe0\xd0\xcd\xa3\xba1\xa3\xba\xcc\xfb\xd7\xd3\xa3\xac2\xa3\xba\xc6\xc0\xc2\xdb\xa3\xac3\xa3\xba\xbb\xd8\xb8\xb4',\r\n  `reason` tinyint(4) NOT NULL COMMENT '\xbe\xd9\xb1\xa8\xd4\xad\xd2\xf2',\r\n  `status` tinyint(4) NOT NULL COMMENT '\xbe\xd9\xb1\xa8\xc4\xda\xc8\xdd\xb5\xc4\xb4\xa6\xc0\xed\xd7\xb4\xcc\xac',\r\n  `create_date` datetime NOT NULL COMMENT '\xb4\xb4\xbd\xa8\xca\xb1\xbc\xe4',\r\n  `update_date` datetime NOT NULL COMMENT '\xb8\xfc\xd0\xc2\xca\xb1\xbc\xe4',\r\n`dw_modify`  timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '\xb8\xfc\xd0\xc2\xca\xb1\xbc\xe4',\r\n  PRIMARY KEY (`id`)\r\n) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8 COMMENT='\xd3\xc3\xbb\xa7\xbe\xd9\xb1\xa8\xbc\xc7\xc2\xbc';\r\n\r\n-- ----------------------------\r\n--  Table structure for `tb_suggestion`\r\n-- ----------------------------\r\nDROP TABLE IF EXISTS `tb_suggestion`;\r\nCREATE TABLE `tb_suggestion` (\r\n  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '\xd7\xd4\xd4\xf6\xd6\xf7\xbc\xfc',\r\n  `uid` int(11) NOT NULL COMMENT '\xd3\xc3\xbb\xa7id',\r\n  `content` varchar(500) NOT NULL COMMENT '\xd2\xe2\xbc\xfb\xc4\xda\xc8\xdd',\r\n  `status` tinyint(4) NOT NULL DEFAULT '0' COMMENT '\xca\xc7\xb7\xf1\xb4\xa6\xc0\xed',\r\n  `create_date` datetime NOT NULL COMMENT '\xb4\xb4\xbd\xa8\xca\xb1\xbc\xe4',\r\n  `update_date` datetime NOT NULL COMMENT '\xb8\xfc\xd0\xc2\xca\xb1\xbc\xe4',\r\n`dw_modify`  timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '\xb8\xfc\xd0\xc2\xca\xb1\xbc\xe4',\r\n  PRIMARY KEY (`id`)\r\n) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COMMENT='\xd2\xe2\xbc\xfb\xb7\xb4\xc0\xa1';\r\n\r\n-- ----------------------------\r\n--  Table structure for `tb_topic`\r\n-- ----------------------------\r\nDROP TABLE IF EXISTS `tb_topic`;\r\nCREATE TABLE `tb_topic` (\r\n  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '\xd7\xd4\xd4\xf6\xd6\xf7\xbc\xfc',\r\n  `name` varchar(255) NOT NULL COMMENT '\xbb\xb0\xcc\xe2\xc3\xfb\xb3\xc6',\r\n  `tag` varchar(255) NOT NULL COMMENT '\xb1\xea\xc7\xa9\xc3\xfb\xb3\xc6',\r\n  `description` varchar(255) NOT NULL DEFAULT '' COMMENT '\xc3\xe8\xca\xf6',\r\n  `background` varchar(255) NOT NULL DEFAULT '' COMMENT '\xb1\xb3\xbe\xb0',\r\n  `post_cnt` int(11) NOT NULL DEFAULT '0' COMMENT '\xcc\xfb\xd7\xd3\xa3\xba\xd5\xe6\xca\xb5\xca\xfd',\r\n  `post_cnt_op` int(11) NOT NULL DEFAULT '0' COMMENT '\xcc\xfb\xd7\xd3\xa3\xba\xd4\xcb\xd3\xaa\xca\xfd',\r\n  `post_cnt_total` int(11) NOT NULL DEFAULT '0' COMMENT '\xcc\xfb\xd7\xd3\xa3\xba\xd7\xdc\xca\xfd',\r\n  `praise_cnt` int(11) NOT NULL DEFAULT '0' COMMENT '\xd4\xde\xa3\xba\xd5\xe6\xca\xb5\xca\xfd',\r\n  `praise_cnt_op` int(11) NOT NULL DEFAULT '0' COMMENT '\xd4\xde\xa3\xba\xd4\xcb\xd3\xaa\xca\xfd',\r\n  `praise_cnt_total` int(11) NOT NULL DEFAULT '0' COMMENT '\xd4\xde\xa3\xba\xd7\xdc\xca\xfd',\r\n  `comment_cnt` int(11) NOT NULL DEFAULT '0' COMMENT '\xc6\xc0\xc2\xdb\xa3\xba\xd5\xe6\xca\xb5\xca\xfd',\r\n  `comment_cnt_op` int(11) NOT NULL DEFAULT '0' COMMENT '\xc6\xc0\xc2\xdb\xa3\xba\xd4\xcb\xd3\xaa\xca\xfd',\r\n  `comment_cnt_total` int(11) NOT NULL DEFAULT '0' COMMENT '\xc6\xc0\xc2\xdb\xa3\xba\xd7\xdc\xca\xfd',\r\n  `comment_praise_cnt` int(11) NOT NULL DEFAULT '0' COMMENT '\xc6\xc0\xc2\xdb\xd4\xde\xa3\xba\xd7\xdc\xca\xfd',\r\n  `status` tinyint(4) NOT NULL DEFAULT '1' COMMENT '\xbb\xb0\xcc\xe2\xd7\xb4\xcc\xac',\r\n  `create_date` datetime NOT NULL COMMENT '\xb4\xb4\xbd\xa8\xca\xb1\xbc\xe4',\r\n  `update_date` datetime NOT NULL COMMENT '\xb8\xfc\xd0\xc2\xca\xb1\xbc\xe4',\r\n`dw_modify`  timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '\xb8\xfc\xd0\xc2\xca\xb1\xbc\xe4',\r\n  PRIMARY KEY (`id`)\r\n) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8 COMMENT='\xbb\xb0\xcc\xe2';\r\n\r\n-- ----------------------------\r\n--  Table structure for `tb_topic_hot`\r\n-- ----------------------------\r\nDROP TABLE IF EXISTS `tb_topic_hot`;\r\nCREATE TABLE `tb_topic_hot` (\r\n  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '\xd7\xd4\xd4\xf6id',\r\n  `topic_id` int(11) NOT NULL COMMENT '\xbb\xb0\xcc\xe2id',\r\n  `title` varchar(100) NOT NULL DEFAULT '' COMMENT '\xb1\xea\xcc\xe2',\r\n  `description` varchar(255) NOT NULL DEFAULT '' COMMENT '\xbb\xb0\xcc\xe2\xc3\xe8\xca\xf6',\r\n  `pic_url` varchar(100) NOT NULL DEFAULT '' COMMENT '\xbb\xb0\xcc\xe2\xcd\xbc\xc6\xac',\r\n  `sequence` tinyint(4) NOT NULL DEFAULT '1' COMMENT '\xbb\xb0\xcc\xe2\xd5\xb9\xca\xbe\xd0\xf2\xc1\xd0',\r\n  `start_date` datetime DEFAULT NULL COMMENT '\xd3\xd0\xd0\xa7\xc6\xda\xa3\xba\xbf\xaa\xca\xbc\xca\xb1\xbc\xe4',\r\n  `end_date` datetime DEFAULT NULL COMMENT '\xd3\xd0\xd0\xa7\xc6\xda\xa3\xba\xbd\xe1\xca\xf8\xca\xb1\xbc\xe4',\r\n  `status` tinyint(4) NOT NULL DEFAULT '1' COMMENT '\xd7\xb4\xcc\xac\xa3\xba1\xa3\xac\xd3\xd0\xd0\xa7 2\xa3\xac\xce\xde\xd0\xa7',\r\n  `create_date` datetime NOT NULL COMMENT '\xb4\xb4\xbd\xa8\xca\xb1\xbc\xe4',\r\n  `update_date` datetime NOT NULL COMMENT '\xb8\xfc\xd0\xc2\xca\xb1\xbc\xe4',\r\n`dw_modify`  timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '\xb8\xfc\xd0\xc2\xca\xb1\xbc\xe4',\r\n  PRIMARY KEY (`id`)\r\n) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8 COMMENT='\xba\xf3\xcc\xa8\xc5\xe4\xd6\xc3\xa3\xba\xc8\xc8\xc3\xc5\xbb\xb0\xcc\xe2';\r\n\r\n-- ----------------------------\r\n--  Table structure for `tb_user`\r\n-- ----------------------------\r\nDROP TABLE IF EXISTS `tb_user`;\r\nCREATE TABLE `tb_user` (\r\n  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '\xd7\xd4\xd4\xf6\xd6\xf7\xbc\xfc',\r\n  `name` varchar(255) NOT NULL COMMENT '\xd3\xc3\xbb\xa7\xd0\xd5\xc3\xfb',\r\n  `gender` tinyint(4) NOT NULL DEFAULT '1' COMMENT '\xd0\xd4\xb1\xf0\xa3\xac1\xa3\xba\xc4\xd0\xa3\xac0\xa3\xba\xc5\xae',\r\n  `company_id` int(11) NOT NULL COMMENT '\xd3\xc3\xbb\xa7\xcb\xf9\xd4\xda\xb9\xab\xcb\xbe',\r\n  `position_id` int(11) DEFAULT NULL COMMENT '\xd6\xb0\xce\xbb\xd0\xc5\xcf\xa2',\r\n  `type` tinyint(4) NOT NULL DEFAULT '1' COMMENT '\xd3\xc3\xbb\xa7\xc0\xe0\xd0\xcd\xa3\xac\xd5\xfd\xb3\xa3(1)\xbb\xf2\xc2\xed\xbc\xd7(2)',\r\n  `device_type` tinyint(4) DEFAULT NULL,\r\n  `status` tinyint(4) NOT NULL DEFAULT '0' COMMENT '\xd3\xc3\xbb\xa7\xd7\xb4\xcc\xac',\r\n  `create_date` datetime NOT NULL COMMENT '\xb4\xb4\xbd\xa8\xca\xb1\xbc\xe4',\r\n  `update_date` datetime NOT NULL COMMENT '\xb8\xfc\xd0\xc2\xca\xb1\xbc\xe4',\r\n`dw_modify`  timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '\xb8\xfc\xd0\xc2\xca\xb1\xbc\xe4',\r\n  PRIMARY KEY (`id`)\r\n) ENGINE=InnoDB AUTO_INCREMENT=3000001 DEFAULT CHARSET=utf8 COMMENT='\xd3\xc3\xbb\xa7\xbb\xf9\xb1\xbe\xd0\xc5\xcf\xa2\xb1\xed';\r\n\r\n-- ----------------------------\r\n--  Table structure for `tb_user_bind`\r\n-- ----------------------------\r\nDROP TABLE IF EXISTS `tb_user_bind`;\r\nCREATE TABLE `tb_user_bind` (\r\n  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '\xd7\xd4\xd4\xf6\xd6\xf7\xbc\xfc',\r\n  `uid` int(11) NOT NULL COMMENT '\xd3\xc3\xbb\xa7id',\r\n  `open_id` varchar(255) NOT NULL COMMENT '\xbf\xaa\xb7\xc5\xc6\xbd\xcc\xa8id',\r\n  `access_token` varchar(255) NOT NULL COMMENT 'accessToken',\r\n  `expire_time` bigint(20) NOT NULL COMMENT '\xca\xa7\xd0\xa7\xca\xb1\xbc\xe4',\r\n  `type` tinyint(4) NOT NULL COMMENT '\xc6\xbd\xcc\xa8\xc0\xe0\xd0\xcd1:QQ 2:Sina',\r\n  `status` tinyint(4) NOT NULL DEFAULT '1' COMMENT '\xca\xc7\xb7\xf1\xb0\xf3\xb6\xa8\xa3\xac0\xa3\xba\xce\xb4\xb0\xf3\xb6\xa8\xa3\xac1\xa3\xba\xb0\xf3\xb6\xa8',\r\n  `create_date` datetime NOT NULL COMMENT '\xb4\xb4\xbd\xa8\xca\xb1\xbc\xe4',\r\n  `update_date` datetime NOT NULL COMMENT '\xb8\xfc\xd0\xc2\xca\xb1\xbc\xe4',\r\n`dw_modify`  timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '\xb8\xfc\xd0\xc2\xca\xb1\xbc\xe4',\r\n  PRIMARY KEY (`id`)\r\n) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='\xd3\xc3\xbb\xa7\xb0\xf3\xb6\xa8\xd0\xc5\xcf\xa2\xb1\xed';\r\n\r\n-- ----------------------------\r\n--  Table structure for `tb_user_count`\r\n-- ----------------------------\r\nDROP TABLE IF EXISTS `tb_user_count`;\r\nCREATE TABLE `tb_user_count` (\r\n  `id` int(11) NOT NULL COMMENT '\xd3\xc3\xbb\xa7id\xb3\xcc\xd0\xf2\xbf\xd8\xd6\xc6\xd7\xd4\xd4\xf6\xd7\xee\xb4\xf3\xd6\xb5',\r\n  `post_cnt` int(11) NOT NULL DEFAULT '0' COMMENT '\xcc\xfb\xd7\xd3\xca\xfd',\r\n  `comment_cnt` int(11) NOT NULL DEFAULT '0' COMMENT '\xc6\xc0\xc2\xdb\xca\xfd',\r\n  `reply_cnt` int(11) NOT NULL DEFAULT '0' COMMENT '\xbb\xd8\xb8\xb4\xca\xfd',\r\n  `praise_cnt` int(11) NOT NULL DEFAULT '0' COMMENT '\xb5\xe3\xd4\xde\xca\xfd',\r\n  `view_cnt` int(11) NOT NULL DEFAULT '0' COMMENT '\xb5\xe3\xbb\xf7\xcc\xfb\xd7\xd3\xca\xfd',\r\n  `report_cnt` int(11) NOT NULL DEFAULT '0' COMMENT '\xbe\xd9\xb1\xa8\xca\xfd',\r\n  `company_follow_cnt` int(11) NOT NULL DEFAULT '0' COMMENT '\xb9\xd8\xd7\xa2\xb9\xab\xcb\xbe\xca\xfd',\r\n  `search_cnt` int(11) NOT NULL DEFAULT '0' COMMENT '\xcb\xd1\xcb\xf7\xb9\xab\xcb\xbe\xca\xfd',\r\n  `fans_cnt` int(11) NOT NULL DEFAULT '0' COMMENT '\xb7\xdb\xcb\xbf\xca\xfd',\r\n  `share_cnt` int(11) NOT NULL DEFAULT '0' COMMENT '\xb7\xd6\xcf\xed\xca\xfd',\r\n  `share_back_cnt` int(11) NOT NULL DEFAULT '0' COMMENT '\xb7\xd6\xcf\xed\xb7\xb5\xbb\xd8\xca\xfd',\r\n  `be_praise_cnt` int(11) NOT NULL DEFAULT '0' COMMENT '\xd5\xe6\xca\xb5\xb1\xbb\xb5\xe3\xd4\xde\xca\xfd',\r\n  `be_praise_cnt_op` int(11) NOT NULL DEFAULT '0' COMMENT '\xd4\xcb\xd3\xaa\xb1\xbb\xb5\xe3\xd4\xde\xca\xfd',\r\n  `be_comment_cnt` int(11) NOT NULL DEFAULT '0' COMMENT '\xd5\xe6\xca\xb5\xb1\xbb\xc6\xc0\xc2\xdb\xca\xfd',\r\n  `be_comment_cnt_op` int(11) NOT NULL DEFAULT '0' COMMENT '\xd4\xcb\xd3\xaa\xb1\xbb\xc6\xc0\xc2\xdb\xca\xfd',\r\n  `be_reply_cnt` int(11) NOT NULL DEFAULT '0' COMMENT '\xb1\xbb\xbb\xd8\xb8\xb4\xca\xfd',\r\n  `be_share_cnt` int(11) NOT NULL DEFAULT '0' COMMENT '\xb1\xbb\xb7\xd6\xcf\xed\xca\xfd',\r\n  `be_view_cnt` int(11) NOT NULL DEFAULT '0' COMMENT '\xcc\xfb\xd7\xd3\xb1\xbb\xb5\xe3\xbb\xf7\xca\xfd',\r\n  `be_report_cnt` int(11) NOT NULL DEFAULT '0' COMMENT '\xb1\xbb\xbe\xd9\xb1\xa8\xca\xfd',\r\n  `operate_weight` int(11) NOT NULL DEFAULT '0' COMMENT '\xd3\xc3\xbb\xa7\xd6\xca\xc1\xbf\xc8\xa8\xd6\xd8',\r\n  `status` tinyint(4) NOT NULL COMMENT '\xd7\xb4\xcc\xac',\r\n  `create_date` datetime NOT NULL COMMENT '\xb4\xb4\xbd\xa8\xca\xb1\xbc\xe4',\r\n  `update_date` datetime NOT NULL COMMENT '\xb8\xfc\xd0\xc2\xca\xb1\xbc\xe4',\r\n`dw_modify`  timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '\xb8\xfc\xd0\xc2\xca\xb1\xbc\xe4',\r\n  PRIMARY KEY (`id`)\r\n) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='\xd3\xc3\xbb\xa7\xbc\xc6\xca\xfd\xcd\xb3\xbc\xc6';\r\n\r\n-- ----------------------------\r\n--  Table structure for `tb_user_device_token`\r\n-- ----------------------------\r\nDROP TABLE IF EXISTS `tb_user_device_token`;\r\nCREATE TABLE `tb_user_device_token` (\r\n  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '\xd7\xd4\xd4\xf6\xd6\xf7\xbc\xfc',\r\n  `uid` int(11) NOT NULL COMMENT '\xd3\xc3\xbb\xa7id',\r\n  `device_token` varchar(255) NOT NULL COMMENT '\xc9\xe8\xb1\xb8token',\r\n  `status` tinyint(4) NOT NULL,\r\n  `create_date` datetime NOT NULL COMMENT '\xb4\xb4\xbd\xa8\xca\xb1\xbc\xe4',\r\n  `update_date` datetime NOT NULL COMMENT '\xd0\xde\xb8\xc4\xca\xb1\xbc\xe4',\r\n`dw_modify`  timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '\xb8\xfc\xd0\xc2\xca\xb1\xbc\xe4',\r\n  PRIMARY KEY (`id`)\r\n) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8 COMMENT='\xc9\xe8\xb1\xb8\xb1\xea\xca\xb6';\r\n\r\n-- ----------------------------\r\n--  Table structure for `tb_user_message`\r\n-- ----------------------------\r\nDROP TABLE IF EXISTS `tb_user_message`;\r\nCREATE TABLE `tb_user_message` (\r\n  `id` int(20) NOT NULL AUTO_INCREMENT COMMENT '\xd7\xd4\xd4\xf6\xb3\xa4ID',\r\n  `uid` int(11) DEFAULT NULL COMMENT '\xd3\xc3\xbb\xa7ID',\r\n  `company_id` int(11) DEFAULT NULL COMMENT '\xb9\xab\xcb\xbeID',\r\n  `post_id` int(11) DEFAULT NULL COMMENT '\xcc\xfb\xd7\xd3ID',\r\n  `message_type` tinyint(4) DEFAULT NULL COMMENT '\xcf\xfb\xcf\xa2\xc0\xe0\xd0\xcd\xa3\xba\\n1:\xc7\xbf\xcf\xfb\xcf\xa2\\n2:\xc8\xf5\xcf\xfb\xcf\xa2',\r\n  `message_cnt` int(11) DEFAULT NULL COMMENT '\xcf\xfb\xcf\xa2\xca\xfd\xc1\xbf',\r\n  `status` tinyint(4) DEFAULT NULL COMMENT '\xd7\xb4\xcc\xac\xa3\xba\\n1\xa3\xba\xce\xb4\xb2\xe9\xbf\xb4\\n2\xa3\xba\xd2\xd1\xb2\xe9\xbf\xb4\\n3\xa3\xba\xd2\xd1\xba\xf6\xc2\xd4',\r\n  `create_date` datetime DEFAULT NULL[I 140429 11:31:19 web:1635] 200 POST /test (192.168.11.207) 7.04ms
+[I 140429 11:31:35 web:1635] 200 POST /review (192.168.11.207) 4.34ms
+[I 140429 11:31:36 web:1635] 200 POST / (192.168.11.207) 24.15ms
+[I 140429 11:31:41 web:1635] 200 POST /review (192.168.11.207) 4.22ms
+[I 140429 11:31:43 web:1635] 200 POST / (192.168.11.207) 24.04ms
