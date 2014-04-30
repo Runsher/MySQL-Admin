@@ -17,6 +17,9 @@ color: black;
 .navbar-header {
 margin-left: 20px;
 }
+img {
+margin-top: 12px;
+}
 .navbar-inverse {
 background-color: #357EBD;
 border-color: #357EBD;
@@ -163,3 +166,48 @@ border-left: 5px solid #16AA86;
 .link-tool {
 margin-top:50px;
 }
+
+.graph {
+margin-top:15px;
+}
+.graph hr {
+margin-top: 10px;
+}
+.graph .glyphicon {
+top: 2px;
+right: 5px;
+}
+.divise {
+margin:0px; 
+} 
+.divise blockquote {
+padding: 6px 10px;
+margin: 0 0 0px;
+border-bottom: 1px solid #000;
+border-left: 0px;
+}
+.graph-siderbar{
+margin:0px;
+padding-left: 0px;
+position: fixed;
+width: 12.5%;
+min-width: 160px;
+height: 100%;
+text-align: center;
+}
+
+.graph-siderbar blockquote {
+padding: 0px 0px;
+margin: 0 0 10px;
+border-right: 1px solid #000;
+border-left: 0px;
+border-bottom:0px;
+height: 100%;
+overflow: auto;
+} 
+
+.graph-siderbar .list-group-item {
+padding: 5px 15px;
+font-size: 16px;
+}
+

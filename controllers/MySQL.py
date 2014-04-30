@@ -16,13 +16,13 @@ sys.setdefaultencoding("utf8")
 #tmpDB = 'DB_TMP'+str_now
 
 config = ConfigParser.ConfigParser()
-config.readfp(open("conf/review.conf"),"rb")
+config.readfp(open("conf/adm.conf"),"rb")
 
-host = config.get("Global","mysql_host")
-port = int(config.get("Global","mysql_port"))
-user = config.get("Global","mysql_user")
-passwd = config.get("Global","mysql_password")
-db = config.get("Global","mysql_database")
+host = config.get("Global","host")
+port = int(config.get("Global","port"))
+user = config.get("Global","user")
+passwd = config.get("Global","password")
+db = config.get("Global","database")
 
 class MysqlLoad():
         def __init__(self):
