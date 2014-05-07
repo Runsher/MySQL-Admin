@@ -13,28 +13,19 @@ import Login
 reload(sys)
 sys.setdefaultencoding("utf8")
 
-ruleList = []
-info = []
-review_status = 0
 
 
 
 class BaseHandler(tornado.web.RequestHandler):
+        def get_current_user(self):
+		return self.get_secure_cookie("user")
+
+class IndexHandler(BaseHandler):
+	@tornado.web.authenticated
         def get(self):
-	#	return self.get_secure_cookie("user")
-		pass
-
-class IndexHandler(tornado.web.RequestHandler):
-	#@tornado.web.authenticated
-        def get(self):
-#		name = tornado.escape.xhtml_escape(self.current_user)
-                self.render('index.html',title='result_test',items=info,status=review_status,ruleList=ruleList)
+		name = tornado.escape.xhtml_escape(self.current_user)
+                self.render('index.html',username=name)
 
 
-	#@tornado.web.authenticated
         def post(self):
-		ruleList = []
-                review_status_info = 0
-                upload_path = os.path.join(os.path.dirname(__file__),'../tmp')
-                info = []
-                self.render('index.html',title='result_test',items=info,status=review_status,ruleList=ruleList)
+		pass

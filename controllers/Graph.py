@@ -33,7 +33,7 @@ class IndexHandler(BaseHandler):
 		for i in instances:
 			instanceList.append(i[0])
 		
-                self.render('draw/main.html',title='result_test',username=name,instanceList=instanceList)
+                self.render('graph/main.html',title='result_test',username=name,instanceList=instanceList)
 
         def post(self):
                 #name = tornado.escape.xhtml_escape(self.current_user)

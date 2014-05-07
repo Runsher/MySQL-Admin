@@ -12,6 +12,7 @@ import Review
 import Rule
 import Login
 import Graph
+import Crontab
 
 from tornado.options import define, options
 define("port", default = 5000, help = "run on the given port", type = int)
@@ -30,13 +31,15 @@ if __name__ == '__main__':
 	tornado.options.parse_command_line()
 	app=tornado.web.Application(
         	handlers=[
-                	#(r'/',Home.IndexHandler),
-                	(r'/',Login.IndexHandler),
-                	(r'/graph',Graph.IndexHandler),
+                	(r'/',Home.IndexHandler),
                 	(r'/login',Login.LoginHandler),
+                	(r'/review',Login.IndexHandler),
                 	(r'/reviewco',Review.ReviewContent),
                 	(r'/reviewfi',Review.ReviewFile),
                 	(r'/rule',Rule.Rule),
+                	(r'/crontab',Crontab.IndexHandler),
+                	(r'/datamaintain',Crontab.DataMaintainHandler),
+                	(r'/graph',Graph.IndexHandler),
                 	#(r'/test',Review.Test),
                 	],**settings
         	)

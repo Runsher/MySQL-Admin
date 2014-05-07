@@ -1,42 +1,42 @@
-	<div>
-			<div class='col-sm-4 col-md-6 review-info botn'>
-    				<input  id='file' type='file' class="btn btn-primary" name='file' title="上传SQL文件" data-filename-placement="inside"/>
-    				<button id="reviewSubmit"    class="btn btn-primary">审核</button></br>
-			</div>
-			<!--div id="test" class='col-sm-8 col-md-6 review-info'>
-			</div-->
-			<div class='col-sm-8 col-md-6 review-info'>
-				{% if status %}
-               	 			{% if status == 1 %}
-                				<div class="alert alert-success"><strong>Info:</strong>
-                        				<a href="#" class="alert-link">审核成功，SQL无错</a>
-                				</div>
-                			{% end %}
-                			{% if status == 2 %}
-                				<div class="alert alert-warning"><strong>Info:</strong>
-                        				<a href="#" class="alert-link">审核完成，有警告信息</a>
-                				</div>
-                			{% end %}
-                			{% if status == 3 %}
-                				<div class="alert alert-danger"><strong>Info:</strong>
-                        				<a href="#" class="alert-link">文件格式不对或语法错误</a>
-                				</div>
-                			{% end %}
-                			{% if status == 4 %}
-                				<div class="alert alert-danger"><strong>Info:</strong>
-                        				<a href="#" class="alert-link">未选中文件或未粘贴SQL</a>
-                				</div>
-					{% end %}
-        			{% end %}
-			</div>
-    			<textarea id='content' name='content' data-provide="markdown" rows="8"></textarea></br>
-    			<!--button type='submit' name='content' class="btn btn-primary">审核</button></br-->
-  	</div> 
-			{% if status == 2%}
-                        <div class="table-responsive review-result">
+        <div>
+                        <div class='col-sm-4 col-md-6 review-info botn'>
+                                <input  id='file' type='file' class="btn btn-default" name='file' title="上传SQL文件" data-filename-placement="inside"/>
+                                <button id="reviewSubmit"    class="btn btn-default">审核</button></br>
+                        </div>
+                        <!--div id="test" class='col-sm-8 col-md-6 review-info'>
+                        </div-->
+                        <div class='col-sm-8 col-md-6 review-info'>
+                                {% if status %}
+                                        {% if status == 1 %}
+                                                <div class="alert alert-success"><strong>Info:</strong>
+                                                        <a href="#" class="alert-link">审核成功，SQL无错</a>
+                                                </div>
+                                        {% end %}
+                                        {% if status == 2 %}
+                                                <div class="alert alert-warning"><strong>Info:</strong>
+                                                        <a href="#" class="alert-link">审核完成，有警告信息</a>
+                                                </div>
+                                        {% end %}
+                                        {% if status == 3 %}
+                                                <div class="alert alert-danger"><strong>Info:</strong>
+                                                        <a href="#" class="alert-link">文件格式不对或语法错误</a>
+                                                </div>
+                                        {% end %}
+                                        {% if status == 4 %}
+                                                <div class="alert alert-danger"><strong>Info:</strong>
+                                                        <a href="#" class="alert-link">未选中文件或未粘贴SQL</a>
+                                                </div>
+                                        {% end %}
+                                {% end %}
+                        </div>
+                        <textarea id='content' name='content' data-provide="markdown" rows="8"></textarea></br>
+                        <!--button type='submit' name='content' class="btn btn-primary">审核</button></br-->
+        </div>
+                        {% if status == 2%}
+                        <div  class="table-responsive review-result">
                                 <table id="simple-table-1" class="table table-striped table-bordered table-hover">
                                         <thead>
-						<h3>审核结果</h3>
+                                                <h3>审核结果</h3>
                                                 <!--a href="#" class="btn btn-info btn-sm active" role="button">Result</a-->
                                                 <tr>
                                                         <th class="center">Table</th>
@@ -59,9 +59,9 @@
                                         {%end%}
                                 </table>
                         </div>
-			{% else %}
-			<div></div>
-			{% end %}
+                        {% else %}
+                        <div></div>
+                        {% end %}
 <script>
 $(document).ready(function(){
 $('input[type=file]').bootstrapFileInput();
@@ -70,10 +70,10 @@ $('input[type=file]').bootstrapFileInput();
 <script>
 $(document).ready(function(){
 $("#reviewSubmit").click(function(){
-    	if ($("#file").val().length > 0) {
-            	ajaxFileUpload();
-       	}
-	else {
+        if ($("#file").val().length > 0) {
+                ajaxFileUpload();
+        }
+        else {
 var contentData=$("#content").val();
 $.post("/reviewco",{content:contentData},function(res){
 $("#review").html(res);
@@ -98,13 +98,14 @@ $("#review").html(res);
                 {
                     url: '/reviewfi', //用于文件上传的服务器端请求地址
                     type: 'post',
+                                     
                     //data: { Id: '123', name: 'lunis' }, //此参数非常严谨，写错一个引号都不行
                     secureuri: false, //一般设置为false
                     fileElementId: 'file', //文件上传空间的id属性  <input type="file" id="file" name="file" />
                     dataType: 'HTML', //返回值类型 一般设置为json
                     success: function (data, status)  //服务器成功响应处理函数
                     {
-			$("#review").html(data);
+                        $("#review").html(data);
                         /*alert(data);
                         $("#img1").attr("src", data.imgPath1);
                         alert("你请求的Id是" + data.Id + "     " + "你请求的名字是:" + data.name);
@@ -125,3 +126,4 @@ $("#review").html(res);
             return false;
         }
     </script>
+                  

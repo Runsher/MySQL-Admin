@@ -38,7 +38,7 @@ class LoadAndClean():
 
 class ReviewContent(tornado.web.RequestHandler):
 	def get(self):
-		self.render('review.html',title='result_test',items=info,status=review_status)
+		self.render('review/review.html',title='result_test',items=info,status=review_status)
 
 
 	def post(self):
@@ -80,7 +80,7 @@ class ReviewContent(tornado.web.RequestHandler):
 			LoadAndClean().dropTmpDB(db)
               	except Exception,ex:
 			print Exception,ex
-		self.render('review.html',title='result_test',items=info,status=review_status)
+		self.render('review/review.html',title='result_test',items=info,status=review_status)
 		
 class ReviewFile(tornado.web.RequestHandler):
 	def post(self):
@@ -128,5 +128,5 @@ class ReviewFile(tornado.web.RequestHandler):
 #              			LoadAndClean().dropTmpDB(db)
 #              		except Exception,ex:
 #             			print Exception,ex
-                self.render('review.html',title='result_test',items=info,status=review_status)
+                self.render('review/review.html',title='result_test',items=info,status=review_status)
 

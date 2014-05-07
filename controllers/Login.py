@@ -41,7 +41,7 @@ class IndexHandler(BaseHandler):
         @tornado.web.authenticated
         def get(self):
                 name = tornado.escape.xhtml_escape(self.current_user)
-		self.render('index.html',title='result_test',items=info,status=review_status,ruleList=ruleList,username=name)
+		self.render('review/main.html',items=info,status=review_status,ruleList=ruleList,username=name)
                
 	def post(self):
                 name = tornado.escape.xhtml_escape(self.current_user)
@@ -49,7 +49,7 @@ class IndexHandler(BaseHandler):
                 review_status_info = 0
                 upload_path = os.path.join(os.path.dirname(__file__),'../tmp')
                 info = []
-                self.render('index.html',title='result_test',items=info,status=review_status,ruleList=ruleList,username=name)
+                self.render('review/main.html',items=info,status=review_status,ruleList=ruleList,username=name)
 
 class LoginHandler(BaseHandler):
         def get(self):

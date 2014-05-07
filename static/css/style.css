@@ -1,3 +1,23 @@
+.wid1 {
+width:100%;
+float: left;
+}
+.wid2 {
+width:50%;
+float: left;
+}
+.wid3 {
+width:33.33333%;
+float: left;
+}
+.wid4 {
+width:25%;
+float: left;
+}
+.wid8 {
+width:12.5%;
+float: left;
+}
 textarea {
 margin-top: 6px;
 min-width: 100%;
@@ -157,7 +177,7 @@ overflow: auto;
 background-color: #1DAA8E;
 }
 .home {
-margin-top:0px;
+margin-top:10px;
 }
 
 .home blockquote {
@@ -169,6 +189,7 @@ margin-top:50px;
 
 .graph {
 margin-top:15px;
+margin-bottom: 6px;
 }
 .graph hr {
 margin-top: 10px;
@@ -179,6 +200,9 @@ right: 5px;
 }
 .divise {
 margin:0px; 
+border-top: 1px solid #000;
+size: 1px;
+width: 100%;
 } 
 .divise blockquote {
 padding: 6px 10px;
@@ -189,9 +213,9 @@ border-left: 0px;
 .graph-siderbar{
 margin:0px;
 padding-left: 0px;
-position: fixed;
+//position: fixed;
 width: 12.5%;
-min-width: 160px;
+width: 126px;
 height: 100%;
 text-align: center;
 }
@@ -203,11 +227,19 @@ border-right: 1px solid #000;
 border-left: 0px;
 border-bottom:0px;
 height: 100%;
+position: fixed;
 overflow: auto;
 } 
 
 .graph-siderbar .list-group-item {
-padding: 5px 15px;
+padding: 5px 22px 5px 10px;
 font-size: 16px;
 }
 
+.graph-main {
+padding-left:0px;
+padding-right:0px;
+}
+.graph-d {
+padding-left:2px;
+}
