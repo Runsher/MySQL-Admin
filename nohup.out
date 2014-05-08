@@ -24960,3 +24960,1620 @@ NameError: name 'config' is not defined
 [I 140508 10:51:19 web:1635] 200 POST /getlist (192.168.11.207) 13.92ms
 [I 140508 10:51:31 web:1635] 200 POST /saveitem (192.168.11.207) 5.17ms
 [I 140508 10:51:34 web:1635] 200 POST /getlist (192.168.11.207) 14.01ms
+[I 140508 10:56:53 autoreload:186] /root/yeq/soft/SQL_Review0416/controllers/Crontab.py modified; restarting server
+[E 140508 10:56:59 web:1228] Uncaught exception POST /destroyitem (192.168.11.207)
+    HTTPRequest(protocol='http', host='192.168.22.225:5000', method='POST', uri='/destroyitem', version='HTTP/1.1', remote_ip='192.168.11.207', headers={'Origin': 'http://192.168.22.225:5000', 'Content-Length': '0', 'Accept-Language': 'zh-CN,zh;q=0.8,en;q=0.6', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '192.168.22.225:5000', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.116 Safari/537.36', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Referer': 'http://192.168.22.225:5000/crontab', 'Cookie': 'user="ZW5xaS55dQ==|1399373926|a27170f83c9011b812f6dcf5c0c03e4f8c027ebb"'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1141, in _when_complete
+        callback()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1162, in _execute_method
+        self._when_complete(method(*self.path_args, **self.path_kwargs),
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 2293, in wrapper
+        return method(self, *args, **kwargs)
+      File "/root/yeq/soft/SQL_Review0416/controllers/Crontab.py", line 74, in post
+        id = selt.get_argument("id")
+    NameError: global name 'selt' is not defined
+[E 140508 10:56:59 web:1635] 500 POST /destroyitem (192.168.11.207) 4.08ms
+[I 140508 10:57:17 autoreload:186] /root/yeq/soft/SQL_Review0416/controllers/Crontab.py modified; restarting server
+[W 140508 10:57:19 web:1225] 400 POST /destroyitem (192.168.11.207): Missing argument id
+[W 140508 10:57:19 web:1635] 400 POST /destroyitem (192.168.11.207) 3.94ms
+[W 140508 11:00:14 web:1225] 400 POST /destroyitem (192.168.11.207): Missing argument id
+[W 140508 11:00:14 web:1635] 400 POST /destroyitem (192.168.11.207) 1.56ms
+[W 140508 11:02:03 web:1225] 400 POST /destroyitem (192.168.11.207): Missing argument id
+[W 140508 11:02:03 web:1635] 400 POST /destroyitem (192.168.11.207) 1.34ms
+[I 140508 11:08:07 autoreload:186] /root/yeq/soft/SQL_Review0416/controllers/Crontab.py modified; restarting server
+[W 140508 11:08:12 web:1225] 400 POST /destroyitem (192.168.11.207): Missing argument host
+[W 140508 11:08:12 web:1635] 400 POST /destroyitem (192.168.11.207) 3.90ms
+[I 140508 11:08:35 autoreload:186] /root/yeq/soft/SQL_Review0416/controllers/Crontab.py modified; restarting server
+[W 140508 11:08:38 web:1225] 400 POST /destroyitem (192.168.11.207): Missing argument index
+[W 140508 11:08:38 web:1635] 400 POST /destroyitem (192.168.11.207) 3.89ms
+[I 140508 11:09:00 autoreload:186] /root/yeq/soft/SQL_Review0416/controllers/Crontab.py modified; restarting server
+[W 140508 11:09:04 web:1225] 400 POST /destroyitem (192.168.11.207): Missing argument idField
+[W 140508 11:09:04 web:1635] 400 POST /destroyitem (192.168.11.207) 3.95ms
+[I 140508 11:15:20 web:1635] 200 GET /crontab (192.168.11.207) 20.05ms
+[I 140508 11:15:21 web:1635] 200 POST /getlist (192.168.11.207) 32.22ms
+[I 140508 11:15:21 web:1635] 200 POST /getlist (192.168.11.207) 14.68ms
+[I 140508 11:15:53 web:1635] 200 GET /crontab (192.168.11.207) 14.92ms
+[I 140508 11:15:53 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 9.50ms
+[I 140508 11:15:53 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.33ms
+[I 140508 11:15:53 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.97ms
+[I 140508 11:15:53 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.89ms
+[I 140508 11:15:53 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.80ms
+[I 140508 11:15:53 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.21ms
+[I 140508 11:15:53 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.79ms
+[I 140508 11:15:53 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.15ms
+[I 140508 11:15:53 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=b5d35d0e8fa4a2894e56e3e9af65db41 (192.168.11.207) 2.00ms
+[I 140508 11:15:53 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.82ms
+[I 140508 11:15:54 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 1.13ms
+[I 140508 11:15:54 web:1635] 200 POST /getlist (192.168.11.207) 13.83ms
+[I 140508 11:15:54 web:1635] 200 POST /getlist (192.168.11.207) 13.65ms
+[I 140508 11:16:21 autoreload:186] /root/yeq/soft/SQL_Review0416/controllers/Crontab.py modified; restarting server
+[I 140508 11:16:33 autoreload:186] /root/yeq/soft/SQL_Review0416/controllers/Crontab.py modified; restarting server
+[I 140508 11:16:34 web:1635] 304 GET /crontab (192.168.11.207) 20.27ms
+[I 140508 11:16:35 web:1635] 200 POST /getlist (192.168.11.207) 31.12ms
+[I 140508 11:16:35 web:1635] 200 POST /getlist (192.168.11.207) 12.97ms
+[W 140508 11:16:38 web:1225] 400 POST /destroyitem (192.168.11.207): Missing argument itemid
+[W 140508 11:16:38 web:1635] 400 POST /destroyitem (192.168.11.207) 3.51ms
+[W 140508 11:18:01 web:1225] 400 POST /destroyitem (192.168.11.207): Missing argument itemid
+[W 140508 11:18:01 web:1635] 400 POST /destroyitem (192.168.11.207) 1.60ms
+[I 140508 11:18:15 autoreload:186] /root/yeq/soft/SQL_Review0416/controllers/Crontab.py modified; restarting server
+[I 140508 11:18:16 web:1635] 200 GET /crontab (192.168.11.207) 20.40ms
+[I 140508 11:18:16 web:1635] 200 POST /getlist (192.168.11.207) 31.83ms
+[W 140508 11:18:19 web:1225] 400 POST /destroyitem (192.168.11.207): Missing argument id
+[W 140508 11:18:19 web:1635] 400 POST /destroyitem (192.168.11.207) 2.81ms
+[I 140508 11:19:00 web:1635] 200 POST /saveitem (192.168.11.207) 53.14ms
+[I 140508 11:19:03 web:1635] 304 GET /crontab (192.168.11.207) 15.62ms
+[I 140508 11:19:04 web:1635] 200 POST /getlist (192.168.11.207) 14.31ms
+[W 140508 11:19:12 web:1225] 400 POST /destroyitem (192.168.11.207): Missing argument id
+[W 140508 11:19:12 web:1635] 400 POST /destroyitem (192.168.11.207) 2.72ms
+[I 140508 11:20:52 web:1635] 200 POST /saveitem (192.168.11.207) 3.00ms
+[W 140508 11:20:54 web:1225] 400 POST /destroyitem (192.168.11.207): Missing argument id
+[W 140508 11:20:54 web:1635] 400 POST /destroyitem (192.168.11.207) 1.35ms
+[I 140508 11:20:56 web:1635] 200 POST /updateitem (192.168.11.207) 2.63ms
+[W 140508 11:21:03 web:1225] 400 POST /destroyitem (192.168.11.207): Missing argument id
+[W 140508 11:21:03 web:1635] 400 POST /destroyitem (192.168.11.207) 1.41ms
+[I 140508 11:21:16 web:1635] 200 GET /crontab (192.168.11.207) 14.80ms
+[I 140508 11:21:16 web:1635] 200 POST /getlist (192.168.11.207) 13.80ms
+[I 140508 11:21:16 web:1635] 200 POST /getlist (192.168.11.207) 14.03ms
+[I 140508 11:22:17 autoreload:186] /root/yeq/soft/SQL_Review0416/controllers/Crontab.py modified; restarting server
+[I 140508 11:22:19 web:1635] 200 GET /crontab (192.168.11.207) 20.63ms
+[I 140508 11:22:20 web:1635] 200 POST /getlist (192.168.11.207) 31.82ms
+[I 140508 11:22:20 web:1635] 200 POST /getlist (192.168.11.207) 14.22ms
+[I 140508 11:23:16 autoreload:186] /root/yeq/soft/SQL_Review0416/controllers/Crontab.py modified; restarting server
+[I 140508 11:23:17 web:1635] 304 GET /crontab (192.168.11.207) 20.91ms
+[I 140508 11:23:17 web:1635] 200 POST /getlist (192.168.11.207) 31.91ms
+[I 140508 11:23:17 web:1635] 200 POST /getlist (192.168.11.207) 13.46ms
+[W 140508 11:23:32 web:1225] 400 POST /saveitem (192.168.11.207): Missing argument id
+[W 140508 11:23:32 web:1635] 400 POST /saveitem (192.168.11.207) 2.69ms
+[I 140508 11:28:23 autoreload:186] /root/yeq/soft/SQL_Review0416/controllers/Crontab.py modified; restarting server
+[E 140508 11:28:27 web:1228] Uncaught exception POST /destroyitem (192.168.11.207)
+    HTTPRequest(protocol='http', host='192.168.22.225:5000', method='POST', uri='/destroyitem', version='HTTP/1.1', remote_ip='192.168.11.207', headers={'Origin': 'http://192.168.22.225:5000', 'Content-Length': '0', 'Accept-Language': 'zh-CN,zh;q=0.8,en;q=0.6', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '192.168.22.225:5000', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.116 Safari/537.36', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Referer': 'http://192.168.22.225:5000/crontab', 'Cookie': 'user="ZW5xaS55dQ==|1399373926|a27170f83c9011b812f6dcf5c0c03e4f8c027ebb"'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1141, in _when_complete
+        callback()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1162, in _execute_method
+        self._when_complete(method(*self.path_args, **self.path_kwargs),
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 2293, in wrapper
+        return method(self, *args, **kwargs)
+      File "/root/yeq/soft/SQL_Review0416/controllers/Crontab.py", line 76, in post
+        self.write(id)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 533, in write
+        chunk = utf8(chunk)
+      File "/usr/lib/python2.6/site-packages/tornado/escape.py", line 192, in utf8
+        "Expected bytes, unicode, or None; got %r" % type(value)
+    AssertionError: Expected bytes, unicode, or None; got <type 'list'>
+[E 140508 11:28:27 web:1635] 500 POST /destroyitem (192.168.11.207) 4.55ms
+[I 140508 11:29:01 autoreload:186] /root/yeq/soft/SQL_Review0416/controllers/Crontab.py modified; restarting server
+[I 140508 11:30:24 autoreload:186] /root/yeq/soft/SQL_Review0416/controllers/Crontab.py modified; restarting server
+[W 140508 11:30:29 web:1225] 400 POST /destroyitem (192.168.11.207): Missing argument cid
+[W 140508 11:30:29 web:1635] 400 POST /destroyitem (192.168.11.207) 3.84ms
+[W 140508 11:31:13 web:1635] 405 GET /destroyitem (192.168.11.207) 0.71ms
+[I 140508 11:31:49 web:1635] 200 GET /crontab (192.168.11.207) 20.17ms
+[I 140508 11:31:50 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 9.15ms
+[I 140508 11:31:50 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.36ms
+[I 140508 11:31:50 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.90ms
+[I 140508 11:31:50 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.80ms
+[I 140508 11:31:50 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.88ms
+[I 140508 11:31:50 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.85ms
+[I 140508 11:31:50 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.16ms
+[I 140508 11:31:50 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.11ms
+[I 140508 11:31:50 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=b5d35d0e8fa4a2894e56e3e9af65db41 (192.168.11.207) 1.91ms
+[I 140508 11:31:50 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.86ms
+[I 140508 11:31:50 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 1.01ms
+[I 140508 11:31:51 web:1635] 200 POST /getlist (192.168.11.207) 30.83ms
+[I 140508 11:31:51 web:1635] 200 POST /getlist (192.168.11.207) 13.36ms
+[W 140508 11:31:57 web:1225] 400 POST /destroyitem (192.168.11.207): Missing argument cid
+[W 140508 11:31:57 web:1635] 400 POST /destroyitem (192.168.11.207) 2.66ms
+[I 140508 11:45:41 autoreload:186] /root/yeq/soft/SQL_Review0416/controllers/Crontab.py modified; restarting server
+[W 140508 11:45:52 web:1225] 400 POST /destroyitem (192.168.11.207): Missing argument id
+[W 140508 11:45:52 web:1635] 400 POST /destroyitem (192.168.11.207) 3.91ms
+[I 140508 11:46:09 autoreload:186] /root/yeq/soft/SQL_Review0416/controllers/Crontab.py modified; restarting server
+[W 140508 11:46:14 web:1225] 400 POST /destroyitem (192.168.11.207): Missing argument opts.idField
+[W 140508 11:46:14 web:1635] 400 POST /destroyitem (192.168.11.207) 4.68ms
+[I 140508 11:48:38 autoreload:186] /root/yeq/soft/SQL_Review0416/controllers/Crontab.py modified; restarting server
+[W 140508 11:48:42 web:1225] 400 POST /destroyitem (192.168.11.207): Missing argument idValue
+[W 140508 11:48:42 web:1635] 400 POST /destroyitem (192.168.11.207) 3.87ms
+[W 140508 11:49:43 web:1225] 400 POST /destroyitem (192.168.11.207): Missing argument idValue
+[W 140508 11:49:43 web:1635] 400 POST /destroyitem (192.168.11.207) 1.53ms
+[I 140508 11:50:23 autoreload:186] /root/yeq/soft/SQL_Review0416/controllers/Crontab.py modified; restarting server
+[W 140508 11:50:26 web:1225] 400 POST /destroyitem (192.168.11.207): Missing argument id
+[W 140508 11:50:26 web:1635] 400 POST /destroyitem (192.168.11.207) 3.78ms
+[I 140508 11:54:30 web:1635] 304 GET /review (192.168.11.207) 21.73ms
+ERROR 1072 (42000) at line 1 in file: '/root/yeq/soft/SQL_Review0416/tmp/tmpfile20140508115432': Key column 'create_date' doesn't exist in table
+[I 140508 11:54:32 web:1635] 200 POST /reviewco (192.168.11.207) 102.33ms
+ERROR 1072 (42000) at line 1 in file: '/root/yeq/soft/SQL_Review0416/tmp/tmpfile20140508115549': Key column 'create_date' doesn't exist in table
+[I 140508 11:55:49 web:1635] 200 POST /reviewco (192.168.11.207) 70.41ms
+[I 140508 11:58:54 web:1635] 200 GET /crontab (192.168.11.207) 16.83ms
+[I 140508 11:58:54 web:1635] 200 POST /getlist (192.168.11.207) 20.27ms
+[I 140508 11:58:54 web:1635] 200 POST /getlist (192.168.11.207) 12.96ms
+[I 140508 12:03:40 web:1635] 200 GET /crontab (192.168.11.207) 14.84ms
+[I 140508 12:03:41 web:1635] 200 POST /getlist (192.168.11.207) 13.94ms
+[I 140508 12:03:43 web:1635] 304 GET /crontab (192.168.11.207) 14.55ms
+[I 140508 12:03:44 web:1635] 200 POST /getlist (192.168.11.207) 14.32ms
+[W 140508 12:03:48 web:1225] 400 POST /destroyitem (192.168.11.207): Missing argument id
+[W 140508 12:03:48 web:1635] 400 POST /destroyitem (192.168.11.207) 2.67ms
+[I 140508 12:04:00 web:1635] 304 GET /crontab (192.168.11.207) 15.41ms
+[I 140508 12:04:00 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 10.05ms
+[I 140508 12:04:00 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.53ms
+[I 140508 12:04:00 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.14ms
+[I 140508 12:04:00 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.96ms
+[I 140508 12:04:00 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.91ms
+[I 140508 12:04:00 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.91ms
+[I 140508 12:04:00 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.87ms
+[I 140508 12:04:00 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.09ms
+[I 140508 12:04:00 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=b5d35d0e8fa4a2894e56e3e9af65db41 (192.168.11.207) 2.01ms
+[I 140508 12:04:00 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.95ms
+[I 140508 12:04:01 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 1.10ms
+[I 140508 12:04:01 web:1635] 200 POST /getlist (192.168.11.207) 14.50ms
+[W 140508 12:04:06 web:1225] 400 POST /destroyitem (192.168.11.207): Missing argument id
+[W 140508 12:04:06 web:1635] 400 POST /destroyitem (192.168.11.207) 2.51ms
+[W 140508 12:04:15 web:1225] 400 POST /destroyitem (192.168.11.207): Missing argument id
+[W 140508 12:04:15 web:1635] 400 POST /destroyitem (192.168.11.207) 1.38ms
+[I 140508 12:07:47 web:1635] 304 GET /crontab (192.168.11.207) 14.96ms
+[I 140508 12:07:47 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.19ms
+[I 140508 12:07:47 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.08ms
+[I 140508 12:07:47 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.97ms
+[I 140508 12:07:47 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.88ms
+[I 140508 12:07:47 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.94ms
+[I 140508 12:07:47 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.14ms
+[I 140508 12:07:47 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.88ms
+[I 140508 12:07:47 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.10ms
+[I 140508 12:07:47 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=b5d35d0e8fa4a2894e56e3e9af65db41 (192.168.11.207) 1.87ms
+[I 140508 12:07:47 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.86ms
+[I 140508 12:07:48 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 1.04ms
+[I 140508 12:07:48 web:1635] 200 POST /getlist (192.168.11.207) 13.47ms
+[W 140508 12:07:54 web:1225] 400 POST /destroyitem (192.168.11.207): Missing argument id
+[W 140508 12:07:54 web:1635] 400 POST /destroyitem (192.168.11.207) 2.50ms
+[I 140508 14:08:29 web:1635] 304 GET /crontab (192.168.11.207) 14.78ms
+[I 140508 14:08:30 web:1635] 200 POST /getlist (192.168.11.207) 14.13ms
+[W 140508 14:08:37 web:1225] 400 POST /destroyitem (192.168.11.207): Missing argument id
+[W 140508 14:08:37 web:1635] 400 POST /destroyitem (192.168.11.207) 2.40ms
+[W 140508 14:12:41 web:1225] 400 POST /destroyitem (192.168.11.207): Missing argument id
+[W 140508 14:12:41 web:1635] 400 POST /destroyitem (192.168.11.207) 1.36ms
+[I 140508 14:12:54 web:1635] 200 GET /crontab (192.168.11.207) 14.84ms
+[I 140508 14:12:54 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.93ms
+[I 140508 14:12:54 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.28ms
+[I 140508 14:12:54 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 1.03ms
+[I 140508 14:12:54 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.81ms
+[I 140508 14:12:54 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.82ms
+[I 140508 14:12:54 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.85ms
+[I 140508 14:12:54 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.13ms
+[I 140508 14:12:54 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.12ms
+[I 140508 14:12:54 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=b5d35d0e8fa4a2894e56e3e9af65db41 (192.168.11.207) 1.89ms
+[I 140508 14:12:54 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.82ms
+[I 140508 14:12:55 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 1.06ms
+[I 140508 14:13:00 web:1635] 304 GET /crontab (192.168.11.207) 14.51ms
+[I 140508 14:13:00 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.20ms
+[I 140508 14:13:00 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.05ms
+[I 140508 14:13:00 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.91ms
+[I 140508 14:13:00 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.89ms
+[I 140508 14:13:00 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.80ms
+[I 140508 14:13:00 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.14ms
+[I 140508 14:13:00 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.80ms
+[I 140508 14:13:00 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.11ms
+[I 140508 14:13:00 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=b5d35d0e8fa4a2894e56e3e9af65db41 (192.168.11.207) 1.90ms
+[I 140508 14:13:00 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.89ms
+[I 140508 14:13:00 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 1.02ms
+[I 140508 14:14:11 web:1635] 200 GET /crontab (192.168.11.207) 14.49ms
+[I 140508 14:14:11 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.16ms
+[I 140508 14:14:11 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.04ms
+[I 140508 14:14:11 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.92ms
+[I 140508 14:14:11 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.97ms
+[I 140508 14:14:11 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.16ms
+[I 140508 14:14:11 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.92ms
+[I 140508 14:14:11 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.76ms
+[I 140508 14:14:11 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=b5d35d0e8fa4a2894e56e3e9af65db41 (192.168.11.207) 1.85ms
+[I 140508 14:14:11 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.08ms
+[I 140508 14:14:11 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.80ms
+[I 140508 14:14:12 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 1.00ms
+[I 140508 14:14:14 web:1635] 304 GET /crontab (192.168.11.207) 14.39ms
+[I 140508 14:14:14 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.22ms
+[I 140508 14:14:14 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.96ms
+[I 140508 14:14:14 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.14ms
+[I 140508 14:14:14 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.89ms
+[I 140508 14:14:14 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.87ms
+[I 140508 14:14:14 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.10ms
+[I 140508 14:14:14 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.79ms
+[I 140508 14:14:14 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.09ms
+[I 140508 14:14:14 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=b5d35d0e8fa4a2894e56e3e9af65db41 (192.168.11.207) 1.84ms
+[I 140508 14:14:14 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.83ms
+[I 140508 14:14:14 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 0.93ms
+[I 140508 14:14:15 web:1635] 304 GET /crontab (192.168.11.207) 14.73ms
+[I 140508 14:14:15 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.18ms
+[I 140508 14:14:15 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.06ms
+[I 140508 14:14:15 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.89ms
+[I 140508 14:14:15 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.77ms
+[I 140508 14:14:15 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.81ms
+[I 140508 14:14:15 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.10ms
+[I 140508 14:14:15 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.81ms
+[I 140508 14:14:15 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.06ms
+[I 140508 14:14:15 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=b5d35d0e8fa4a2894e56e3e9af65db41 (192.168.11.207) 1.84ms
+[I 140508 14:14:15 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.86ms
+[I 140508 14:14:16 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 0.84ms
+[I 140508 14:14:42 web:1635] 200 GET /crontab (192.168.11.207) 14.68ms
+[I 140508 14:14:42 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.28ms
+[I 140508 14:14:42 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.10ms
+[I 140508 14:14:42 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 1.30ms
+[I 140508 14:14:42 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 1.13ms
+[I 140508 14:14:42 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.79ms
+[I 140508 14:14:42 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.23ms
+[I 140508 14:14:42 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.82ms
+[I 140508 14:14:42 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.12ms
+[I 140508 14:14:42 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.83ms
+[I 140508 14:14:42 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=b5d35d0e8fa4a2894e56e3e9af65db41 (192.168.11.207) 1.95ms
+[I 140508 14:14:42 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 0.90ms
+[I 140508 14:14:46 web:1635] 304 GET /crontab (192.168.11.207) 14.43ms
+[I 140508 14:14:46 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.53ms
+[I 140508 14:14:46 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.15ms
+[I 140508 14:14:46 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.91ms
+[I 140508 14:14:46 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.83ms
+[I 140508 14:14:46 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.80ms
+[I 140508 14:14:46 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.15ms
+[I 140508 14:14:46 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 1.14ms
+[I 140508 14:14:46 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=b5d35d0e8fa4a2894e56e3e9af65db41 (192.168.11.207) 2.02ms
+[I 140508 14:14:46 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.94ms
+[I 140508 14:14:46 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.60ms
+[I 140508 14:14:46 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 1.06ms
+[I 140508 14:14:51 web:1635] 304 GET /crontab (192.168.11.207) 14.51ms
+[I 140508 14:14:52 web:1635] 304 GET /crontab (192.168.11.207) 14.97ms
+[I 140508 14:14:53 web:1635] 304 GET /crontab (192.168.11.207) 14.22ms
+[I 140508 14:14:53 web:1635] 304 GET /crontab (192.168.11.207) 14.28ms
+[I 140508 14:14:54 web:1635] 304 GET /crontab (192.168.11.207) 14.44ms
+[I 140508 14:14:55 web:1635] 304 GET /crontab (192.168.11.207) 14.70ms
+[I 140508 14:15:32 web:1635] 304 GET / (192.168.11.207) 14.76ms
+[I 140508 14:15:33 web:1635] 304 GET /crontab (192.168.11.207) 14.27ms
+[I 140508 14:17:13 autoreload:186] /root/yeq/soft/SQL_Review0416/controllers/Crontab.py modified; restarting server
+[I 140508 14:17:14 web:1635] 304 GET /crontab (192.168.11.207) 20.24ms
+[I 140508 14:17:14 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 9.18ms
+[I 140508 14:17:14 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.86ms
+[I 140508 14:17:14 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.18ms
+[I 140508 14:17:14 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.86ms
+[I 140508 14:17:14 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.90ms
+[I 140508 14:17:14 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.99ms
+[I 140508 14:17:14 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.21ms
+[I 140508 14:17:14 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.10ms
+[I 140508 14:17:14 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=b5d35d0e8fa4a2894e56e3e9af65db41 (192.168.11.207) 1.99ms
+[I 140508 14:17:14 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.91ms
+[I 140508 14:17:14 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 0.89ms
+[I 140508 14:17:16 web:1635] 304 GET /crontab (192.168.11.207) 15.17ms
+[I 140508 14:17:57 web:1635] 200 GET /crontab (192.168.11.207) 14.85ms
+[I 140508 14:17:57 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.23ms
+[I 140508 14:17:57 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.91ms
+[I 140508 14:17:57 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.08ms
+[I 140508 14:17:57 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.82ms
+[I 140508 14:17:57 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.83ms
+[I 140508 14:17:57 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.15ms
+[I 140508 14:17:57 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.78ms
+[I 140508 14:17:57 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=b5d35d0e8fa4a2894e56e3e9af65db41 (192.168.11.207) 1.88ms
+[I 140508 14:17:57 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.09ms
+[I 140508 14:17:57 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.83ms
+[I 140508 14:17:58 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 0.97ms
+[I 140508 14:17:59 web:1635] 200 POST /getlist (192.168.11.207) 33.64ms
+[I 140508 14:17:59 web:1635] 200 POST /getlist (192.168.11.207) 13.78ms
+[I 140508 14:20:39 web:1635] 200 POST /destroyitem (192.168.11.207) 0.75ms
+[I 140508 14:21:09 autoreload:186] /root/yeq/soft/SQL_Review0416/controllers/Crontab.py modified; restarting server
+[W 140508 14:21:30 web:1225] 400 POST /destroyitem (192.168.11.207): Missing argument id
+[W 140508 14:21:30 web:1635] 400 POST /destroyitem (192.168.11.207) 3.90ms
+[I 140508 14:24:23 web:1635] 200 GET /crontab (192.168.11.207) 20.56ms
+[I 140508 14:24:23 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 9.27ms
+[I 140508 14:24:23 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.26ms
+[I 140508 14:24:23 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.80ms
+[I 140508 14:24:23 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.93ms
+[I 140508 14:24:23 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.81ms
+[I 140508 14:24:23 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.96ms
+[I 140508 14:24:23 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.15ms
+[I 140508 14:24:23 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.14ms
+[I 140508 14:24:23 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=b5d35d0e8fa4a2894e56e3e9af65db41 (192.168.11.207) 1.93ms
+[I 140508 14:24:23 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.82ms
+[I 140508 14:24:24 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 1.14ms
+[I 140508 14:24:24 web:1635] 200 POST /getlist (192.168.11.207) 31.20ms
+[W 140508 14:24:33 web:1225] 400 POST /destroyitem (192.168.11.207): Missing argument id
+[W 140508 14:24:33 web:1635] 400 POST /destroyitem (192.168.11.207) 2.68ms
+[I 140508 14:24:47 web:1635] 304 GET /crontab (192.168.11.207) 15.68ms
+[I 140508 14:24:47 web:1635] 200 POST /getlist (192.168.11.207) 14.13ms
+[I 140508 14:24:50 web:1635] 304 GET /graph (192.168.11.207) 10.90ms
+[I 140508 14:24:52 web:1635] 304 GET / (192.168.11.207) 14.59ms
+[I 140508 14:24:53 web:1635] 304 GET /crontab (192.168.11.207) 16.69ms
+[I 140508 14:24:53 web:1635] 200 POST /getlist (192.168.11.207) 14.08ms
+[I 140508 14:26:42 web:1635] 200 GET /crontab (192.168.11.207) 15.88ms
+[I 140508 14:26:42 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.27ms
+[I 140508 14:26:42 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.25ms
+[I 140508 14:26:42 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.89ms
+[I 140508 14:26:42 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 1.01ms
+[I 140508 14:26:42 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.17ms
+[I 140508 14:26:42 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.95ms
+[I 140508 14:26:42 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=b5d35d0e8fa4a2894e56e3e9af65db41 (192.168.11.207) 1.91ms
+[I 140508 14:26:42 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.23ms
+[I 140508 14:26:42 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.89ms
+[I 140508 14:26:42 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.80ms
+[I 140508 14:26:43 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 0.92ms
+[I 140508 14:26:43 web:1635] 200 POST /getlist (192.168.11.207) 14.65ms
+[W 140508 14:26:46 web:1225] 400 POST /destroyitem (192.168.11.207): Missing argument id
+[W 140508 14:26:46 web:1635] 400 POST /destroyitem (192.168.11.207) 2.54ms
+[W 140508 14:27:33 web:1225] 400 POST /destroyitem (192.168.11.207): Missing argument id
+[W 140508 14:27:33 web:1635] 400 POST /destroyitem (192.168.11.207) 1.35ms
+[W 140508 14:27:38 web:1225] 400 POST /destroyitem (192.168.11.207): Missing argument id
+[W 140508 14:27:38 web:1635] 400 POST /destroyitem (192.168.11.207) 1.33ms
+[I 140508 14:27:47 web:1635] 200 GET /crontab (192.168.11.207) 15.07ms
+[I 140508 14:27:47 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.26ms
+[I 140508 14:27:47 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.92ms
+[I 140508 14:27:47 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.13ms
+[I 140508 14:27:47 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.78ms
+[I 140508 14:27:47 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.84ms
+[I 140508 14:27:47 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.10ms
+[I 140508 14:27:47 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.81ms
+[I 140508 14:27:47 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.12ms
+[I 140508 14:27:47 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=b5d35d0e8fa4a2894e56e3e9af65db41 (192.168.11.207) 1.95ms
+[I 140508 14:27:47 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.92ms
+[I 140508 14:27:48 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 1.08ms
+[I 140508 14:27:48 web:1635] 200 POST /getlist (192.168.11.207) 14.76ms
+[W 140508 14:27:52 web:1635] 404 POST /function%20(index,row)%7Balert(row.msg);%7D (192.168.11.207) 1.72ms
+[I 140508 14:29:42 web:1635] 200 GET /crontab (192.168.11.207) 14.93ms
+[I 140508 14:29:42 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.29ms
+[I 140508 14:29:42 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.19ms
+[I 140508 14:29:42 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.94ms
+[I 140508 14:29:42 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.99ms
+[I 140508 14:29:42 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.21ms
+[I 140508 14:29:42 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.92ms
+[I 140508 14:29:42 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.88ms
+[I 140508 14:29:42 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.17ms
+[I 140508 14:29:42 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=b5d35d0e8fa4a2894e56e3e9af65db41 (192.168.11.207) 1.92ms
+[I 140508 14:29:42 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.84ms
+[I 140508 14:29:43 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 1.01ms
+[I 140508 14:29:43 web:1635] 200 POST /getlist (192.168.11.207) 14.51ms
+[W 140508 14:29:46 web:1225] 400 POST /destroyitem (192.168.11.207): Missing argument id
+[W 140508 14:29:46 web:1635] 400 POST /destroyitem (192.168.11.207) 2.45ms
+[I 140508 14:30:00 web:1635] 304 GET /crontab (192.168.11.207) 14.74ms
+[I 140508 14:30:00 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.28ms
+[I 140508 14:30:00 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.86ms
+[I 140508 14:30:00 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.82ms
+[I 140508 14:30:00 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.83ms
+[I 140508 14:30:00 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.09ms
+[I 140508 14:30:00 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.13ms
+[I 140508 14:30:00 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.78ms
+[I 140508 14:30:00 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.10ms
+[I 140508 14:30:00 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=b5d35d0e8fa4a2894e56e3e9af65db41 (192.168.11.207) 1.85ms
+[I 140508 14:30:00 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.83ms
+[I 140508 14:30:01 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 1.13ms
+[I 140508 14:30:01 web:1635] 200 POST /getlist (192.168.11.207) 14.64ms
+[W 140508 14:30:04 web:1225] 400 POST /destroyitem (192.168.11.207): Missing argument id
+[W 140508 14:30:04 web:1635] 400 POST /destroyitem (192.168.11.207) 2.42ms
+[I 140508 14:30:27 autoreload:186] /root/yeq/soft/SQL_Review0416/controllers/Crontab.py modified; restarting server
+[E 140508 14:30:30 web:1228] Uncaught exception POST /destroyitem (192.168.11.207)
+    HTTPRequest(protocol='http', host='192.168.22.225:5000', method='POST', uri='/destroyitem', version='HTTP/1.1', remote_ip='192.168.11.207', headers={'Origin': 'http://192.168.22.225:5000', 'Content-Length': '0', 'Accept-Language': 'zh-CN,zh;q=0.8,en;q=0.6', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '192.168.22.225:5000', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.116 Safari/537.36', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Referer': 'http://192.168.22.225:5000/crontab', 'Cookie': 'user="ZW5xaS55dQ==|1399373926|a27170f83c9011b812f6dcf5c0c03e4f8c027ebb"'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1141, in _when_complete
+        callback()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1162, in _execute_method
+        self._when_complete(method(*self.path_args, **self.path_kwargs),
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 2293, in wrapper
+        return method(self, *args, **kwargs)
+      File "/root/yeq/soft/SQL_Review0416/controllers/Crontab.py", line 76, in post
+        self.write(ids)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 533, in write
+        chunk = utf8(chunk)
+      File "/usr/lib/python2.6/site-packages/tornado/escape.py", line 192, in utf8
+        "Expected bytes, unicode, or None; got %r" % type(value)
+    AssertionError: Expected bytes, unicode, or None; got <type 'list'>
+[E 140508 14:30:30 web:1635] 500 POST /destroyitem (192.168.11.207) 6.75ms
+[I 140508 14:30:49 autoreload:186] /root/yeq/soft/SQL_Review0416/controllers/Crontab.py modified; restarting server
+[I 140508 14:30:51 web:1635] 304 GET /crontab (192.168.11.207) 20.22ms
+[I 140508 14:30:51 web:1635] 200 POST /getlist (192.168.11.207) 31.43ms
+[E 140508 14:30:54 web:1228] Uncaught exception POST /destroyitem (192.168.11.207)
+    HTTPRequest(protocol='http', host='192.168.22.225:5000', method='POST', uri='/destroyitem', version='HTTP/1.1', remote_ip='192.168.11.207', headers={'Origin': 'http://192.168.22.225:5000', 'Content-Length': '0', 'Accept-Language': 'zh-CN,zh;q=0.8,en;q=0.6', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '192.168.22.225:5000', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.116 Safari/537.36', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Referer': 'http://192.168.22.225:5000/crontab', 'Cookie': 'user="ZW5xaS55dQ==|1399373926|a27170f83c9011b812f6dcf5c0c03e4f8c027ebb"'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1141, in _when_complete
+        callback()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1162, in _execute_method
+        self._when_complete(method(*self.path_args, **self.path_kwargs),
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 2293, in wrapper
+        return method(self, *args, **kwargs)
+      File "/root/yeq/soft/SQL_Review0416/controllers/Crontab.py", line 75, in post
+        ids = self.get_arguments()
+    TypeError: get_arguments() takes at least 2 arguments (1 given)
+[E 140508 14:30:54 web:1635] 500 POST /destroyitem (192.168.11.207) 3.62ms
+[I 140508 14:31:15 autoreload:186] /root/yeq/soft/SQL_Review0416/controllers/Crontab.py modified; restarting server
+[I 140508 14:31:17 web:1635] 304 GET /crontab (192.168.11.207) 20.36ms
+[I 140508 14:31:17 web:1635] 200 POST /getlist (192.168.11.207) 31.38ms
+[E 140508 14:31:19 web:1228] Uncaught exception POST /destroyitem (192.168.11.207)
+    HTTPRequest(protocol='http', host='192.168.22.225:5000', method='POST', uri='/destroyitem', version='HTTP/1.1', remote_ip='192.168.11.207', headers={'Origin': 'http://192.168.22.225:5000', 'Content-Length': '0', 'Accept-Language': 'zh-CN,zh;q=0.8,en;q=0.6', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '192.168.22.225:5000', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.116 Safari/537.36', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Referer': 'http://192.168.22.225:5000/crontab', 'Cookie': 'user="ZW5xaS55dQ==|1399373926|a27170f83c9011b812f6dcf5c0c03e4f8c027ebb"'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1141, in _when_complete
+        callback()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1162, in _execute_method
+        self._when_complete(method(*self.path_args, **self.path_kwargs),
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 2293, in wrapper
+        return method(self, *args, **kwargs)
+      File "/root/yeq/soft/SQL_Review0416/controllers/Crontab.py", line 76, in post
+        self.write(ids)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 533, in write
+        chunk = utf8(chunk)
+      File "/usr/lib/python2.6/site-packages/tornado/escape.py", line 192, in utf8
+        "Expected bytes, unicode, or None; got %r" % type(value)
+    AssertionError: Expected bytes, unicode, or None; got <type 'list'>
+[E 140508 14:31:19 web:1635] 500 POST /destroyitem (192.168.11.207) 3.06ms
+[I 140508 14:42:17 web:1635] 200 GET /crontab (192.168.11.207) 15.79ms
+[I 140508 14:42:17 web:1635] 200 POST /getlist (192.168.11.207) 14.71ms
+[E 140508 14:42:25 web:1228] Uncaught exception POST /destroyitem (192.168.11.207)
+    HTTPRequest(protocol='http', host='192.168.22.225:5000', method='POST', uri='/destroyitem', version='HTTP/1.1', remote_ip='192.168.11.207', headers={'Origin': 'http://192.168.22.225:5000', 'Content-Length': '0', 'Accept-Language': 'zh-CN,zh;q=0.8,en;q=0.6', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '192.168.22.225:5000', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.116 Safari/537.36', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Referer': 'http://192.168.22.225:5000/crontab', 'Cookie': 'user="ZW5xaS55dQ==|1399373926|a27170f83c9011b812f6dcf5c0c03e4f8c027ebb"'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1141, in _when_complete
+        callback()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1162, in _execute_method
+        self._when_complete(method(*self.path_args, **self.path_kwargs),
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 2293, in wrapper
+        return method(self, *args, **kwargs)
+      File "/root/yeq/soft/SQL_Review0416/controllers/Crontab.py", line 76, in post
+        self.write(ids)
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 533, in write
+        chunk = utf8(chunk)
+      File "/usr/lib/python2.6/site-packages/tornado/escape.py", line 192, in utf8
+        "Expected bytes, unicode, or None; got %r" % type(value)
+    AssertionError: Expected bytes, unicode, or None; got <type 'list'>
+[E 140508 14:42:25 web:1635] 500 POST /destroyitem (192.168.11.207) 2.97ms
+[I 140508 14:42:41 autoreload:186] /root/yeq/soft/SQL_Review0416/controllers/Crontab.py modified; restarting server
+[I 140508 14:42:43 web:1635] 304 GET /crontab (192.168.11.207) 20.37ms
+[I 140508 14:42:43 web:1635] 200 POST /getlist (192.168.11.207) 31.97ms
+[W 140508 14:42:46 web:1225] 400 POST /destroyitem (192.168.11.207): Missing argument id
+[W 140508 14:42:46 web:1635] 400 POST /destroyitem (192.168.11.207) 2.66ms
+[I 140508 14:43:11 web:1635] 200 GET /crontab (192.168.11.207) 15.54ms
+[I 140508 14:43:11 web:1635] 200 POST /getlist (192.168.11.207) 15.32ms
+[W 140508 14:43:14 web:1225] 400 POST /destroyitem (192.168.11.207): Missing argument id
+[W 140508 14:43:14 web:1635] 400 POST /destroyitem (192.168.11.207) 3.34ms
+[I 140508 14:43:51 web:1635] 200 GET /crontab (192.168.11.207) 14.84ms
+[I 140508 14:43:51 web:1635] 200 POST /getlist (192.168.11.207) 14.78ms
+[W 140508 14:43:53 web:1225] 400 POST /destroyitem (192.168.11.207): Missing argument id
+[W 140508 14:43:53 web:1635] 400 POST /destroyitem (192.168.11.207) 3.64ms
+[W 140508 14:44:14 web:1225] 400 POST /destroyitem (192.168.11.207): Missing argument id
+[W 140508 14:44:14 web:1635] 400 POST /destroyitem (192.168.11.207) 1.53ms
+[I 140508 14:47:12 web:1635] 200 GET /crontab (192.168.11.207) 14.83ms
+[I 140508 14:47:13 web:1635] 200 POST /getlist (192.168.11.207) 14.65ms
+[I 140508 14:47:35 web:1635] 304 GET /crontab (192.168.11.207) 14.86ms
+[I 140508 14:47:36 web:1635] 200 POST /getlist (192.168.11.207) 15.73ms
+[I 140508 14:47:55 web:1635] 304 GET /crontab (192.168.11.207) 14.79ms
+[I 140508 14:47:55 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 11.12ms
+[I 140508 14:47:55 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.93ms
+[I 140508 14:47:55 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.28ms
+[I 140508 14:47:55 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.91ms
+[I 140508 14:47:55 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.84ms
+[I 140508 14:47:55 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.85ms
+[I 140508 14:47:55 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.16ms
+[I 140508 14:47:55 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.08ms
+[I 140508 14:47:55 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=b5d35d0e8fa4a2894e56e3e9af65db41 (192.168.11.207) 1.98ms
+[I 140508 14:47:55 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.83ms
+[I 140508 14:47:56 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 1.06ms
+[I 140508 14:47:56 web:1635] 200 POST /getlist (192.168.11.207) 15.03ms
+[I 140508 14:50:19 web:1635] 200 GET /crontab (192.168.11.207) 14.72ms
+[I 140508 14:50:19 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.30ms
+[I 140508 14:50:19 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.17ms
+[I 140508 14:50:19 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.95ms
+[I 140508 14:50:19 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.90ms
+[I 140508 14:50:19 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.92ms
+[I 140508 14:50:19 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.09ms
+[I 140508 14:50:19 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.85ms
+[I 140508 14:50:19 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.22ms
+[I 140508 14:50:19 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.91ms
+[I 140508 14:50:19 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=b5d35d0e8fa4a2894e56e3e9af65db41 (192.168.11.207) 1.96ms
+[I 140508 14:50:20 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 0.95ms
+[I 140508 14:50:20 web:1635] 200 POST /getlist (192.168.11.207) 13.64ms
+[I 140508 14:53:20 web:1635] 200 GET /crontab (192.168.11.207) 15.56ms
+[I 140508 14:53:20 web:1635] 200 POST /getlist (192.168.11.207) 14.63ms
+[I 140508 14:57:25 web:1635] 200 GET /crontab (192.168.11.207) 14.78ms
+[I 140508 14:57:25 web:1635] 200 POST /getlist (192.168.11.207) 14.13ms
+[W 140508 14:57:28 web:1635] 404 POST /destroy_user.php (192.168.11.207) 1.74ms
+[I 140508 14:57:35 web:1635] 304 GET /crontab (192.168.11.207) 14.93ms
+[I 140508 14:57:35 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.23ms
+[I 140508 14:57:35 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.15ms
+[I 140508 14:57:35 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.89ms
+[I 140508 14:57:35 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.81ms
+[I 140508 14:57:35 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.82ms
+[I 140508 14:57:35 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.85ms
+[I 140508 14:57:35 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.10ms
+[I 140508 14:57:35 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.06ms
+[I 140508 14:57:35 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=b5d35d0e8fa4a2894e56e3e9af65db41 (192.168.11.207) 1.85ms
+[I 140508 14:57:35 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.81ms
+[I 140508 14:57:36 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 0.95ms
+[I 140508 14:57:36 web:1635] 200 POST /getlist (192.168.11.207) 14.06ms
+[W 140508 14:57:44 web:1635] 404 POST /destroy_user.php (192.168.11.207) 1.77ms
+[I 140508 14:58:06 autoreload:186] /root/yeq/soft/SQL_Review0416/controllers/Crontab.py modified; restarting server
+[I 140508 14:58:08 web:1635] 200 GET /crontab (192.168.11.207) 20.61ms
+[I 140508 14:58:08 web:1635] 200 POST /getlist (192.168.11.207) 31.46ms
+[W 140508 14:58:11 web:1225] 400 POST /destroyitem (192.168.11.207): Missing argument id
+[W 140508 14:58:11 web:1635] 400 POST /destroyitem (192.168.11.207) 2.54ms
+[W 140508 14:59:11 web:1225] 400 POST /destroyitem (192.168.11.207): Missing argument id
+[W 140508 14:59:11 web:1635] 400 POST /destroyitem (192.168.11.207) 1.36ms
+[W 140508 15:00:06 web:1225] 400 POST /destroyitem (192.168.11.207): Missing argument id
+[W 140508 15:00:06 web:1635] 400 POST /destroyitem (192.168.11.207) 1.35ms
+[I 140508 15:01:08 web:1635] 200 GET /crontab (192.168.11.207) 15.85ms
+[I 140508 15:01:09 web:1635] 200 POST /getlist (192.168.11.207) 14.63ms
+[I 140508 15:01:25 web:1635] 304 GET /crontab (192.168.11.207) 14.87ms
+[I 140508 15:01:26 web:1635] 200 POST /getlist (192.168.11.207) 14.86ms
+[I 140508 15:01:58 web:1635] 200 GET /crontab (192.168.11.207) 15.45ms
+[I 140508 15:01:59 web:1635] 200 POST /getlist (192.168.11.207) 14.58ms
+[W 140508 15:02:02 web:1225] 400 POST /destroyitem (192.168.11.207): Missing argument id
+[W 140508 15:02:02 web:1635] 400 POST /destroyitem (192.168.11.207) 2.50ms
+[I 140508 15:11:29 web:1635] 200 GET /crontab (192.168.11.207) 14.44ms
+[I 140508 15:11:29 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 11.09ms
+[I 140508 15:11:29 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.14ms
+[I 140508 15:11:29 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.97ms
+[I 140508 15:11:29 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.87ms
+[I 140508 15:11:29 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.91ms
+[I 140508 15:11:29 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.23ms
+[I 140508 15:11:29 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.90ms
+[I 140508 15:11:29 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.08ms
+[I 140508 15:11:29 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=b5d35d0e8fa4a2894e56e3e9af65db41 (192.168.11.207) 1.91ms
+[I 140508 15:11:29 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.78ms
+[I 140508 15:11:30 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 1.03ms
+[I 140508 15:11:30 web:1635] 200 POST /getlist (192.168.11.207) 13.93ms
+[W 140508 15:11:47 web:1225] 400 POST /destroyitem (192.168.11.207): Missing argument id
+[W 140508 15:11:47 web:1635] 400 POST /destroyitem (192.168.11.207) 2.42ms
+[W 140508 15:15:08 web:1225] 400 POST /destroyitem (192.168.11.207): Missing argument id
+[W 140508 15:15:08 web:1635] 400 POST /destroyitem (192.168.11.207) 1.63ms
+[I 140508 15:17:23 web:1635] 200 GET /crontab (192.168.11.207) 14.74ms
+[I 140508 15:17:23 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.18ms
+[I 140508 15:17:23 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.15ms
+[I 140508 15:17:23 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.87ms
+[I 140508 15:17:23 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.20ms
+[I 140508 15:17:23 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.85ms
+[I 140508 15:17:23 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.79ms
+[I 140508 15:17:23 web:1635] 200 GET /static/js/jquery-1.6.min.js?v=c94d72e42e0347aaf9199b26d04b8d04 (192.168.11.207) 1.83ms
+[I 140508 15:17:23 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.93ms
+[I 140508 15:17:23 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=b5d35d0e8fa4a2894e56e3e9af65db41 (192.168.11.207) 1.93ms
+[I 140508 15:17:23 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.79ms
+[I 140508 15:17:24 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 1.27ms
+[I 140508 15:17:24 web:1635] 200 POST /getlist (192.168.11.207) 13.72ms
+[W 140508 15:17:29 web:1225] 400 POST /destroyitem (192.168.11.207): Missing argument id
+[W 140508 15:17:29 web:1635] 400 POST /destroyitem (192.168.11.207) 3.38ms
+[W 140508 15:17:40 web:1225] 400 POST /destroyitem (192.168.11.207): Missing argument id
+[W 140508 15:17:40 web:1635] 400 POST /destroyitem (192.168.11.207) 1.44ms
+[W 140508 15:17:44 web:1225] 400 POST /destroyitem (192.168.11.207): Missing argument id
+[W 140508 15:17:44 web:1635] 400 POST /destroyitem (192.168.11.207) 1.33ms
+[W 140508 15:18:22 web:1225] 400 POST /destroyitem (192.168.11.207): Missing argument id
+[W 140508 15:18:22 web:1635] 400 POST /destroyitem (192.168.11.207) 3.24ms
+[I 140508 15:23:19 web:1635] 200 GET /crontab (192.168.11.207) 16.49ms
+[I 140508 15:23:19 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.29ms
+[I 140508 15:23:19 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.95ms
+[I 140508 15:23:19 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.05ms
+[I 140508 15:23:19 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.96ms
+[I 140508 15:23:19 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.85ms
+[I 140508 15:23:19 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.96ms
+[I 140508 15:23:19 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.17ms
+[I 140508 15:23:19 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.12ms
+[I 140508 15:23:19 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=b5d35d0e8fa4a2894e56e3e9af65db41 (192.168.11.207) 1.84ms
+[I 140508 15:23:19 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.85ms
+[I 140508 15:23:20 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 1.01ms
+[I 140508 15:23:20 web:1635] 200 POST /getlist (192.168.11.207) 14.23ms
+[W 140508 15:23:29 web:1225] 400 POST /destroyitem (192.168.11.207): Missing argument id
+[W 140508 15:23:29 web:1635] 400 POST /destroyitem (192.168.11.207) 2.56ms
+[I 140508 15:25:45 web:1635] 304 GET /crontab (192.168.11.207) 14.87ms
+[I 140508 15:25:46 web:1635] 200 POST /getlist (192.168.11.207) 14.56ms
+[I 140508 15:25:46 web:1635] 304 GET /crontab (192.168.11.207) 14.72ms
+[I 140508 15:25:47 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.31ms
+[I 140508 15:25:47 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 1.08ms
+[I 140508 15:25:47 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.23ms
+[I 140508 15:25:47 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.91ms
+[I 140508 15:25:47 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.86ms
+[I 140508 15:25:47 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.21ms
+[I 140508 15:25:47 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=b5d35d0e8fa4a2894e56e3e9af65db41 (192.168.11.207) 1.84ms
+[I 140508 15:25:47 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.21ms
+[I 140508 15:25:47 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.80ms
+[I 140508 15:25:47 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.87ms
+[I 140508 15:25:47 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 1.08ms
+[I 140508 15:25:48 web:1635] 200 POST /getlist (192.168.11.207) 14.59ms
+[W 140508 15:25:53 web:1225] 400 POST /destroyitem (192.168.11.207): Missing argument id
+[W 140508 15:25:53 web:1635] 400 POST /destroyitem (192.168.11.207) 2.47ms
+[I 140508 15:26:38 web:1635] 200 GET /crontab (192.168.11.207) 15.06ms
+[I 140508 15:26:39 web:1635] 200 GET /static/js/jquery.easyui.min.js?v=0bc05aa4c869622302d2bf21d789fd73 (192.168.11.207) 4.97ms
+[I 140508 15:26:39 web:1635] 200 POST /getlist (192.168.11.207) 15.74ms
+[I 140508 15:26:41 web:1635] 304 GET /crontab (192.168.11.207) 14.89ms
+[I 140508 15:26:41 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.33ms
+[I 140508 15:26:41 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.91ms
+[I 140508 15:26:41 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.98ms
+[I 140508 15:26:41 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.14ms
+[I 140508 15:26:41 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.17ms
+[I 140508 15:26:41 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.83ms
+[I 140508 15:26:41 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.79ms
+[I 140508 15:26:41 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.06ms
+[I 140508 15:26:41 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=0bc05aa4c869622302d2bf21d789fd73 (192.168.11.207) 1.84ms
+[I 140508 15:26:41 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.81ms
+[I 140508 15:26:42 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 1.12ms
+[I 140508 15:26:42 web:1635] 200 POST /getlist (192.168.11.207) 14.17ms
+[W 140508 15:26:45 web:1225] 400 POST /destroyitem (192.168.11.207): Missing argument id
+[W 140508 15:26:45 web:1635] 400 POST /destroyitem (192.168.11.207) 2.33ms
+[I 140508 15:28:56 web:1635] 200 GET /crontab (192.168.11.207) 13.87ms
+[I 140508 15:28:56 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.38ms
+[I 140508 15:28:56 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.17ms
+[I 140508 15:28:56 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.94ms
+[I 140508 15:28:56 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.17ms
+[I 140508 15:28:56 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.81ms
+[I 140508 15:28:56 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.82ms
+[I 140508 15:28:56 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.86ms
+[I 140508 15:28:56 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.11ms
+[I 140508 15:28:56 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=0bc05aa4c869622302d2bf21d789fd73 (192.168.11.207) 1.89ms
+[I 140508 15:28:56 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.83ms
+[I 140508 15:28:57 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 1.07ms
+[W 140508 15:28:57 web:1635] 404 POST /get_users.php (192.168.11.207) 1.60ms
+[W 140508 15:29:04 web:1635] 404 POST /save_user.php (192.168.11.207) 0.82ms
+[W 140508 15:29:09 web:1635] 404 POST /save_user.php (192.168.11.207) 0.81ms
+[W 140508 15:29:13 web:1635] 404 POST /save_user.php (192.168.11.207) 0.82ms
+[I 140508 15:29:59 web:1635] 304 GET /crontab (192.168.11.207) 13.88ms
+[I 140508 15:29:59 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.28ms
+[I 140508 15:29:59 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.97ms
+[I 140508 15:29:59 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.18ms
+[I 140508 15:29:59 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.12ms
+[I 140508 15:29:59 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.81ms
+[I 140508 15:29:59 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.80ms
+[I 140508 15:29:59 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.80ms
+[I 140508 15:29:59 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.14ms
+[I 140508 15:29:59 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=0bc05aa4c869622302d2bf21d789fd73 (192.168.11.207) 1.89ms
+[I 140508 15:29:59 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.86ms
+[I 140508 15:30:00 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 0.94ms
+[W 140508 15:30:00 web:1635] 404 POST /get_users.php (192.168.11.207) 1.51ms
+[I 140508 15:30:22 web:1635] 200 GET /crontab (192.168.11.207) 14.27ms
+[I 140508 15:30:22 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.23ms
+[I 140508 15:30:22 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.89ms
+[I 140508 15:30:22 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.11ms
+[I 140508 15:30:22 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.83ms
+[I 140508 15:30:22 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.82ms
+[I 140508 15:30:22 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.10ms
+[I 140508 15:30:22 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.85ms
+[I 140508 15:30:22 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=0bc05aa4c869622302d2bf21d789fd73 (192.168.11.207) 1.88ms
+[I 140508 15:30:22 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.06ms
+[I 140508 15:30:22 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.83ms
+[I 140508 15:30:23 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 0.99ms
+[I 140508 15:30:23 web:1635] 200 POST /getlist (192.168.11.207) 14.44ms
+[W 140508 15:30:26 web:1225] 400 POST /destroyitem (192.168.11.207): Missing argument id
+[W 140508 15:30:26 web:1635] 400 POST /destroyitem (192.168.11.207) 2.59ms
+[I 140508 15:35:31 web:1635] 200 GET /crontab (192.168.11.207) 14.84ms
+[I 140508 15:35:31 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.27ms
+[I 140508 15:35:31 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.98ms
+[I 140508 15:35:31 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.14ms
+[I 140508 15:35:31 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.86ms
+[I 140508 15:35:31 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.83ms
+[I 140508 15:35:31 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.12ms
+[I 140508 15:35:31 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.78ms
+[I 140508 15:35:31 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.13ms
+[I 140508 15:35:31 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=0bc05aa4c869622302d2bf21d789fd73 (192.168.11.207) 1.88ms
+[I 140508 15:35:31 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.81ms
+[I 140508 15:35:32 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 0.94ms
+[I 140508 15:35:32 web:1635] 200 POST /getlist (192.168.11.207) 13.29ms
+[W 140508 15:35:37 web:1225] 400 POST /destroyitem (192.168.11.207): Missing argument id
+[W 140508 15:35:37 web:1635] 400 POST /destroyitem (192.168.11.207) 2.38ms
+[W 140508 15:36:22 web:1225] 400 POST /destroyitem (192.168.11.207): Missing argument id
+[W 140508 15:36:22 web:1635] 400 POST /destroyitem (192.168.11.207) 1.43ms
+[W 140508 15:40:41 web:1225] 400 POST /destroyitem (192.168.11.207): Missing argument id
+[W 140508 15:40:41 web:1635] 400 POST /destroyitem (192.168.11.207) 1.44ms
+[I 140508 15:41:19 web:1635] 200 GET /crontab (192.168.11.207) 14.77ms
+[I 140508 15:41:19 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.18ms
+[I 140508 15:41:19 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.94ms
+[I 140508 15:41:19 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.04ms
+[I 140508 15:41:19 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.99ms
+[I 140508 15:41:19 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.79ms
+[I 140508 15:41:19 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.88ms
+[I 140508 15:41:19 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.16ms
+[I 140508 15:41:19 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.07ms
+[I 140508 15:41:19 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=0bc05aa4c869622302d2bf21d789fd73 (192.168.11.207) 1.94ms
+[I 140508 15:41:19 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.90ms
+[I 140508 15:41:19 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 1.08ms
+[I 140508 15:41:20 web:1635] 200 POST /getlist (192.168.11.207) 13.80ms
+[I 140508 15:41:57 web:1635] 200 GET /crontab (192.168.11.207) 15.25ms
+[I 140508 15:41:57 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.21ms
+[I 140508 15:41:57 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.10ms
+[I 140508 15:41:57 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.99ms
+[I 140508 15:41:57 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.83ms
+[I 140508 15:41:57 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.91ms
+[I 140508 15:41:57 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.24ms
+[I 140508 15:41:57 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.91ms
+[I 140508 15:41:57 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.20ms
+[I 140508 15:41:57 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=0bc05aa4c869622302d2bf21d789fd73 (192.168.11.207) 1.95ms
+[I 140508 15:41:57 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.94ms
+[I 140508 15:41:57 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 1.09ms
+[I 140508 15:41:58 web:1635] 200 POST /getlist (192.168.11.207) 14.30ms
+[I 140508 15:42:59 web:1635] 200 GET /crontab (192.168.11.207) 14.63ms
+[I 140508 15:42:59 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.20ms
+[I 140508 15:42:59 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 1.04ms
+[I 140508 15:42:59 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.16ms
+[I 140508 15:42:59 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.81ms
+[I 140508 15:42:59 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.83ms
+[I 140508 15:42:59 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.33ms
+[I 140508 15:42:59 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.20ms
+[I 140508 15:42:59 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.77ms
+[I 140508 15:42:59 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=0bc05aa4c869622302d2bf21d789fd73 (192.168.11.207) 1.92ms
+[I 140508 15:42:59 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 1.11ms
+[I 140508 15:43:00 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 1.10ms
+[I 140508 15:43:00 web:1635] 200 POST /getlist (192.168.11.207) 15.19ms
+[I 140508 15:43:20 web:1635] 200 GET /crontab (192.168.11.207) 14.98ms
+[I 140508 15:43:20 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.24ms
+[I 140508 15:43:20 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.08ms
+[I 140508 15:43:20 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.91ms
+[I 140508 15:43:20 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.82ms
+[I 140508 15:43:20 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.85ms
+[I 140508 15:43:20 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.10ms
+[I 140508 15:43:20 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.09ms
+[I 140508 15:43:20 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.81ms
+[I 140508 15:43:20 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=0bc05aa4c869622302d2bf21d789fd73 (192.168.11.207) 1.88ms
+[I 140508 15:43:20 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.84ms
+[I 140508 15:43:21 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 0.90ms
+[I 140508 15:43:21 web:1635] 200 POST /getlist (192.168.11.207) 14.30ms
+[I 140508 15:51:19 web:1635] 200 GET /crontab (192.168.11.207) 14.65ms
+[I 140508 15:51:19 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.19ms
+[I 140508 15:51:19 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.22ms
+[I 140508 15:51:19 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.88ms
+[I 140508 15:51:19 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.92ms
+[I 140508 15:51:19 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.86ms
+[I 140508 15:51:19 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.81ms
+[I 140508 15:51:19 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.20ms
+[I 140508 15:51:19 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.12ms
+[I 140508 15:51:19 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=0bc05aa4c869622302d2bf21d789fd73 (192.168.11.207) 1.96ms
+[I 140508 15:51:19 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.79ms
+[I 140508 15:51:20 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 0.87ms
+[I 140508 15:51:20 web:1635] 200 POST /getlist (192.168.11.207) 13.98ms
+[I 140508 15:53:17 web:1635] 200 GET /crontab (192.168.11.207) 14.59ms
+[I 140508 15:53:17 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.22ms
+[I 140508 15:53:17 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.13ms
+[I 140508 15:53:17 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.95ms
+[I 140508 15:53:17 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.19ms
+[I 140508 15:53:17 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.86ms
+[I 140508 15:53:17 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.79ms
+[I 140508 15:53:17 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.79ms
+[I 140508 15:53:17 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.13ms
+[I 140508 15:53:17 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.83ms
+[I 140508 15:53:17 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=0bc05aa4c869622302d2bf21d789fd73 (192.168.11.207) 1.88ms
+[I 140508 15:53:18 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 1.03ms
+[I 140508 15:53:18 web:1635] 200 POST /getlist (192.168.11.207) 14.27ms
+[I 140508 15:53:45 web:1635] 200 GET /crontab (192.168.11.207) 14.62ms
+[I 140508 15:53:45 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.24ms
+[I 140508 15:53:45 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.20ms
+[I 140508 15:53:45 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.93ms
+[I 140508 15:53:45 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.90ms
+[I 140508 15:53:45 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.90ms
+[I 140508 15:53:45 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.10ms
+[I 140508 15:53:45 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.83ms
+[I 140508 15:53:45 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.16ms
+[I 140508 15:53:45 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=0bc05aa4c869622302d2bf21d789fd73 (192.168.11.207) 1.89ms
+[I 140508 15:53:45 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.93ms
+[I 140508 15:53:46 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 1.12ms
+[I 140508 15:53:47 web:1635] 200 POST /getlist (192.168.11.207) 14.00ms
+[I 140508 15:55:04 web:1635] 200 GET /crontab (192.168.11.207) 14.99ms
+[I 140508 15:55:04 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.31ms
+[I 140508 15:55:04 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.20ms
+[I 140508 15:55:04 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.94ms
+[I 140508 15:55:04 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.88ms
+[I 140508 15:55:04 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.80ms
+[I 140508 15:55:04 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.12ms
+[I 140508 15:55:04 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.80ms
+[I 140508 15:55:04 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.12ms
+[I 140508 15:55:04 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.84ms
+[I 140508 15:55:04 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=0bc05aa4c869622302d2bf21d789fd73 (192.168.11.207) 1.90ms
+[I 140508 15:55:05 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 1.02ms
+[I 140508 15:55:05 web:1635] 200 POST /getlist (192.168.11.207) 14.59ms
+[I 140508 15:57:33 web:1635] 200 GET /crontab (192.168.11.207) 14.62ms
+[I 140508 15:57:33 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.26ms
+[I 140508 15:57:33 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.96ms
+[I 140508 15:57:33 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.12ms
+[I 140508 15:57:33 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.81ms
+[I 140508 15:57:33 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.89ms
+[I 140508 15:57:33 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.19ms
+[I 140508 15:57:33 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.86ms
+[I 140508 15:57:33 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.17ms
+[I 140508 15:57:33 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.90ms
+[I 140508 15:57:33 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=0bc05aa4c869622302d2bf21d789fd73 (192.168.11.207) 1.96ms
+[I 140508 15:57:34 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 1.11ms
+[I 140508 15:57:34 web:1635] 200 POST /getlist (192.168.11.207) 14.41ms
+[I 140508 16:00:55 web:1635] 200 GET /crontab (192.168.11.207) 14.74ms
+[I 140508 16:00:55 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.28ms
+[I 140508 16:00:55 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.09ms
+[I 140508 16:00:55 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.93ms
+[I 140508 16:00:55 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.83ms
+[I 140508 16:00:55 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.80ms
+[I 140508 16:00:55 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.10ms
+[I 140508 16:00:55 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.87ms
+[I 140508 16:00:55 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.13ms
+[I 140508 16:00:55 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.83ms
+[I 140508 16:00:55 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=0bc05aa4c869622302d2bf21d789fd73 (192.168.11.207) 1.91ms
+[I 140508 16:00:55 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 1.06ms
+[I 140508 16:00:56 web:1635] 200 POST /getlist (192.168.11.207) 14.23ms
+[I 140508 16:04:18 web:1635] 200 GET /crontab (192.168.11.207) 14.60ms
+[I 140508 16:04:18 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.27ms
+[I 140508 16:04:18 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.89ms
+[I 140508 16:04:18 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.12ms
+[I 140508 16:04:18 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.79ms
+[I 140508 16:04:18 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.84ms
+[I 140508 16:04:18 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.19ms
+[I 140508 16:04:18 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.86ms
+[I 140508 16:04:18 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.90ms
+[I 140508 16:04:18 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.15ms
+[I 140508 16:04:18 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=0bc05aa4c869622302d2bf21d789fd73 (192.168.11.207) 1.98ms
+[I 140508 16:04:19 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 1.08ms
+[I 140508 16:04:19 web:1635] 200 POST /getlist (192.168.11.207) 14.84ms
+[I 140508 16:08:23 web:1635] 200 GET /crontab (192.168.11.207) 15.55ms
+[I 140508 16:08:23 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.23ms
+[I 140508 16:08:23 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.12ms
+[I 140508 16:08:23 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.92ms
+[I 140508 16:08:23 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.81ms
+[I 140508 16:08:23 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.84ms
+[I 140508 16:08:23 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.12ms
+[I 140508 16:08:23 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.80ms
+[I 140508 16:08:23 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.11ms
+[I 140508 16:08:23 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.83ms
+[I 140508 16:08:23 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=0bc05aa4c869622302d2bf21d789fd73 (192.168.11.207) 1.89ms
+[I 140508 16:08:24 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 1.04ms
+[I 140508 16:08:24 web:1635] 200 POST /getlist (192.168.11.207) 14.49ms
+[I 140508 16:09:50 web:1635] 304 GET /crontab (192.168.11.207) 14.66ms
+[I 140508 16:09:51 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.32ms
+[I 140508 16:09:51 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.98ms
+[I 140508 16:09:51 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.96ms
+[I 140508 16:09:51 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.90ms
+[I 140508 16:09:51 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.15ms
+[I 140508 16:09:51 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.20ms
+[I 140508 16:09:51 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.87ms
+[I 140508 16:09:51 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.92ms
+[I 140508 16:09:51 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=0bc05aa4c869622302d2bf21d789fd73 (192.168.11.207) 1.98ms
+[I 140508 16:09:51 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.19ms
+[I 140508 16:09:52 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 1.03ms
+[I 140508 16:09:52 web:1635] 200 POST /getlist (192.168.11.207) 14.05ms
+[I 140508 16:11:40 web:1635] 304 GET /crontab (192.168.11.207) 14.51ms
+[I 140508 16:11:41 web:1635] 200 POST /getlist (192.168.11.207) 15.01ms
+[I 140508 16:12:42 web:1635] 304 GET /crontab (192.168.11.207) 14.77ms
+[I 140508 16:12:42 web:1635] 200 POST /getlist (192.168.11.207) 15.45ms
+[I 140508 16:14:30 web:1635] 200 GET /crontab (192.168.11.207) 14.77ms
+[I 140508 16:14:31 web:1635] 200 POST /getlist (192.168.11.207) 14.19ms
+[I 140508 16:14:31 web:1635] 200 POST /getlist (192.168.11.207) 14.54ms
+[I 140508 16:21:05 web:1635] 304 GET /crontab (192.168.11.207) 14.69ms
+[I 140508 16:21:06 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.18ms
+[I 140508 16:21:06 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.93ms
+[I 140508 16:21:06 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.54ms
+[I 140508 16:21:06 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.91ms
+[I 140508 16:21:06 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.79ms
+[I 140508 16:21:06 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.81ms
+[I 140508 16:21:06 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.10ms
+[I 140508 16:21:06 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.13ms
+[I 140508 16:21:06 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=0bc05aa4c869622302d2bf21d789fd73 (192.168.11.207) 1.84ms
+[I 140508 16:21:06 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.82ms
+[I 140508 16:21:07 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 0.94ms
+[I 140508 16:21:07 web:1635] 200 POST /getlist (192.168.11.207) 14.10ms
+[I 140508 16:21:07 web:1635] 200 POST /getlist (192.168.11.207) 13.52ms
+[I 140508 16:27:33 web:1635] 200 GET /crontab (192.168.11.207) 14.63ms
+[I 140508 16:27:33 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.19ms
+[I 140508 16:27:33 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.09ms
+[I 140508 16:27:33 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.89ms
+[I 140508 16:27:33 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.95ms
+[I 140508 16:27:33 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.88ms
+[I 140508 16:27:33 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.85ms
+[I 140508 16:27:33 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.08ms
+[I 140508 16:27:33 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.11ms
+[I 140508 16:27:33 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=0bc05aa4c869622302d2bf21d789fd73 (192.168.11.207) 1.88ms
+[I 140508 16:27:33 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.82ms
+[I 140508 16:27:34 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 1.00ms
+[I 140508 16:27:35 web:1635] 200 POST /getlist (192.168.11.207) 14.42ms
+[I 140508 16:27:35 web:1635] 200 POST /getlist (192.168.11.207) 14.23ms
+[I 140508 16:38:30 web:1635] 200 GET /crontab (192.168.11.207) 14.54ms
+[I 140508 16:38:30 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.24ms
+[I 140508 16:38:30 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.15ms
+[I 140508 16:38:30 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.97ms
+[I 140508 16:38:30 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.85ms
+[I 140508 16:38:30 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.89ms
+[I 140508 16:38:30 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.17ms
+[I 140508 16:38:30 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.88ms
+[I 140508 16:38:30 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.12ms
+[I 140508 16:38:30 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.90ms
+[I 140508 16:38:30 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=0bc05aa4c869622302d2bf21d789fd73 (192.168.11.207) 1.98ms
+[I 140508 16:38:31 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 0.98ms
+[I 140508 16:38:31 web:1635] 200 POST /getlist (192.168.11.207) 14.51ms
+[I 140508 16:38:31 web:1635] 200 POST /getlist (192.168.11.207) 13.42ms
+[I 140508 16:46:27 web:1635] 200 GET /crontab (192.168.11.207) 14.82ms
+[I 140508 16:46:27 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.21ms
+[I 140508 16:46:27 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.08ms
+[I 140508 16:46:27 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.86ms
+[I 140508 16:46:27 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.99ms
+[I 140508 16:46:27 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.91ms
+[I 140508 16:46:27 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.84ms
+[I 140508 16:46:27 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.22ms
+[I 140508 16:46:27 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.17ms
+[I 140508 16:46:27 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=0bc05aa4c869622302d2bf21d789fd73 (192.168.11.207) 1.92ms
+[I 140508 16:46:27 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.91ms
+[I 140508 16:46:28 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 1.08ms
+[I 140508 16:46:28 web:1635] 200 POST /getlist (192.168.11.207) 15.37ms
+[I 140508 16:46:28 web:1635] 200 POST /getlist (192.168.11.207) 14.45ms
+[I 140508 16:46:48 web:1635] 200 GET /crontab (192.168.11.207) 15.77ms
+[I 140508 16:46:48 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.26ms
+[I 140508 16:46:48 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.25ms
+[I 140508 16:46:48 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.99ms
+[I 140508 16:46:48 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.85ms
+[I 140508 16:46:48 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.82ms
+[I 140508 16:46:48 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.11ms
+[I 140508 16:46:48 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.80ms
+[I 140508 16:46:48 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.12ms
+[I 140508 16:46:48 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.82ms
+[I 140508 16:46:48 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=0bc05aa4c869622302d2bf21d789fd73 (192.168.11.207) 1.89ms
+[I 140508 16:46:49 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 0.92ms
+[I 140508 16:46:49 web:1635] 200 POST /getlist (192.168.11.207) 14.62ms
+[I 140508 16:46:49 web:1635] 200 POST /getlist (192.168.11.207) 13.14ms
+[I 140508 16:47:59 web:1635] 304 GET /crontab (192.168.11.207) 15.02ms
+[I 140508 16:47:59 web:1635] 200 POST /getlist (192.168.11.207) 13.92ms
+[I 140508 16:47:59 web:1635] 200 POST /getlist (192.168.11.207) 13.73ms
+[I 140508 17:03:29 web:1635] 200 GET /crontab (192.168.11.207) 15.67ms
+[I 140508 17:03:29 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.23ms
+[I 140508 17:03:29 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.07ms
+[I 140508 17:03:29 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.89ms
+[I 140508 17:03:29 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.99ms
+[I 140508 17:03:29 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.90ms
+[I 140508 17:03:29 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.81ms
+[I 140508 17:03:29 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.20ms
+[I 140508 17:03:29 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.16ms
+[I 140508 17:03:29 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=0bc05aa4c869622302d2bf21d789fd73 (192.168.11.207) 1.92ms
+[I 140508 17:03:29 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.80ms
+[I 140508 17:03:30 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 1.02ms
+[I 140508 17:03:30 web:1635] 200 POST /getlist (192.168.11.207) 14.54ms
+[I 140508 17:03:30 web:1635] 200 POST /getlist (192.168.11.207) 14.48ms
+[I 140508 17:04:15 web:1635] 200 GET /crontab (192.168.11.207) 14.63ms
+[I 140508 17:04:15 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.35ms
+[I 140508 17:04:15 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.89ms
+[I 140508 17:04:15 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.93ms
+[I 140508 17:04:15 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.98ms
+[I 140508 17:04:15 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.13ms
+[I 140508 17:04:15 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.21ms
+[I 140508 17:04:15 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.19ms
+[I 140508 17:04:15 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.90ms
+[I 140508 17:04:15 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=0bc05aa4c869622302d2bf21d789fd73 (192.168.11.207) 1.97ms
+[I 140508 17:04:15 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.83ms
+[I 140508 17:04:15 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 0.85ms
+[I 140508 17:04:16 web:1635] 200 POST /getlist (192.168.11.207) 13.64ms
+[I 140508 17:04:16 web:1635] 200 POST /getlist (192.168.11.207) 13.42ms
+[I 140508 17:04:42 web:1635] 200 POST /getlist (192.168.11.207) 15.55ms
+[I 140508 17:05:46 web:1635] 200 GET /crontab (192.168.11.207) 14.77ms
+[I 140508 17:05:46 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.51ms
+[I 140508 17:05:46 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.19ms
+[I 140508 17:05:46 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 1.03ms
+[I 140508 17:05:46 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.80ms
+[I 140508 17:05:46 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.83ms
+[I 140508 17:05:46 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.20ms
+[I 140508 17:05:46 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.80ms
+[I 140508 17:05:46 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.28ms
+[I 140508 17:05:46 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=0bc05aa4c869622302d2bf21d789fd73 (192.168.11.207) 1.97ms
+[I 140508 17:05:46 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.84ms
+[I 140508 17:05:47 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 1.03ms
+[I 140508 17:05:47 web:1635] 200 POST /getlist (192.168.11.207) 16.04ms
+[I 140508 17:05:47 web:1635] 200 POST /getlist (192.168.11.207) 13.63ms
+[I 140508 17:05:51 web:1635] 200 POST /getlist (192.168.11.207) 14.23ms
+[I 140508 17:05:52 web:1635] 200 POST /getlist (192.168.11.207) 14.20ms
+[I 140508 17:05:52 web:1635] 200 POST /getlist (192.168.11.207) 14.03ms
+[I 140508 17:05:53 web:1635] 200 POST /getlist (192.168.11.207) 14.14ms
+[I 140508 17:05:54 web:1635] 200 POST /getlist (192.168.11.207) 13.52ms
+[I 140508 17:05:54 web:1635] 200 POST /getlist (192.168.11.207) 13.38ms
+[I 140508 17:05:55 web:1635] 200 POST /getlist (192.168.11.207) 13.56ms
+[I 140508 17:05:56 web:1635] 200 POST /getlist (192.168.11.207) 13.77ms
+[I 140508 17:05:56 web:1635] 200 POST /getlist (192.168.11.207) 13.49ms
+[I 140508 17:05:57 web:1635] 200 POST /getlist (192.168.11.207) 14.04ms
+[I 140508 17:05:58 web:1635] 200 POST /getlist (192.168.11.207) 14.03ms
+[I 140508 17:05:58 web:1635] 200 POST /getlist (192.168.11.207) 13.86ms
+[I 140508 17:06:00 web:1635] 200 POST /getlist (192.168.11.207) 14.32ms
+[I 140508 17:06:00 web:1635] 200 POST /getlist (192.168.11.207) 13.58ms
+[I 140508 17:06:01 web:1635] 200 POST /getlist (192.168.11.207) 14.25ms
+[I 140508 17:06:02 web:1635] 200 POST /getlist (192.168.11.207) 14.46ms
+[I 140508 17:06:02 web:1635] 200 POST /getlist (192.168.11.207) 14.75ms
+[I 140508 17:06:03 web:1635] 200 POST /getlist (192.168.11.207) 14.34ms
+[I 140508 17:06:03 web:1635] 200 POST /getlist (192.168.11.207) 13.54ms
+[I 140508 17:06:05 web:1635] 200 POST /getlist (192.168.11.207) 14.55ms
+[I 140508 17:06:05 web:1635] 200 POST /getlist (192.168.11.207) 13.74ms
+[I 140508 17:06:05 web:1635] 200 POST /getlist (192.168.11.207) 13.66ms
+[I 140508 17:06:06 web:1635] 200 POST /getlist (192.168.11.207) 13.72ms
+[I 140508 17:06:06 web:1635] 200 POST /getlist (192.168.11.207) 13.85ms
+[I 140508 17:06:06 web:1635] 200 POST /getlist (192.168.11.207) 14.70ms
+[I 140508 17:06:07 web:1635] 200 POST /getlist (192.168.11.207) 14.77ms
+[I 140508 17:06:08 web:1635] 200 POST /getlist (192.168.11.207) 14.70ms
+[I 140508 17:07:10 web:1635] 200 GET /crontab (192.168.11.207) 14.72ms
+[I 140508 17:07:10 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.49ms
+[I 140508 17:07:10 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.20ms
+[I 140508 17:07:10 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.79ms
+[I 140508 17:07:10 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.88ms
+[I 140508 17:07:10 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.84ms
+[I 140508 17:07:10 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.21ms
+[I 140508 17:07:10 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.81ms
+[I 140508 17:07:10 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.15ms
+[I 140508 17:07:10 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=0bc05aa4c869622302d2bf21d789fd73 (192.168.11.207) 1.95ms
+[I 140508 17:07:10 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.82ms
+[I 140508 17:07:11 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 0.91ms
+[I 140508 17:07:11 web:1635] 200 POST /getlist (192.168.11.207) 14.38ms
+[I 140508 17:07:11 web:1635] 200 POST /getlist (192.168.11.207) 13.21ms
+[I 140508 17:07:14 web:1635] 200 POST /getlist (192.168.11.207) 13.73ms
+[I 140508 17:07:15 web:1635] 200 POST /getlist (192.168.11.207) 14.00ms
+[I 140508 17:07:16 web:1635] 200 POST /getlist (192.168.11.207) 14.00ms
+[I 140508 17:07:17 web:1635] 200 POST /getlist (192.168.11.207) 13.23ms
+[I 140508 17:07:17 web:1635] 200 POST /getlist (192.168.11.207) 13.69ms
+[I 140508 17:07:18 web:1635] 200 POST /getlist (192.168.11.207) 13.57ms
+[I 140508 17:07:18 web:1635] 200 POST /getlist (192.168.11.207) 14.13ms
+[I 140508 17:07:19 web:1635] 200 POST /getlist (192.168.11.207) 15.42ms
+[I 140508 17:07:20 web:1635] 200 POST /getlist (192.168.11.207) 13.93ms
+[I 140508 17:07:20 web:1635] 200 POST /getlist (192.168.11.207) 13.52ms
+[I 140508 17:07:21 web:1635] 200 POST /getlist (192.168.11.207) 14.33ms
+[I 140508 17:07:22 web:1635] 200 POST /getlist (192.168.11.207) 14.22ms
+[I 140508 17:07:23 web:1635] 200 POST /getlist (192.168.11.207) 14.53ms
+[I 140508 17:07:24 web:1635] 200 POST /getlist (192.168.11.207) 14.45ms
+[I 140508 17:07:24 web:1635] 200 POST /getlist (192.168.11.207) 14.01ms
+[I 140508 17:07:25 web:1635] 200 POST /getlist (192.168.11.207) 14.55ms
+[I 140508 17:07:26 web:1635] 200 POST /getlist (192.168.11.207) 14.29ms
+[I 140508 17:07:26 web:1635] 200 POST /getlist (192.168.11.207) 14.32ms
+[I 140508 17:07:27 web:1635] 200 POST /getlist (192.168.11.207) 14.53ms
+[I 140508 17:07:27 web:1635] 200 POST /getlist (192.168.11.207) 14.29ms
+[I 140508 17:07:28 web:1635] 200 POST /getlist (192.168.11.207) 14.14ms
+[I 140508 17:07:28 web:1635] 200 POST /getlist (192.168.11.207) 13.64ms
+[I 140508 17:08:57 web:1635] 200 POST /getlist (192.168.11.207) 14.50ms
+[I 140508 17:08:57 web:1635] 200 POST /getlist (192.168.11.207) 14.07ms
+[I 140508 17:09:00 web:1635] 200 POST /getlist (192.168.11.207) 14.15ms
+[I 140508 17:21:01 web:1635] 304 GET /review (192.168.11.207) 15.94ms
+ERROR 1049 (42000) at line 1 in file: '/root/yeq/soft/SQL_Review0416/tmp/tmpfile20140508172104': Unknown database 'DB_TUSI'
+[I 140508 17:21:04 web:1635] 200 POST /reviewco (192.168.11.207) 103.09ms
+[I 140508 17:21:32 web:1635] 200 POST /reviewco (192.168.11.207) 151.90ms
+[I 140508 17:22:37 web:1635] 304 GET /crontab (192.168.11.207) 15.75ms
+[I 140508 17:22:37 web:1635] 200 POST /getlist (192.168.11.207) 14.64ms
+[I 140508 17:22:37 web:1635] 200 POST /getlist (192.168.11.207) 13.72ms
+[I 140508 17:22:41 web:1635] 200 POST /updateitem (192.168.11.207) 0.94ms
+[I 140508 17:22:42 web:1635] 200 POST /updateitem (192.168.11.207) 0.84ms
+[I 140508 17:22:43 web:1635] 200 POST /updateitem (192.168.11.207) 0.68ms
+[I 140508 17:22:43 web:1635] 200 POST /updateitem (192.168.11.207) 0.76ms
+[I 140508 17:22:44 web:1635] 200 POST /updateitem (192.168.11.207) 0.68ms
+[I 140508 17:22:44 web:1635] 200 POST /updateitem (192.168.11.207) 0.77ms
+[I 140508 17:22:45 web:1635] 200 POST /updateitem (192.168.11.207) 0.68ms
+[I 140508 17:22:45 web:1635] 200 POST /updateitem (192.168.11.207) 0.73ms
+[I 140508 17:27:01 web:1635] 304 GET /review (192.168.11.207) 16.42ms
+[I 140508 17:27:07 web:1635] 200 POST /reviewco (192.168.11.207) 4.71ms
+ERROR 1146 (42S02) at line 1 in file: '/root/yeq/soft/SQL_Review0416/tmp/sql20140508172720': Table 'DB_TUSI.tb_user' doesn't exist
+[I 140508 17:27:20 web:1635] 200 POST /reviewfi (192.168.11.207) 284.38ms
+[I 140508 17:27:31 web:1635] 200 POST /reviewco (192.168.11.207) 107.67ms
+[I 140508 17:29:12 web:1635] 304 GET /crontab (192.168.11.207) 15.61ms
+[I 140508 17:29:13 web:1635] 200 POST /getlist (192.168.11.207) 14.47ms
+[I 140508 17:29:13 web:1635] 200 POST /getlist (192.168.11.207) 14.03ms
+[I 140508 17:42:49 autoreload:186] /root/yeq/soft/SQL_Review0416/controllers/Crontab.py modified; restarting server
+[I 140508 17:42:53 web:1635] 200 GET /crontab (192.168.11.207) 23.74ms
+[I 140508 17:42:53 web:1635] 200 POST /getlist (192.168.11.207) 32.97ms
+[I 140508 17:42:53 web:1635] 200 POST /getlist (192.168.11.207) 14.73ms
+[I 140508 17:43:30 web:1635] 200 GET /crontab (192.168.11.207) 15.11ms
+[I 140508 17:43:30 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 9.37ms
+[I 140508 17:43:30 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.25ms
+[I 140508 17:43:30 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.99ms
+[I 140508 17:43:30 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.83ms
+[I 140508 17:43:30 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.81ms
+[I 140508 17:43:30 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.14ms
+[I 140508 17:43:30 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.83ms
+[I 140508 17:43:30 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=0bc05aa4c869622302d2bf21d789fd73 (192.168.11.207) 1.99ms
+[I 140508 17:43:30 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.10ms
+[I 140508 17:43:30 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.83ms
+[I 140508 17:43:31 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 0.92ms
+[I 140508 17:43:31 web:1635] 200 POST /getlist (192.168.11.207) 15.85ms
+[I 140508 17:43:31 web:1635] 200 POST /getlist (192.168.11.207) 15.43ms
+[I 140508 17:43:49 web:1635] 200 GET /crontab (192.168.11.207) 15.07ms
+[I 140508 17:43:49 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.22ms
+[I 140508 17:43:49 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.07ms
+[I 140508 17:43:49 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.95ms
+[I 140508 17:43:49 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.13ms
+[I 140508 17:43:49 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.79ms
+[I 140508 17:43:49 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.85ms
+[I 140508 17:43:49 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.83ms
+[I 140508 17:43:49 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.09ms
+[I 140508 17:43:49 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=0bc05aa4c869622302d2bf21d789fd73 (192.168.11.207) 1.89ms
+[I 140508 17:43:49 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.86ms
+[I 140508 17:43:50 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 1.02ms
+[I 140508 17:43:50 web:1635] 200 POST /getlist (192.168.11.207) 15.33ms
+[I 140508 17:43:50 web:1635] 200 POST /getlist (192.168.11.207) 14.93ms
+[I 140508 17:43:54 web:1635] 200 POST /getlist (192.168.11.207) 14.72ms
+[I 140508 17:43:55 web:1635] 200 POST /getlist (192.168.11.207) 14.41ms
+[I 140508 17:43:56 web:1635] 200 POST /getlist (192.168.11.207) 15.23ms
+[I 140508 17:43:57 web:1635] 200 POST /getlist (192.168.11.207) 14.82ms
+[I 140508 17:43:57 web:1635] 200 POST /getlist (192.168.11.207) 15.04ms
+[I 140508 17:43:58 web:1635] 200 POST /getlist (192.168.11.207) 14.72ms
+[I 140508 17:49:08 web:1635] 200 GET /crontab (192.168.11.207) 17.48ms
+[I 140508 17:49:08 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.28ms
+[I 140508 17:49:08 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.15ms
+[I 140508 17:49:08 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.86ms
+[I 140508 17:49:08 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.90ms
+[I 140508 17:49:08 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.91ms
+[I 140508 17:49:08 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.10ms
+[I 140508 17:49:08 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.26ms
+[I 140508 17:49:08 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.80ms
+[I 140508 17:49:08 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=0bc05aa4c869622302d2bf21d789fd73 (192.168.11.207) 1.88ms
+[I 140508 17:49:08 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.78ms
+[I 140508 17:49:09 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 0.93ms
+[I 140508 17:49:51 web:1635] 200 GET /crontab (192.168.11.207) 14.75ms
+[I 140508 17:49:51 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.18ms
+[I 140508 17:49:51 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.23ms
+[I 140508 17:49:51 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.86ms
+[I 140508 17:49:51 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.84ms
+[I 140508 17:49:51 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.92ms
+[I 140508 17:49:51 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.11ms
+[I 140508 17:49:51 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.78ms
+[I 140508 17:49:51 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.09ms
+[I 140508 17:49:51 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=0bc05aa4c869622302d2bf21d789fd73 (192.168.11.207) 1.87ms
+[I 140508 17:49:51 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.82ms
+[I 140508 17:49:52 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 0.90ms
+[I 140508 17:51:02 web:1635] 200 GET /crontab (192.168.11.207) 15.32ms
+[I 140508 17:51:02 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.23ms
+[I 140508 17:51:02 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.11ms
+[I 140508 17:51:02 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.91ms
+[I 140508 17:51:02 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.81ms
+[I 140508 17:51:02 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.81ms
+[I 140508 17:51:02 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.11ms
+[I 140508 17:51:02 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.08ms
+[I 140508 17:51:02 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.83ms
+[I 140508 17:51:02 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=0bc05aa4c869622302d2bf21d789fd73 (192.168.11.207) 1.85ms
+[I 140508 17:51:02 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.84ms
+[I 140508 17:51:03 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 0.97ms
+[I 140508 17:51:04 web:1635] 200 POST /getlist (192.168.11.207) 14.79ms
+[I 140508 17:51:04 web:1635] 200 POST /getlist (192.168.11.207) 14.46ms
+[I 140508 17:51:14 web:1635] 200 POST /updateitem (192.168.11.207) 0.89ms
+[I 140508 17:51:14 web:1635] 200 POST /updateitem (192.168.11.207) 0.80ms
+[I 140508 17:52:17 web:1635] 200 GET /crontab (192.168.11.207) 16.90ms
+[I 140508 17:52:17 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.22ms
+[I 140508 17:52:17 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.23ms
+[I 140508 17:52:17 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.91ms
+[I 140508 17:52:17 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.21ms
+[I 140508 17:52:17 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 1.36ms
+[I 140508 17:52:17 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.96ms
+[I 140508 17:52:17 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.90ms
+[I 140508 17:52:17 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.13ms
+[I 140508 17:52:17 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=0bc05aa4c869622302d2bf21d789fd73 (192.168.11.207) 1.89ms
+[I 140508 17:52:17 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.92ms
+[I 140508 17:52:18 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 1.08ms
+[I 140508 17:52:18 web:1635] 200 POST /getlist (192.168.11.207) 16.28ms
+[I 140508 17:52:18 web:1635] 200 POST /getlist (192.168.11.207) 14.07ms
+[I 140508 17:54:23 web:1635] 200 GET /crontab (192.168.11.207) 15.09ms
+[I 140508 17:54:23 web:1635] 200 POST /getlist (192.168.11.207) 16.87ms
+[I 140508 17:54:23 web:1635] 200 POST /getlist (192.168.11.207) 14.89ms
+[I 140508 17:57:21 web:1635] 200 GET /crontab (192.168.11.207) 15.71ms
+[I 140508 17:57:21 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.29ms
+[I 140508 17:57:21 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 1.03ms
+[I 140508 17:57:21 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.20ms
+[I 140508 17:57:21 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.83ms
+[I 140508 17:57:21 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.91ms
+[I 140508 17:57:21 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.14ms
+[I 140508 17:57:21 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.89ms
+[I 140508 17:57:21 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.16ms
+[I 140508 17:57:21 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=0bc05aa4c869622302d2bf21d789fd73 (192.168.11.207) 1.87ms
+[I 140508 17:57:21 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.94ms
+[I 140508 17:57:21 web:1635] 200 GET /static/js/datagrid-detailview.js?v=73ce5313bda2ff1f7b4db61795af2652 (192.168.11.207) 1.01ms
+[I 140508 17:57:22 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 1.10ms
+[I 140508 17:57:22 web:1635] 200 POST /getlist (192.168.11.207) 15.07ms
+[I 140508 17:57:22 web:1635] 200 POST /getlist (192.168.11.207) 15.33ms
+[I 140508 17:57:23 web:1635] 200 POST /getlist (192.168.11.207) 14.93ms
+[W 140508 17:57:27 web:1635] 404 GET /show_form.php?index=0&_=1399543005793 (192.168.11.207) 1.61ms
+[W 140508 17:57:44 web:1635] 404 GET /show_form.php?index=0&_=1399543022800 (192.168.11.207) 0.67ms
+[I 140508 18:01:51 web:1635] 200 GET /crontab (192.168.11.207) 18.44ms
+[I 140508 18:01:51 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.45ms
+[I 140508 18:01:51 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.19ms
+[I 140508 18:01:51 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 1.14ms
+[I 140508 18:01:51 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.21ms
+[I 140508 18:01:51 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.78ms
+[I 140508 18:01:51 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.80ms
+[I 140508 18:01:51 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.82ms
+[I 140508 18:01:51 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=0bc05aa4c869622302d2bf21d789fd73 (192.168.11.207) 2.07ms
+[I 140508 18:01:51 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.20ms
+[I 140508 18:01:51 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.91ms
+[I 140508 18:01:51 web:1635] 304 GET /static/js/datagrid-detailview.js?v=73ce5313bda2ff1f7b4db61795af2652 (192.168.11.207) 0.93ms
+[I 140508 18:01:53 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 0.97ms
+[I 140508 18:01:53 web:1635] 200 POST /getlist (192.168.11.207) 15.23ms
+[I 140508 18:01:53 web:1635] 200 POST /getlist (192.168.11.207) 14.86ms
+[I 140508 18:01:53 web:1635] 200 POST /getlist (192.168.11.207) 14.90ms
+[I 140508 18:01:56 web:1635] 200 POST /destroyitem (192.168.11.207) 0.90ms
+[I 140508 18:02:04 web:1635] 200 POST /destroyitem (192.168.11.207) 0.84ms
+[I 140508 18:02:09 web:1635] 304 GET /crontab (192.168.11.207) 15.55ms
+[I 140508 18:02:10 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.22ms
+[I 140508 18:02:10 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.96ms
+[I 140508 18:02:10 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.16ms
+[I 140508 18:02:10 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.81ms
+[I 140508 18:02:10 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.88ms
+[I 140508 18:02:10 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.81ms
+[I 140508 18:02:10 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.07ms
+[I 140508 18:02:10 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.13ms
+[I 140508 18:02:10 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=0bc05aa4c869622302d2bf21d789fd73 (192.168.11.207) 1.87ms
+[I 140508 18:02:10 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.83ms
+[I 140508 18:02:10 web:1635] 304 GET /static/js/datagrid-detailview.js?v=73ce5313bda2ff1f7b4db61795af2652 (192.168.11.207) 0.82ms
+[I 140508 18:02:10 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 0.82ms
+[I 140508 18:02:11 web:1635] 200 POST /getlist (192.168.11.207) 14.68ms
+[I 140508 18:02:11 web:1635] 200 POST /getlist (192.168.11.207) 14.41ms
+[I 140508 18:02:12 web:1635] 200 POST /getlist (192.168.11.207) 15.22ms
+[I 140508 18:02:22 web:1635] 200 POST /destroyitem (192.168.11.207) 0.91ms
+[I 140508 18:03:16 web:1635] 200 POST /destroyitem (192.168.11.207) 0.82ms
+[I 140508 18:03:27 web:1635] 200 POST /destroyitem (192.168.11.207) 0.90ms
+[I 140508 18:03:36 web:1635] 200 POST /destroyitem (192.168.11.207) 0.90ms
+[I 140508 18:03:50 web:1635] 200 GET /crontab (192.168.11.207) 15.69ms
+[I 140508 18:03:50 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.48ms
+[I 140508 18:03:50 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.20ms
+[I 140508 18:03:50 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.91ms
+[I 140508 18:03:50 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.91ms
+[I 140508 18:03:50 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.82ms
+[I 140508 18:03:50 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.20ms
+[I 140508 18:03:50 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.82ms
+[I 140508 18:03:50 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.18ms
+[I 140508 18:03:50 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.86ms
+[I 140508 18:03:50 web:1635] 304 GET /static/js/datagrid-detailview.js?v=73ce5313bda2ff1f7b4db61795af2652 (192.168.11.207) 0.88ms
+[I 140508 18:03:50 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=0bc05aa4c869622302d2bf21d789fd73 (192.168.11.207) 1.94ms
+[I 140508 18:03:51 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 0.90ms
+[I 140508 18:03:52 web:1635] 200 POST /getlist (192.168.11.207) 14.88ms
+[I 140508 18:03:52 web:1635] 200 POST /getlist (192.168.11.207) 14.40ms
+[I 140508 18:03:52 web:1635] 200 POST /getlist (192.168.11.207) 14.90ms
+[I 140508 18:03:57 web:1635] 200 POST /destroyitem (192.168.11.207) 0.91ms
+[I 140508 18:05:13 autoreload:186] /root/yeq/soft/SQL_Review0416/controllers/Crontab.py modified; restarting server
+[I 140508 18:05:15 web:1635] 304 GET /crontab (192.168.11.207) 21.55ms
+[I 140508 18:05:15 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 9.24ms
+[I 140508 18:05:15 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.44ms
+[I 140508 18:05:15 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.17ms
+[I 140508 18:05:15 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.88ms
+[I 140508 18:05:15 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.79ms
+[I 140508 18:05:15 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.80ms
+[I 140508 18:05:15 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.82ms
+[I 140508 18:05:15 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.14ms
+[I 140508 18:05:15 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=0bc05aa4c869622302d2bf21d789fd73 (192.168.11.207) 1.95ms
+[I 140508 18:05:15 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.83ms
+[I 140508 18:05:15 web:1635] 304 GET /static/js/datagrid-detailview.js?v=73ce5313bda2ff1f7b4db61795af2652 (192.168.11.207) 0.83ms
+[I 140508 18:05:16 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 1.13ms
+[I 140508 18:05:16 web:1635] 200 POST /getlist (192.168.11.207) 33.91ms
+[I 140508 18:05:16 web:1635] 200 POST /getlist (192.168.11.207) 14.36ms
+[I 140508 18:05:16 web:1635] 200 POST /getlist (192.168.11.207) 13.88ms
+[I 140508 18:05:20 web:1635] 200 POST /destroyitem (192.168.11.207) 16.38ms
+[I 140508 18:05:28 web:1635] 200 POST /destroyitem (192.168.11.207) 3.88ms
+[I 140508 18:05:59 web:1635] 304 GET /crontab (192.168.11.207) 16.42ms
+[I 140508 18:05:59 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.59ms
+[I 140508 18:05:59 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.20ms
+[I 140508 18:05:59 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 1.00ms
+[I 140508 18:05:59 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.20ms
+[I 140508 18:05:59 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.82ms
+[I 140508 18:05:59 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.86ms
+[I 140508 18:05:59 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.81ms
+[I 140508 18:05:59 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.19ms
+[I 140508 18:05:59 web:1635] 304 GET /static/js/datagrid-detailview.js?v=73ce5313bda2ff1f7b4db61795af2652 (192.168.11.207) 0.85ms
+[I 140508 18:05:59 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.83ms
+[I 140508 18:05:59 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=0bc05aa4c869622302d2bf21d789fd73 (192.168.11.207) 1.97ms
+[I 140508 18:05:59 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 1.09ms
+[I 140508 18:06:00 web:1635] 200 POST /getlist (192.168.11.207) 15.41ms
+[I 140508 18:06:00 web:1635] 200 POST /getlist (192.168.11.207) 14.05ms
+[I 140508 18:06:00 web:1635] 200 POST /getlist (192.168.11.207) 14.41ms
+[I 140508 18:06:04 web:1635] 200 POST /destroyitem (192.168.11.207) 4.80ms
+[I 140508 18:06:09 web:1635] 200 POST /getlist (192.168.11.207) 14.81ms
+[I 140508 18:06:18 web:1635] 200 POST /destroyitem (192.168.11.207) 4.56ms
+[I 140508 18:06:44 web:1635] 200 POST /getlist (192.168.11.207) 14.48ms
+[I 140508 18:07:36 web:1635] 200 POST /destroyitem (192.168.11.207) 5.24ms
+[I 140508 18:07:40 web:1635] 200 POST /getlist (192.168.11.207) 14.43ms
+[I 140508 18:09:37 autoreload:186] /root/yeq/soft/SQL_Review0416/controllers/Crontab.py modified; restarting server
+[I 140508 18:09:41 web:1635] 200 POST /destroyitem (192.168.11.207) 26.56ms
+[I 140508 18:09:54 web:1635] 200 POST /destroyitem (192.168.11.207) 4.38ms
+[I 140508 18:13:30 autoreload:186] /root/yeq/soft/SQL_Review0416/controllers/Crontab.py modified; restarting server
+[I 140508 18:13:32 web:1635] 200 GET /crontab (192.168.11.207) 21.54ms
+[I 140508 18:13:32 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 9.19ms
+[I 140508 18:13:32 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.43ms
+[I 140508 18:13:32 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.99ms
+[I 140508 18:13:32 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.74ms
+[I 140508 18:13:32 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.93ms
+[I 140508 18:13:32 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.92ms
+[I 140508 18:13:32 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.14ms
+[I 140508 18:13:32 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.18ms
+[I 140508 18:13:32 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=0bc05aa4c869622302d2bf21d789fd73 (192.168.11.207) 2.04ms
+[I 140508 18:13:32 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.88ms
+[I 140508 18:13:32 web:1635] 304 GET /static/js/datagrid-detailview.js?v=73ce5313bda2ff1f7b4db61795af2652 (192.168.11.207) 0.88ms
+[I 140508 18:13:33 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 1.01ms
+[I 140508 18:13:34 web:1635] 200 POST /getlist (192.168.11.207) 31.66ms
+[I 140508 18:13:34 web:1635] 200 POST /getlist (192.168.11.207) 13.93ms
+[I 140508 18:13:34 web:1635] 200 POST /getlist (192.168.11.207) 14.04ms
+[E 140508 18:13:41 web:1228] Uncaught exception POST /updateitem (192.168.11.207)
+    HTTPRequest(protocol='http', host='192.168.22.225:5000', method='POST', uri='/updateitem', version='HTTP/1.1', remote_ip='192.168.11.207', headers={'Origin': 'http://192.168.22.225:5000', 'Content-Length': '151', 'Accept-Language': 'zh-CN,zh;q=0.8,en;q=0.6', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '192.168.22.225:5000', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.116 Safari/537.36', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Referer': 'http://192.168.22.225:5000/crontab', 'Cookie': 'user="ZW5xaS55dQ==|1399373926|a27170f83c9011b812f6dcf5c0c03e4f8c027ebb"', 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1141, in _when_complete
+        callback()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1162, in _execute_method
+        self._when_complete(method(*self.path_args, **self.path_kwargs),
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 2293, in wrapper
+        return method(self, *args, **kwargs)
+      File "/root/yeq/soft/SQL_Review0416/controllers/Crontab.py", line 77, in post
+        MySQL.MysqlQuery().query_update('update %s.%s set db=%s,tb=%s,db_host=%s,db_name=%s,command=%s,interval=%s,level=%s where id=%s' %(db,tb,db_host,db_port,db_name,command,interval,level,id))
+    TypeError: not enough arguments for format string
+[E 140508 18:13:41 web:1635] 500 POST /updateitem (192.168.11.207) 3.17ms
+[I 140508 18:13:43 web:1635] 200 POST /getlist (192.168.11.207) 14.91ms
+[I 140508 18:14:23 autoreload:186] /root/yeq/soft/SQL_Review0416/controllers/Crontab.py modified; restarting server
+[E 140508 18:14:27 web:1228] Uncaught exception POST /updateitem (192.168.11.207)
+    HTTPRequest(protocol='http', host='192.168.22.225:5000', method='POST', uri='/updateitem', version='HTTP/1.1', remote_ip='192.168.11.207', headers={'Origin': 'http://192.168.22.225:5000', 'Content-Length': '151', 'Accept-Language': 'zh-CN,zh;q=0.8,en;q=0.6', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '192.168.22.225:5000', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.116 Safari/537.36', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Referer': 'http://192.168.22.225:5000/crontab', 'Cookie': 'user="ZW5xaS55dQ==|1399373926|a27170f83c9011b812f6dcf5c0c03e4f8c027ebb"', 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1141, in _when_complete
+        callback()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1162, in _execute_method
+        self._when_complete(method(*self.path_args, **self.path_kwargs),
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 2293, in wrapper
+        return method(self, *args, **kwargs)
+      File "/root/yeq/soft/SQL_Review0416/controllers/Crontab.py", line 77, in post
+        MySQL.MysqlQuery().query_update('update %s.%s set db_host=%s,db_name=%s,command=%s,interval=%s,level=%s where id=%s' %(db,tb,db_host,db_port,db_name,command,interval,level,id))
+    TypeError: not all arguments converted during string formatting
+[E 140508 18:14:27 web:1635] 500 POST /updateitem (192.168.11.207) 4.19ms
+[I 140508 18:14:31 web:1635] 304 GET /crontab (192.168.11.207) 21.36ms
+[I 140508 18:14:31 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 9.01ms
+[I 140508 18:14:31 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.25ms
+[I 140508 18:14:31 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.98ms
+[I 140508 18:14:31 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.92ms
+[I 140508 18:14:31 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.87ms
+[I 140508 18:14:31 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.80ms
+[I 140508 18:14:31 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.54ms
+[I 140508 18:14:31 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.15ms
+[I 140508 18:14:31 web:1635] 304 GET /static/js/datagrid-detailview.js?v=73ce5313bda2ff1f7b4db61795af2652 (192.168.11.207) 0.84ms
+[I 140508 18:14:31 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.81ms
+[I 140508 18:14:31 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=0bc05aa4c869622302d2bf21d789fd73 (192.168.11.207) 2.02ms
+[I 140508 18:14:32 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 0.86ms
+[I 140508 18:14:32 web:1635] 200 POST /getlist (192.168.11.207) 31.51ms
+[I 140508 18:14:32 web:1635] 200 POST /getlist (192.168.11.207) 14.54ms
+[I 140508 18:14:32 web:1635] 200 POST /getlist (192.168.11.207) 14.41ms
+[E 140508 18:14:37 web:1228] Uncaught exception POST /updateitem (192.168.11.207)
+    HTTPRequest(protocol='http', host='192.168.22.225:5000', method='POST', uri='/updateitem', version='HTTP/1.1', remote_ip='192.168.11.207', headers={'Origin': 'http://192.168.22.225:5000', 'Content-Length': '151', 'Accept-Language': 'zh-CN,zh;q=0.8,en;q=0.6', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '192.168.22.225:5000', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.116 Safari/537.36', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Referer': 'http://192.168.22.225:5000/crontab', 'Cookie': 'user="ZW5xaS55dQ==|1399373926|a27170f83c9011b812f6dcf5c0c03e4f8c027ebb"', 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1141, in _when_complete
+        callback()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1162, in _execute_method
+        self._when_complete(method(*self.path_args, **self.path_kwargs),
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 2293, in wrapper
+        return method(self, *args, **kwargs)
+      File "/root/yeq/soft/SQL_Review0416/controllers/Crontab.py", line 77, in post
+        MySQL.MysqlQuery().query_update('update %s.%s set db_host=%s,db_name=%s,command=%s,interval=%s,level=%s where id=%s' %(db,tb,db_host,db_port,db_name,command,interval,level,id))
+    TypeError: not all arguments converted during string formatting
+[E 140508 18:14:37 web:1635] 500 POST /updateitem (192.168.11.207) 3.22ms
+[I 140508 18:15:07 autoreload:186] /root/yeq/soft/SQL_Review0416/controllers/Crontab.py modified; restarting server
+[I 140508 18:15:09 web:1635] 304 GET /crontab (192.168.11.207) 21.59ms
+[I 140508 18:15:09 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 9.00ms
+[I 140508 18:15:09 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.25ms
+[I 140508 18:15:09 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.90ms
+[I 140508 18:15:09 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.90ms
+[I 140508 18:15:09 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.84ms
+[I 140508 18:15:09 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.16ms
+[I 140508 18:15:09 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.79ms
+[I 140508 18:15:09 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.09ms
+[I 140508 18:15:09 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=0bc05aa4c869622302d2bf21d789fd73 (192.168.11.207) 1.97ms
+[I 140508 18:15:09 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.85ms
+[I 140508 18:15:09 web:1635] 304 GET /static/js/datagrid-detailview.js?v=73ce5313bda2ff1f7b4db61795af2652 (192.168.11.207) 0.78ms
+[I 140508 18:15:10 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 1.02ms
+[I 140508 18:15:10 web:1635] 200 POST /getlist (192.168.11.207) 31.36ms
+[I 140508 18:15:10 web:1635] 200 POST /getlist (192.168.11.207) 13.21ms
+[I 140508 18:15:11 web:1635] 200 POST /getlist (192.168.11.207) 14.79ms
+[I 140508 18:15:15 web:1635] 200 POST /updateitem (192.168.11.207) 2.46ms
+[I 140508 18:15:31 autoreload:186] /root/yeq/soft/SQL_Review0416/controllers/Crontab.py modified; restarting server
+[I 140508 18:15:32 web:1635] 304 GET /crontab (192.168.11.207) 21.51ms
+[I 140508 18:15:32 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 9.32ms
+[I 140508 18:15:32 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.97ms
+[I 140508 18:15:32 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.30ms
+[I 140508 18:15:32 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.92ms
+[I 140508 18:15:32 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.81ms
+[I 140508 18:15:32 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.85ms
+[I 140508 18:15:32 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.23ms
+[I 140508 18:15:32 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.11ms
+[I 140508 18:15:32 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=0bc05aa4c869622302d2bf21d789fd73 (192.168.11.207) 1.95ms
+[I 140508 18:15:32 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.81ms
+[I 140508 18:15:32 web:1635] 304 GET /static/js/datagrid-detailview.js?v=73ce5313bda2ff1f7b4db61795af2652 (192.168.11.207) 0.98ms
+[I 140508 18:15:33 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 1.15ms
+[I 140508 18:15:33 web:1635] 200 POST /getlist (192.168.11.207) 32.50ms
+[I 140508 18:15:33 web:1635] 200 POST /getlist (192.168.11.207) 14.27ms
+[I 140508 18:15:33 web:1635] 200 POST /getlist (192.168.11.207) 14.10ms
+[I 140508 18:15:40 web:1635] 200 POST /updateitem (192.168.11.207) 2.42ms
+[I 140508 18:15:42 web:1635] 200 POST /getlist (192.168.11.207) 14.85ms
+[I 140508 18:16:03 web:1635] 200 POST /updateitem (192.168.11.207) 2.44ms
+[I 140508 18:16:07 web:1635] 200 POST /getlist (192.168.11.207) 14.99ms
+[I 140508 18:17:16 autoreload:186] /root/yeq/soft/SQL_Review0416/controllers/Crontab.py modified; restarting server
+[I 140508 18:17:19 web:1635] 200 POST /getlist (192.168.11.207) 34.00ms
+[I 140508 18:17:20 web:1635] 304 GET /crontab (192.168.11.207) 19.88ms
+[I 140508 18:17:20 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 9.19ms
+[I 140508 18:17:20 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.40ms
+[I 140508 18:17:20 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.99ms
+[I 140508 18:17:20 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.77ms
+[I 140508 18:17:20 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.82ms
+[I 140508 18:17:20 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.89ms
+[I 140508 18:17:20 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.26ms
+[I 140508 18:17:20 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.10ms
+[I 140508 18:17:20 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=0bc05aa4c869622302d2bf21d789fd73 (192.168.11.207) 2.05ms
+[I 140508 18:17:20 web:1635] 304 GET /static/js/datagrid-detailview.js?v=73ce5313bda2ff1f7b4db61795af2652 (192.168.11.207) 0.85ms
+[I 140508 18:17:20 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.94ms
+[I 140508 18:17:22 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 1.07ms
+[I 140508 18:17:22 web:1635] 200 POST /getlist (192.168.11.207) 14.36ms
+[I 140508 18:17:22 web:1635] 200 POST /getlist (192.168.11.207) 14.33ms
+[I 140508 18:17:23 web:1635] 200 POST /getlist (192.168.11.207) 14.51ms
+[I 140508 18:17:26 web:1635] 200 POST /getlist (192.168.11.207) 14.56ms
+[I 140508 18:17:29 web:1635] 200 POST /getlist (192.168.11.207) 13.96ms
+[I 140508 18:17:33 web:1635] 200 POST /getlist (192.168.11.207) 13.97ms
+[I 140508 18:17:37 web:1635] 200 POST /updateitem (192.168.11.207) 2.40ms
+[I 140508 18:17:39 web:1635] 200 POST /getlist (192.168.11.207) 14.29ms
+[I 140508 18:18:08 autoreload:186] /root/yeq/soft/SQL_Review0416/controllers/Crontab.py modified; restarting server
+[I 140508 18:18:09 web:1635] 304 GET /crontab (192.168.11.207) 21.29ms
+[I 140508 18:18:09 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 9.05ms
+[I 140508 18:18:09 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.27ms
+[I 140508 18:18:09 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.88ms
+[I 140508 18:18:09 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.99ms
+[I 140508 18:18:09 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.95ms
+[I 140508 18:18:09 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.18ms
+[I 140508 18:18:09 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.79ms
+[I 140508 18:18:09 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.07ms
+[I 140508 18:18:09 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=0bc05aa4c869622302d2bf21d789fd73 (192.168.11.207) 1.95ms
+[I 140508 18:18:09 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.81ms
+[I 140508 18:18:09 web:1635] 304 GET /static/js/datagrid-detailview.js?v=73ce5313bda2ff1f7b4db61795af2652 (192.168.11.207) 0.82ms
+[I 140508 18:18:10 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 1.04ms
+[I 140508 18:18:11 web:1635] 200 POST /getlist (192.168.11.207) 31.57ms
+[I 140508 18:18:11 web:1635] 200 POST /getlist (192.168.11.207) 14.98ms
+[I 140508 18:18:11 web:1635] 200 POST /getlist (192.168.11.207) 13.94ms
+[I 140508 18:18:15 web:1635] 200 POST /updateitem (192.168.11.207) 2.43ms
+[I 140508 18:18:17 web:1635] 200 POST /getlist (192.168.11.207) 14.75ms
+[I 140508 18:24:30 web:1635] 200 POST /updateitem (192.168.11.207) 2.40ms
+[I 140508 18:24:32 web:1635] 200 POST /getlist (192.168.11.207) 14.31ms
+[I 140508 18:24:40 web:1635] 200 POST /updateitem (192.168.11.207) 2.37ms
+[I 140508 18:26:38 web:1635] 200 POST /getlist (192.168.11.207) 14.63ms
+[I 140508 18:26:55 web:1635] 200 POST /updateitem (192.168.11.207) 2.54ms
+[I 140508 18:26:57 web:1635] 200 POST /getlist (192.168.11.207) 14.42ms
+[W 140508 18:27:37 web:1635] 404 GET /show_form.php?index=104&_=1399544816128 (192.168.11.207) 1.95ms
+[W 140508 18:29:11 web:1635] 404 GET /show_form.php?index=0&_=1399544909310 (192.168.11.207) 0.67ms
+[I 140508 18:29:24 web:1635] 200 POST /getlist (192.168.11.207) 15.04ms
+[I 140508 18:29:25 web:1635] 200 POST /getlist (192.168.11.207) 14.48ms
+[I 140508 18:29:26 web:1635] 200 POST /getlist (192.168.11.207) 14.27ms
+[I 140508 18:29:27 web:1635] 200 POST /getlist (192.168.11.207) 14.40ms
+[I 140508 18:29:28 web:1635] 200 POST /getlist (192.168.11.207) 14.34ms
+[I 140508 18:29:29 web:1635] 200 POST /getlist (192.168.11.207) 14.33ms
+[I 140508 18:29:30 web:1635] 200 POST /getlist (192.168.11.207) 14.73ms
+[I 140508 18:29:31 web:1635] 200 POST /getlist (192.168.11.207) 15.68ms
+[I 140508 18:29:32 web:1635] 200 POST /getlist (192.168.11.207) 14.27ms
+[I 140508 18:29:34 web:1635] 200 POST /getlist (192.168.11.207) 14.34ms
+[I 140508 18:29:35 web:1635] 200 POST /getlist (192.168.11.207) 14.49ms
+[I 140508 18:29:36 web:1635] 200 POST /getlist (192.168.11.207) 14.21ms
+[I 140508 18:31:06 autoreload:186] /root/yeq/soft/SQL_Review0416/controllers/Crontab.py modified; restarting server
+[I 140508 18:31:09 web:1635] 304 GET /crontab (192.168.11.207) 21.03ms
+[I 140508 18:31:09 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 8.97ms
+[I 140508 18:31:09 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 1.04ms
+[I 140508 18:31:09 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.29ms
+[I 140508 18:31:09 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 1.04ms
+[I 140508 18:31:09 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.75ms
+[I 140508 18:31:09 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.86ms
+[I 140508 18:31:09 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.29ms
+[I 140508 18:31:09 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.16ms
+[I 140508 18:31:09 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=0bc05aa4c869622302d2bf21d789fd73 (192.168.11.207) 2.01ms
+[I 140508 18:31:09 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.91ms
+[I 140508 18:31:09 web:1635] 304 GET /static/js/datagrid-detailview.js?v=73ce5313bda2ff1f7b4db61795af2652 (192.168.11.207) 0.93ms
+[I 140508 18:31:10 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 0.92ms
+[I 140508 18:31:10 web:1635] 200 POST /getlist (192.168.11.207) 32.29ms
+[I 140508 18:31:10 web:1635] 200 POST /getlist (192.168.11.207) 13.67ms
+[I 140508 18:31:10 web:1635] 200 POST /getlist (192.168.11.207) 13.08ms
+[I 140508 18:31:14 web:1635] 200 POST /updateitem (192.168.11.207) 2.39ms
+[I 140508 18:31:17 web:1635] 200 POST /getlist (192.168.11.207) 14.77ms
+[I 140508 18:31:23 web:1635] 200 POST /getlist (192.168.11.207) 14.44ms
+[I 140508 18:32:15 web:1635] 200 POST /saveitem (192.168.11.207) 2.50ms
+[I 140508 18:32:17 web:1635] 200 POST /getlist (192.168.11.207) 14.62ms
+[I 140508 18:32:33 web:1635] 200 POST /saveitem (192.168.11.207) 2.35ms
+[I 140508 18:32:39 web:1635] 200 POST /getlist (192.168.11.207) 14.10ms
+[I 140508 18:33:00 web:1635] 200 POST /saveitem (192.168.11.207) 2.31ms
+[I 140508 18:33:20 web:1635] 200 POST /saveitem (192.168.11.207) 2.34ms
+[I 140508 18:34:02 autoreload:186] /root/yeq/soft/SQL_Review0416/controllers/Crontab.py modified; restarting server
+[E 140508 18:34:14 web:1228] Uncaught exception POST /saveitem (192.168.11.207)
+    HTTPRequest(protocol='http', host='192.168.22.225:5000', method='POST', uri='/saveitem', version='HTTP/1.1', remote_ip='192.168.11.207', headers={'Origin': 'http://192.168.22.225:5000', 'Content-Length': '69', 'Accept-Language': 'zh-CN,zh;q=0.8,en;q=0.6', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '192.168.22.225:5000', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.116 Safari/537.36', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Referer': 'http://192.168.22.225:5000/crontab', 'Cookie': 'user="ZW5xaS55dQ==|1399373926|a27170f83c9011b812f6dcf5c0c03e4f8c027ebb"', 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1141, in _when_complete
+        callback()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1162, in _execute_method
+        self._when_complete(method(*self.path_args, **self.path_kwargs),
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 2293, in wrapper
+        return method(self, *args, **kwargs)
+      File "/root/yeq/soft/SQL_Review0416/controllers/Crontab.py", line 65, in post
+        MySQL.MysqlQuery().query_update('insert into %s.%s(hostip,port,db_name,sql_command,interval_day,status) values(%s,%s,%s,%s,%s,%s,%s)' %(db,tb,db_host,db_port,db_name,command,interval,level))
+    TypeError: not enough arguments for format string
+[E 140508 18:34:14 web:1635] 500 POST /saveitem (192.168.11.207) 4.21ms
+[I 140508 18:34:15 web:1635] 200 POST /getlist (192.168.11.207) 32.74ms
+[I 140508 18:35:27 autoreload:186] /root/yeq/soft/SQL_Review0416/controllers/Crontab.py modified; restarting server
+[E 140508 18:35:39 web:1228] Uncaught exception POST /saveitem (192.168.11.207)
+    HTTPRequest(protocol='http', host='192.168.22.225:5000', method='POST', uri='/saveitem', version='HTTP/1.1', remote_ip='192.168.11.207', headers={'Origin': 'http://192.168.22.225:5000', 'Content-Length': '68', 'Accept-Language': 'zh-CN,zh;q=0.8,en;q=0.6', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '192.168.22.225:5000', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.116 Safari/537.36', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Referer': 'http://192.168.22.225:5000/crontab', 'Cookie': 'user="ZW5xaS55dQ==|1399373926|a27170f83c9011b812f6dcf5c0c03e4f8c027ebb"', 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'})
+    Traceback (most recent call last):
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1141, in _when_complete
+        callback()
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 1162, in _execute_method
+        self._when_complete(method(*self.path_args, **self.path_kwargs),
+      File "/usr/lib/python2.6/site-packages/tornado/web.py", line 2293, in wrapper
+        return method(self, *args, **kwargs)
+      File "/root/yeq/soft/SQL_Review0416/controllers/Crontab.py", line 65, in post
+        MySQL.MysqlQuery().query_update('insert into %s.%s(hostip,port,db_name,sql_command,interval_day,status) values(%s,%s,%s,%s,%s,%s,%s,%s)' %(db,tb,db_host,db_port,db_name,command,interval,level))
+    TypeError: not enough arguments for format string
+[E 140508 18:35:39 web:1635] 500 POST /saveitem (192.168.11.207) 4.11ms
+[I 140508 18:36:56 autoreload:186] /root/yeq/soft/SQL_Review0416/controllers/Crontab.py modified; restarting server
+[I 140508 18:36:58 web:1635] 304 GET /crontab (192.168.11.207) 22.83ms
+[I 140508 18:36:58 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 10.48ms
+[I 140508 18:36:58 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.39ms
+[I 140508 18:36:58 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.89ms
+[I 140508 18:36:58 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.81ms
+[I 140508 18:36:58 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.83ms
+[I 140508 18:36:58 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.19ms
+[I 140508 18:36:58 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.81ms
+[I 140508 18:36:58 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.10ms
+[I 140508 18:36:58 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=0bc05aa4c869622302d2bf21d789fd73 (192.168.11.207) 2.04ms
+[I 140508 18:36:58 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.81ms
+[I 140508 18:36:58 web:1635] 304 GET /static/js/datagrid-detailview.js?v=73ce5313bda2ff1f7b4db61795af2652 (192.168.11.207) 0.84ms
+[I 140508 18:36:59 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 0.98ms
+[I 140508 18:36:59 web:1635] 200 POST /getlist (192.168.11.207) 32.85ms
+[I 140508 18:36:59 web:1635] 200 POST /getlist (192.168.11.207) 14.04ms
+[I 140508 18:37:00 web:1635] 200 POST /getlist (192.168.11.207) 14.78ms
+[I 140508 18:37:09 web:1635] 200 POST /saveitem (192.168.11.207) 4.99ms
+[I 140508 18:37:19 web:1635] 200 POST /getlist (192.168.11.207) 14.37ms
+[I 140508 18:37:28 autoreload:186] /root/yeq/soft/SQL_Review0416/controllers/Crontab.py modified; restarting server
+[I 140508 18:37:29 web:1635] 304 GET /crontab (192.168.11.207) 21.07ms
+[I 140508 18:37:29 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 9.11ms
+[I 140508 18:37:29 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 1.08ms
+[I 140508 18:37:29 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.27ms
+[I 140508 18:37:29 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.76ms
+[I 140508 18:37:29 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.94ms
+[I 140508 18:37:29 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.89ms
+[I 140508 18:37:29 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.13ms
+[I 140508 18:37:29 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.20ms
+[I 140508 18:37:29 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=0bc05aa4c869622302d2bf21d789fd73 (192.168.11.207) 2.06ms
+[I 140508 18:37:29 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.83ms
+[I 140508 18:37:29 web:1635] 304 GET /static/js/datagrid-detailview.js?v=73ce5313bda2ff1f7b4db61795af2652 (192.168.11.207) 0.83ms
+[I 140508 18:37:30 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 1.14ms
+[I 140508 18:37:31 web:1635] 200 POST /getlist (192.168.11.207) 31.89ms
+[I 140508 18:37:31 web:1635] 200 POST /getlist (192.168.11.207) 14.86ms
+[I 140508 18:37:31 web:1635] 200 POST /getlist (192.168.11.207) 13.96ms
+[I 140508 18:37:44 web:1635] 200 POST /saveitem (192.168.11.207) 4.48ms
+[I 140508 18:38:22 autoreload:186] /root/yeq/soft/SQL_Review0416/controllers/Crontab.py modified; restarting server
+[I 140508 18:38:23 web:1635] 304 GET /crontab (192.168.11.207) 21.41ms
+[I 140508 18:38:23 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 9.31ms
+[I 140508 18:38:23 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.31ms
+[I 140508 18:38:23 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.90ms
+[I 140508 18:38:23 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.83ms
+[I 140508 18:38:23 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.76ms
+[I 140508 18:38:23 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.83ms
+[I 140508 18:38:23 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.20ms
+[I 140508 18:38:23 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.08ms
+[I 140508 18:38:23 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=0bc05aa4c869622302d2bf21d789fd73 (192.168.11.207) 1.93ms
+[I 140508 18:38:23 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.81ms
+[I 140508 18:38:24 web:1635] 304 GET /static/js/datagrid-detailview.js?v=73ce5313bda2ff1f7b4db61795af2652 (192.168.11.207) 0.83ms
+[I 140508 18:38:24 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 0.99ms
+[I 140508 18:38:25 web:1635] 200 POST /getlist (192.168.11.207) 32.32ms
+[I 140508 18:38:25 web:1635] 200 POST /getlist (192.168.11.207) 14.64ms
+[I 140508 18:38:25 web:1635] 200 POST /getlist (192.168.11.207) 14.99ms
+[I 140508 18:38:36 web:1635] 200 POST /saveitem (192.168.11.207) 5.04ms
+[I 140508 18:39:30 web:1635] 200 GET /crontab (192.168.11.207) 17.56ms
+[I 140508 18:39:30 web:1635] 304 GET /static/css/bootstrap.min.css?v=35fc838ce584c1eb81b3bebe245442d6 (192.168.11.207) 1.33ms
+[I 140508 18:39:30 web:1635] 304 GET /static/js/jquery.min.js?v=e6661cd3c4bc60b03deade3f51f2b3c6 (192.168.11.207) 1.14ms
+[I 140508 18:39:30 web:1635] 304 GET /static/js/bootstrap.min.js?v=353240ad37d1b084a53b1575f8ce57da (192.168.11.207) 0.96ms
+[I 140508 18:39:30 web:1635] 304 GET /static/js/bootstrap.file-input.js?v=e585107983524b88cb88f4d8429b70ae (192.168.11.207) 0.82ms
+[I 140508 18:39:30 web:1635] 304 GET /static/js/ajaxfileupload.js?v=2a10fd61fff63058fb63f2ec6ee73a55 (192.168.11.207) 0.92ms
+[I 140508 18:39:30 web:1635] 304 GET /static/js/ichart.1.2.min.js?v=31a0be04d9bd757e56667412b67595bf (192.168.11.207) 1.12ms
+[I 140508 18:39:30 web:1635] 304 GET /static/css/style.css?v=817e7effe3aa31e250532405bcc18d83 (192.168.11.207) 0.88ms
+[I 140508 18:39:30 web:1635] 304 GET /static/js/jquery-1.8.0.min.js?v=cd8b0bffc85bb5614385ee4ce3596d07 (192.168.11.207) 1.14ms
+[I 140508 18:39:30 web:1635] 304 GET /static/js/jquery.easyui.min.js?v=0bc05aa4c869622302d2bf21d789fd73 (192.168.11.207) 1.96ms
+[I 140508 18:39:30 web:1635] 304 GET /static/js/jquery.edatagrid.js?v=eea35263158fc6f14d1bcce52ddd5eb9 (192.168.11.207) 0.78ms
+[I 140508 18:39:30 web:1635] 304 GET /static/js/datagrid-detailview.js?v=73ce5313bda2ff1f7b4db61795af2652 (192.168.11.207) 0.84ms
+[I 140508 18:39:31 web:1635] 304 GET /static/fonts/glyphicons-halflings-regular.woff (192.168.11.207) 0.82ms
+[I 140508 18:39:32 web:1635] 200 POST /getlist (192.168.11.207) 14.69ms
+[I 140508 18:39:32 web:1635] 200 POST /getlist (192.168.11.207) 14.46ms
+[I 140508 18:39:32 web:1635] 200 POST /getlist (192.168.11.207) 14.12ms
+[I 140508 18:39:42 web:1635] 200 POST /saveitem (192.168.11.207) 4.49ms
+[I 140508 18:39:57 web:1635] 200 POST /saveitem (192.168.11.207) 4.31ms
+[I 140508 18:39:59 web:1635] 200 POST /getlist (192.168.11.207) 15.67ms
+[I 140508 18:40:13 web:1635] 200 POST /destroyitem (192.168.11.207) 4.70ms
+[I 140508 18:40:14 web:1635] 200 POST /getlist (192.168.11.207) 15.04ms
+[I 140508 18:40:19 web:1635] 200 POST /destroyitem (192.168.11.207) 4.31ms
+[I 140508 18:40:23 web:1635] 200 POST /destroyitem (192.168.11.207) 4.32ms
+[I 140508 18:40:26 web:1635] 200 POST /destroyitem (192.168.11.207) 4.41ms
+[I 140508 18:40:29 web:1635] 200 POST /destroyitem (192.168.11.207) 41.84ms
+[I 140508 18:41:54 web:1635] 304 GET /crontab (192.168.11.207) 15.87ms
+[I 140508 18:41:55 web:1635] 200 POST /getlist (192.168.11.207) 14.93ms
+[I 140508 18:41:55 web:1635] 200 POST /getlist (192.168.11.207) 14.05ms
+[I 140508 18:41:55 web:1635] 200 POST /getlist (192.168.11.207) 14.06ms
+[I 140508 18:42:12 web:1635] 200 POST /getlist (192.168.11.207) 14.36ms
+[W 140508 18:42:39 web:1635] 404 GET /show_form.php?index=0&_=1399545717554 (192.168.11.207) 1.68ms
+[W 140508 18:42:52 web:1635] 404 GET /show_form.php?index=1&_=1399545730652 (192.168.11.207) 0.69ms
+[W 140508 18:42:54 web:1635] 404 GET /show_form.php?index=2&_=1399545732646 (192.168.11.207) 0.67ms
+[W 140508 18:42:56 web:1635] 404 GET /show_form.php?index=3&_=1399545734689 (192.168.11.207) 0.57ms
+[W 140508 18:42:57 web:1635] 404 GET /show_form.php?index=4&_=1399545735956 (192.168.11.207) 0.58ms
+[W 140508 18:43:00 web:1635] 404 GET /show_form.php?index=5&_=1399545738602 (192.168.11.207) 0.68ms

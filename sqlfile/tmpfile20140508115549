@@ -1,0 +1,11 @@
+CREATE TABLE `tb_mail_click_log` ( 
+`id` bigint(11) unsigned NOT NULL AUTO_INCREMENT COMMENT '主键', 
+`uid` int(10) unsigned DEFAULT '0' COMMENT '邮件接收者id', 
+`domain` varchar(50) DEFAULT '' COMMENT '邮件接收者邮箱域名', 
+`tpl_id` varchar(50) NOT NULL COMMENT '邮件模板', 
+`create_time` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00' COMMENT '点击时间', 
+`update_date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '更新时间', 
+PRIMARY KEY (`id`), 
+KEY `idx_tpl_id` (`create_date`, `tpl_id`), 
+KEY `idx_domain` (`create_date`, `domain`) 
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='从log中统计的邮件点击记录表--by qun.liu'
