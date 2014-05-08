@@ -55,13 +55,7 @@ class GetList(BaseHandler):
 class SaveItem(BaseHandler):
 	@tornado.web.authenticated
         def post(self):
-		db_host = self.get_argument("host")
-		db_port = self.get_argument("port")
-		db_name = self.get_argument("db")
-		command = self.get_argument("command")
-		interval = self.get_argument("interval")
-		level = self.get_argument("level")
-		MySQL.MysqlQuery().query_update('insert into %s.%s(hostip,port,db_name,sql_command,interval_day,status) values(%s,%s,%s,%s,%s,%s)' %(db,tb,db_host,db_port,db_name,command,interval,level))
+		pass
 
 class UpdateItem(BaseHandler):
         @tornado.web.authenticated

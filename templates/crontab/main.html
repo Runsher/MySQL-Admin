@@ -1,6 +1,7 @@
 {% include "../layout/top.html" %}
-<body>
-        <div class="col-xs-12 col-sm-12 col-md-12 graph">
+<body style="height: 100%;overflow: auto;">
+	{% include "../layout/header.html" %}
+        <!--div class="col-xs-12 col-sm-12 col-md-12 graph">
                 <a href="/" class="btn btn-default">回首页</a>
 
                 <button id="DataMaintain" class="btn btn-primary">数据维护</button>
@@ -13,25 +14,19 @@
 
                 <button type="button" class="btn btn-danger">Demo</button>
 
-                <!--button type="button" class="btn btn-link">Link</button-->
 
                 <button type="button" class="btn btn-default pull-right"><span class="glyphicon glyphicon-star"></span>{{ username }}</button>
         </div>
-	<hr  class="divise">
-	<div id="main" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-        <div class="wid2 well">
-        <h1>统计</h1>
-        </div>
-        <div class="wid2 well">
-        <h1>发布</h1>
-        </div>
+	<hr  class="divise"-->
+	<div id="main" class=" col-xs-12 col-sm-12 col-md-12 col-lg-12"  style="height:90%">
+	{% include "crontab.html" %}
 	</div>
         <!--div class="divise">
                 <blockquote>
                 </blockquote>
         </div-->
 
-<script>
+<!--script>
 $(document).ready(function(){
 $("#DataMaintain").click(function(){
 $.get("/datamaintain",function(res){
@@ -39,4 +34,4 @@ $("#main").html(res);
 });
 });
 });
-</script>
+</script-->

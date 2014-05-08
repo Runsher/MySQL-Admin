@@ -38,7 +38,11 @@ if __name__ == '__main__':
                 	(r'/reviewfi',Review.ReviewFile),
                 	(r'/rule',Rule.Rule),
                 	(r'/crontab',Crontab.IndexHandler),
-                	(r'/datamaintain',Crontab.DataMaintainHandler),
+                	(r'/getlist',Crontab.GetList),
+                	(r'/saveitem',Crontab.SaveItem),
+                	(r'/updateitem',Crontab.UpdateItem),
+                	(r'/destroyitem',Crontab.DestroyItem),
+             #   	(r'/datamaintain',Crontab.DataMaintainHandler),
                 	(r'/graph',Graph.IndexHandler),
                 	#(r'/test',Review.Test),
                 	],**settings

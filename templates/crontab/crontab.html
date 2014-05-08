@@ -6,59 +6,59 @@
 <script type="text/javascript" src="{{ static_url("js/jquery.edatagrid.js") }}"></script>
     
     <div style="margin:0px 0;"></div>
-    <div class="easyui-layout" style="width:100%;height:650px;">
+    <div class="easyui-layout" style="width:100%;height:100%;">
         <div data-options="region:'east',split:true" title="Logs" style="width:200px"></div>
-        <div class="easyui-panel"  data-options="region:'west',split:true" title="Instances" style="width:200px">
+        <div class="easyui-panel"  data-options="region:'west',split:true" title="ClassiFication" style="width:200px">
         <ul class="easyui-tree">
             <li>
-                <span>My Documents</span>
+                <span>Crontabs</span>
                 <ul>
                     <li data-options="state:'closed'">
-                        <span>Photos</span>
+                        <span>DataMaintain</span>
                         <ul>
                             <li>
-                                <span>Friend</span>
+                                <span>Port1</span>
                             </li>
                             <li>
-                                <span>Wife</span>
+                                <span>Port2</span>
                             </li>
                             <li>
-                                <span>Company</span>
+                                <span>Port3</span>
                             </li>
                         </ul>
                     </li>
-                    <li>
-                        <span>Program Files</span>
+                    <li data-options="state:'closed'">
+                        <span>Monitor</span>
                         <ul>
-                            <li>Intel</li>
-                            <li>Java</li>
-                            <li>Microsoft Office</li>
-                            <li>Games</li>
+                            <li>System</li>
+                            <li>Instances</li>
+                            <li>Log</li>
+                            <li>HA</li>
                         </ul>
                     </li>
-                    <li>index.html</li>
-                    <li>about.html</li>
-                    <li>welcome.html</li>
+                    <li>DataMaintain文档</li>
+                    <li>Monitor文档</li>
+                    <li>BackUp文档</li>
                 </ul>
             </li>
         </ul>
 	</div>
 	<!--div data-options="region:'center',title:'Main Title',iconCls:'icon-ok'" -->
 	<div data-options="region:'center'">
-<table class="easyui-datagrid"  id="dg" title="Crontabs" style="width:700px;height:250px"
+<table class="easyui-datagrid"  id="dg" title="Details" style="width:700px;height:250px"
             toolbar="#toolbar" pagination="true" idField="id"
             rownumbers="true" fitColumns="true" singleSelect="true" fit="true">
         <thead>
             <tr>
-                <th data-options="field:'itemid'" width="20%" editor="{type:'validatebox',options:{required:true}}">Host</th>
-                <th field="lastname" width="20%" editor="{type:'validatebox',options:{required:true}}">Port</th>
-                <th field="phone" width="20%" editor="text">DBName</th>
-                <th field="email" width="20%" editor="{type:'validatebox',options:{validType:'email'}}">Command</th>
-                <th field="a" width="20%" editor="{type:'validatebox',options:{validType:'email'}}">IntervalDay</th>
-                <th field="b" width="20%" editor="{type:'validatebox',options:{validType:'email'}}">Level</th>
-                <th field="c" width="20%" editor="{type:'validatebox',options:{validType:'email'}}">LastActTime</th>
-                <th field="d" width="20%" editor="{type:'validatebox',options:{validType:'email'}}">AddTime</th>
-                <th field="f" width="20%" editor="{type:'validatebox',options:{validType:'email'}}">Log</th>
+                <th field="host" width="20%" editor="{type:'text',options:{required:true}}">Host</th>
+                <th field="port" width="20%" editor="{type:'text',options:{required:true}}">Port</th>
+                <th field="db" width="20%" editor="{type:'text',options:{required:true}}">DBName</th>
+                <th field="command" width="20%" editor="{type:'text',options:{required:true}}">Command</th>
+                <th field="interval" width="10%" editor="{type:'text',options:{required:true}}">IntervalDay</th>
+                <th field="level" width="10%" editor="{type:'text',options:{required:true}}">Level</th>
+                <!--th field="lastime" width="20%" editor="{type:'text',options:{required:true}}">LastActTime</th>
+                <th field="addtime" width="20%" editor="{type:'text',options:{required:true}}">AddTime</th>
+                <th field="log" width="20%" editor="{type:'text',options:{validType:'email'}}">Log</th-->
             </tr>
         </thead>
     </table>
@@ -75,10 +75,10 @@
     <script type="text/javascript">
         $(function(){
             $('#dg').edatagrid({
-                url: 'get_users.php',
-                saveUrl: 'save_user.php',
-                updateUrl: 'update_user.php',
-                destroyUrl: 'destroy_user.php'
+                url: 'getlist',
+                saveUrl: 'saveitem',
+                updateUrl: 'updateitem',
+                destroyUrl: 'destroyitem'
             });
         });
     </script>

@@ -190,6 +190,8 @@ margin-top:50px;
 .graph {
 margin-top:15px;
 margin-bottom: 6px;
+height: 10%;
+max-height: 34px;
 }
 .graph hr {
 margin-top: 10px;

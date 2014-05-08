@@ -1,0 +1,48 @@
+#coding:utf-8
+import tornado.httpserver
+import tornado.web
+import tornado.options
+import tornado.ioloop
+import sys
+import MySQL
+import ConfigParser
+
+reload(sys)
+sys.setdefaultencoding("utf8")
+
+class BaseHandler(tornado.web.RequestHandler):
+        def get_current_user(self):
+                return self.get_secure_cookie("user")
+
+class IndexHandler(BaseHandler):
+        @tornado.web.authenticated
+        def get(self):
+                instanceList = []
+                name = tornado.escape.xhtml_escape(self.current_user)
+                self.render('crontab/main.html',title='crontab',username=name)
+
+        def post(self):
+                pass
+
+class DataMaintainHandler(BaseHandler):
+        @tornado.web.authenticated
+        def get(self):
+                name = tornado.escape.xhtml_escape(self.current_user)
+                self.render('crontab/crontab.html',title='crontab',username=name)
+
+        def post(self):
+                pass
+		self.write(a)		
+
+class GetList(BaseHandler):
+	@tornado.web.authenticated
+	def get(self):
+		infos = []
+		info = MySQL.MysqlQuery().query_select('select hostip,port,db_name,sql_command,last_act_date,interval_day,status,add_date from %s.%s' %(db,tb))
+		for i in info:
+			infos.append({"host",i[0]})
+		madrows = MySQL.MysqlQuery().query_select('select count(1) from %s.%s' %(db,tb))
+		a ={
+			"total" = maxrows,
+			"rows" = infos
+		}	
